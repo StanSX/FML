@@ -1,0 +1,94 @@
+DrinksLicence: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ExpiryDate: ""
+  ExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LatestExtensionTime: ""
+  LatestExtensionTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  NoOfExtensions: ""
+  NoOfExtensionsMD: !map:HashWithIndifferentAccess
+    type: "number"
+DrinksLicenceCode: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DrinksLicenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Code/Value"
+DrinksLicenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Code/ShortDescription"
+DrinksLicenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Code/Description"
+DrinksLicenceCover: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Cover"
+DrinksLicenceCoverCode: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Cover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DrinksLicenceCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Cover/Code/Value"
+DrinksLicenceCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Cover/Code/ShortDescription"
+DrinksLicenceCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/Cover/Code/Description"
+DrinksLicenceStartDate: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/StartDate"
+DrinksLicenceExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/ExpiryDate"
+DrinksLicenceLatestExtensionTime: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/LatestExtensionTime"
+DrinksLicenceNoOfExtensions: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/NoOfExtensions"
+DrinksLicenceOppositionInd: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/OppositionInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DrinksLicenceOppositionIndValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/OppositionInd/Value"
+DrinksLicenceRefusalInd: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/RefusalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DrinksLicenceRefusalIndValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/RefusalInd/Value"
+DrinksLicenceSuspendedRevokedInd: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/SuspendedRevokedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DrinksLicenceSuspendedRevokedIndValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/SuspendedRevokedInd/Value"
+DrinksLicenceTransferInd: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/TransferInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DrinksLicenceTransferIndValue: !map:HashWithIndifferentAccess
+  xpath: "DrinksLicence/TransferInd/Value"

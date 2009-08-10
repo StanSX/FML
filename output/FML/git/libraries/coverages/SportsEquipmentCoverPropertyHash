@@ -1,0 +1,28 @@
+SportsEquipmentCover: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover"
+SportsEquipmentCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+SportsEquipmentCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/CoverRequiredInd/Value"
+SportsEquipmentCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/CoverDetail"
+SportsEquipmentCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+SportsEquipmentCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/CoverDetail/SumInsured/Amount"
+SportsEquipmentCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+SportsEquipmentCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "SportsEquipmentCover/ExcludedInd/Value"

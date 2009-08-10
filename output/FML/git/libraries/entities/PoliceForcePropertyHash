@@ -1,0 +1,12 @@
+PoliceForce: !map:HashWithIndifferentAccess
+  xpath: "PoliceForce"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+PoliceForceId: !map:HashWithIndifferentAccess
+  xpath: "PoliceForce/Id"
+PoliceForceCompanyName: !map:HashWithIndifferentAccess
+  xpath: "PoliceForce/CompanyName"

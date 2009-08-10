@@ -1,0 +1,1194 @@
+Driver: !map:HashWithIndifferentAccess
+  xpath: "Driver"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EmploymentStartDate: ""
+  EmploymentStartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  NoOfOtherVehiclesOwned: ""
+  NoOfOtherVehiclesOwnedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearsResidentInCountry: ""
+  YearsResidentInCountryMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+DriverId: !map:HashWithIndifferentAccess
+  xpath: "Driver/Id"
+DriverIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+DriverIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/TitleCode/Value"
+DriverIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/TitleCode/ShortDescription"
+DriverIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/FirstForename"
+DriverIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/SecondForename"
+DriverIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Driver/IndividualName/Surname"
+DriverSexCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/SexCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverSexCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/SexCode/Value"
+DriverSexCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/SexCode/ShortDescription"
+DriverSexCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/SexCode/Description"
+DriverBirthDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/BirthDate"
+DriverRelationshipToInsuredCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/RelationshipToInsuredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverRelationshipToInsuredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/RelationshipToInsuredCode/Value"
+DriverRelationshipToInsuredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/RelationshipToInsuredCode/ShortDescription"
+DriverRelationshipToInsuredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/RelationshipToInsuredCode/Description"
+DriverOccupation: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation"
+DriverOccupationCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverOccupationCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code/ListOwner"
+DriverOccupationCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code/ListNo"
+DriverOccupationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code/Value"
+DriverOccupationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code/ShortDescription"
+DriverOccupationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/Code/Description"
+DriverOccupationEmployersBusinessCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverOccupationEmployersBusinessCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode/ListOwner"
+DriverOccupationEmployersBusinessCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode/ListNo"
+DriverOccupationEmployersBusinessCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode/Value"
+DriverOccupationEmployersBusinessCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode/ShortDescription"
+DriverOccupationEmployersBusinessCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/EmployersBusinessCode/Description"
+DriverOccupationFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverOccupationFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/FullTimeInd/Value"
+DriverOccupationMainInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/MainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverOccupationMainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Occupation/MainInd/Value"
+DriverFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/FullTimeInd/Value"
+DriverEmploymentStartDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/EmploymentStartDate"
+DriverNoOfOtherVehiclesOwned: !map:HashWithIndifferentAccess
+  xpath: "Driver/NoOfOtherVehiclesOwned"
+DriverYearsResidentInCountry: !map:HashWithIndifferentAccess
+  xpath: "Driver/YearsResidentInCountry"
+DriverVehicleCover: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover"
+DriverVehicleCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+DriverVehicleCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Code/Value"
+DriverVehicleCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Code/ShortDescription"
+DriverVehicleCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverVehicleCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Excess/Amount"
+DriverVehicleCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverVehicleCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Endorsement/ReasonApplied"
+DriverVehicleCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Endorsement/ShortWording"
+DriverVehicleCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleCover/Endorsement/Wording"
+DriverDrivingLicence: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence"
+  FirstObtainedDate: ""
+  FirstObtainedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+DriverDrivingLicenceCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivingLicenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Code/Value"
+DriverDrivingLicenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Code/ShortDescription"
+DriverDrivingLicenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Code/Description"
+DriverDrivingLicenceClassCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/ClassCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivingLicenceClassCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/ClassCode/Value"
+DriverDrivingLicenceClassCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/ClassCode/ShortDescription"
+DriverDrivingLicenceClassCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/ClassCode/Description"
+DriverDrivingLicenceFirstObtainedDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/FirstObtainedDate"
+DriverDrivingLicenceRestrictions: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Restrictions"
+DriverDrivingLicenceRestrictionsRestrictionCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Restrictions/RestrictionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivingLicenceRestrictionsRestrictionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Restrictions/RestrictionCode/Value"
+DriverDrivingLicenceRestrictionsRestrictionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Restrictions/RestrictionCode/ShortDescription"
+DriverDrivingLicenceRestrictionsRestrictionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivingLicence/Restrictions/RestrictionCode/Description"
+DriverDrivesVehicle: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle"
+DriverDrivesVehicleVehicle: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Vehicle"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleVehicleId: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Vehicle/Id"
+DriverDrivesVehicleVehicleReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Vehicle/ReferenceNumber"
+DriverDrivesVehicleMainUserInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/MainUserInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDrivesVehicleMainUserIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/MainUserInd/Value"
+DriverDrivesVehicleOwnedItemInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/OwnedItemInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDrivesVehicleOwnedItemIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/OwnedItemInd/Value"
+DriverDrivesVehicleFrequencyCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/FrequencyCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleFrequencyCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/FrequencyCode/Value"
+DriverDrivesVehicleFrequencyCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/FrequencyCode/ShortDescription"
+DriverDrivesVehicleFrequencyCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/FrequencyCode/Description"
+DriverDrivesVehicleUse: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use"
+  RadiusLimit: ""
+  RadiusLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+DriverDrivesVehicleUseCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use/Code/Value"
+DriverDrivesVehicleUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use/Code/ShortDescription"
+DriverDrivesVehicleUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use/Code/Description"
+DriverDrivesVehicleUseRadiusLimit: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Use/RadiusLimit"
+DriverDrivesVehicleVehicleCover: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover"
+DriverDrivesVehicleVehicleCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+DriverDrivesVehicleVehicleCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Code/Value"
+DriverDrivesVehicleVehicleCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Code/ShortDescription"
+DriverDrivesVehicleVehicleCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverDrivesVehicleVehicleCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Excess/Amount"
+DriverDrivesVehicleVehicleCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleVehicleCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Endorsement/ReasonApplied"
+DriverDrivesVehicleVehicleCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Endorsement/ShortWording"
+DriverDrivesVehicleVehicleCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/VehicleCover/Endorsement/Wording"
+DriverDrivesVehicleCoverNote: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote"
+  DocumentNumber: ""
+  DocumentNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EffectiveDate: ""
+  EffectiveDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EffectiveTime: ""
+  EffectiveTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  ExpiryDate: ""
+  ExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ExpiryTime: ""
+  ExpiryTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  PreviousDocumentRefNo: ""
+  PreviousDocumentRefNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleCoverNoteDocumentNumber: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/DocumentNumber"
+DriverDrivesVehicleCoverNoteEffectiveDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/EffectiveDate"
+DriverDrivesVehicleCoverNoteEffectiveTime: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/EffectiveTime"
+DriverDrivesVehicleCoverNoteExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ExpiryDate"
+DriverDrivesVehicleCoverNoteExpiryTime: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ExpiryTime"
+DriverDrivesVehicleCoverNoteDuration: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+DriverDrivesVehicleCoverNoteDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Unit"
+DriverDrivesVehicleCoverNoteDurationType: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Type"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+DriverDrivesVehicleCoverNoteDurationTypeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Type/ListOwner"
+DriverDrivesVehicleCoverNoteDurationTypeListNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Type/ListNo"
+DriverDrivesVehicleCoverNoteDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Type/Value"
+DriverDrivesVehicleCoverNoteDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/Duration/Type/ShortDescription"
+DriverDrivesVehicleCoverNotePreviousDocumentRefNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/PreviousDocumentRefNo"
+DriverDrivesVehicleCoverNoteReasonCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDrivesVehicleCoverNoteReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ReasonCode/Value"
+DriverDrivesVehicleCoverNoteReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ReasonCode/ShortDescription"
+DriverDrivesVehicleCoverNoteReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/CoverNote/ReasonCode/Description"
+DriverDrivesVehicleDeclaration: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Declaration"
+DriverDrivesVehicleDeclarationCertificateReturnedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Declaration/CertificateReturnedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDrivesVehicleDeclarationCertificateReturnedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/DrivesVehicle/Declaration/CertificateReturnedInd/Value"
+DriverEmployeeInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/EmployeeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverEmployeeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/EmployeeInd/Value"
+DriverEmployeeIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/EmployeeInd/Description"
+DriverVehicleUse: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleUse"
+DriverVehicleUseCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleUse/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverVehicleUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleUse/Code/Value"
+DriverVehicleUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleUse/Code/ShortDescription"
+DriverVehicleUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/VehicleUse/Code/Description"
+DriverDeclaration: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration"
+DriverDeclarationPreviouslyInsuredInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PreviouslyInsuredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationPreviouslyInsuredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PreviouslyInsuredInd/Value"
+DriverDeclarationPreviouslyInsuredIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PreviouslyInsuredInd/Description"
+DriverDeclarationLossesInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/LossesInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/LossesInd/Value"
+DriverDeclarationLossesIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/LossesInd/Description"
+DriverDeclarationLosses: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses"
+  OccurrenceDate: ""
+  OccurrenceDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OccurrenceTime: ""
+  OccurrenceTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  NotifiedDate: ""
+  NotifiedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+DriverDeclarationLossesOccurrenceDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/OccurrenceDate"
+DriverDeclarationLossesOccurrenceTime: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/OccurrenceTime"
+DriverDeclarationLossesCauseCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesCauseCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode/ListOwner"
+DriverDeclarationLossesCauseCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode/ListNo"
+DriverDeclarationLossesCauseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode/Value"
+DriverDeclarationLossesCauseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode/ShortDescription"
+DriverDeclarationLossesCauseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CauseCode/Description"
+DriverDeclarationLossesMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MedicalConditionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MedicalConditionCode/Value"
+DriverDeclarationLossesMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MedicalConditionCode/ShortDescription"
+DriverDeclarationLossesMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MedicalConditionCode/Description"
+DriverDeclarationLossesBodilyInjuryCausedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/BodilyInjuryCausedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesBodilyInjuryCausedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/BodilyInjuryCausedInd/Value"
+DriverDeclarationLossesClaimMadeInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/ClaimMadeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesClaimMadeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/ClaimMadeInd/Value"
+DriverDeclarationLossesClaimSettledInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/ClaimSettledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesClaimSettledIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/ClaimSettledInd/Value"
+DriverDeclarationLossesDriverAtFaultInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/DriverAtFaultInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesDriverAtFaultIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/DriverAtFaultInd/Value"
+DriverDeclarationLossesNCDAffectedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/NCDAffectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesNCDAffectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/NCDAffectedInd/Value"
+DriverDeclarationLossesNotifiedDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/NotifiedDate"
+DriverDeclarationLossesPaymentOnAccountCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PaymentOnAccountCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesPaymentOnAccountCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PaymentOnAccountCode/Value"
+DriverDeclarationLossesPaymentOnAccountCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PaymentOnAccountCode/ShortDescription"
+DriverDeclarationLossesPaymentOnAccountCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PaymentOnAccountCode/Description"
+DriverDeclarationLossesTotalLossInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/TotalLossInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationLossesTotalLossIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/TotalLossInd/Value"
+DriverDeclarationLossesCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CoverCode/Value"
+DriverDeclarationLossesCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CoverCode/ShortDescription"
+DriverDeclarationLossesCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/CoverCode/Description"
+DriverDeclarationLossesLossBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown"
+DriverDeclarationLossesLossBreakdownCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesLossBreakdownCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/CoverCode/Value"
+DriverDeclarationLossesLossBreakdownCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/CoverCode/ShortDescription"
+DriverDeclarationLossesLossBreakdownCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/CoverCode/Description"
+DriverDeclarationLossesLossBreakdownMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/MonetaryAmount"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverDeclarationLossesLossBreakdownMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/MonetaryAmount/PaidAmount"
+DriverDeclarationLossesLossBreakdownMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/LossBreakdown/MonetaryAmount/OutstandingAmount"
+DriverDeclarationLossesPremises: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesPremisesId: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Premises/Id"
+DriverDeclarationLossesPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+DriverDeclarationLossesPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Premises/Address/Postcode"
+DriverDeclarationLossesMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverDeclarationLossesMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MonetaryAmount/Amount"
+DriverDeclarationLossesMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MonetaryAmount/PaidAmount"
+DriverDeclarationLossesMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/MonetaryAmount/OutstandingAmount"
+DriverDeclarationLossesExcess: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverDeclarationLossesExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Excess/Amount"
+DriverDeclarationLossesPrecautionsInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PrecautionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesPrecautionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PrecautionsInd/Value"
+DriverDeclarationLossesPrecautionsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/PrecautionsInd/Description"
+DriverDeclarationLossesDriver: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver"
+DriverDeclarationLossesDriverIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationLossesDriverIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+DriverDeclarationLossesDriverIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/TitleCode/Value"
+DriverDeclarationLossesDriverIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/TitleCode/ShortDescription"
+DriverDeclarationLossesDriverIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/FirstForename"
+DriverDeclarationLossesDriverIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/SecondForename"
+DriverDeclarationLossesDriverIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Losses/Driver/IndividualName/Surname"
+DriverDeclarationConvictionsInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/ConvictionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationConvictionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/ConvictionsInd/Value"
+DriverDeclarationConvictionsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/ConvictionsInd/Description"
+DriverDeclarationConvictions: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions"
+  ConvictionDate: ""
+  ConvictionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  SentenceDuration: ""
+  SentenceDurationMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SentenceEffectiveDate: ""
+  SentenceEffectiveDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AlcoholReading: ""
+  AlcoholReadingMD: !map:HashWithIndifferentAccess
+    type: "number"
+  FineAmount: ""
+  FineAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PenaltyPoints: ""
+  PenaltyPointsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SuspensionPeriod: ""
+  SuspensionPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+DriverDeclarationConvictionsCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationConvictionsCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code/ListOwner"
+DriverDeclarationConvictionsCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code/ListNo"
+DriverDeclarationConvictionsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code/Value"
+DriverDeclarationConvictionsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code/ShortDescription"
+DriverDeclarationConvictionsCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/Code/Description"
+DriverDeclarationConvictionsConvictionDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/ConvictionDate"
+DriverDeclarationConvictionsSentenceCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationConvictionsSentenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceCode/Value"
+DriverDeclarationConvictionsSentenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceCode/ShortDescription"
+DriverDeclarationConvictionsSentenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceCode/Description"
+DriverDeclarationConvictionsSentenceDuration: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceDuration"
+DriverDeclarationConvictionsSentenceEffectiveDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SentenceEffectiveDate"
+DriverDeclarationConvictionsAlcoholReading: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AlcoholReading"
+DriverDeclarationConvictionsAlcoholReadingTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AlcoholReadingTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationConvictionsAlcoholReadingTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AlcoholReadingTypeCode/Value"
+DriverDeclarationConvictionsAlcoholReadingTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AlcoholReadingTypeCode/ShortDescription"
+DriverDeclarationConvictionsAlcoholReadingTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AlcoholReadingTypeCode/Description"
+DriverDeclarationConvictionsFineAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/FineAmount"
+DriverDeclarationConvictionsPenaltyPoints: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/PenaltyPoints"
+DriverDeclarationConvictionsSuspensionPeriod: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/SuspensionPeriod"
+DriverDeclarationConvictionsStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationConvictionsStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/StatusCode/Value"
+DriverDeclarationConvictionsStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/StatusCode/ShortDescription"
+DriverDeclarationConvictionsStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/StatusCode/Description"
+DriverDeclarationConvictionsAccidentInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AccidentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationConvictionsAccidentIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/Convictions/AccidentInd/Value"
+DriverDeclarationDisqualificationInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/DisqualificationInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationDisqualificationIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/DisqualificationInd/Value"
+DriverDeclarationDisqualificationIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/DisqualificationInd/Description"
+DriverDeclarationPolicyCancelledInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyCancelledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationPolicyCancelledIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyCancelledInd/Value"
+DriverDeclarationPolicyCancelledIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyCancelledInd/Description"
+DriverDeclarationPolicyVoidInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyVoidInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationPolicyVoidIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyVoidInd/Value"
+DriverDeclarationPolicyVoidIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PolicyVoidInd/Description"
+DriverDeclarationPremiumIncreasedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PremiumIncreasedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationPremiumIncreasedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/PremiumIncreasedInd/Value"
+DriverDeclarationRestrictiveTermsInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RestrictiveTermsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationRestrictiveTermsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RestrictiveTermsInd/Value"
+DriverDeclarationRestrictiveTermsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RestrictiveTermsInd/Description"
+DriverDeclarationRefusedCoverInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RefusedCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationRefusedCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RefusedCoverInd/Value"
+DriverDeclarationRefusedCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RefusedCoverInd/Description"
+DriverDeclarationRenewalRefusedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RenewalRefusedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationRenewalRefusedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RenewalRefusedInd/Value"
+DriverDeclarationRenewalRefusedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/RenewalRefusedInd/Description"
+DriverDeclarationMedicalConditionsInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationMedicalConditionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsInd/Value"
+DriverDeclarationMedicalConditionsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsInd/Description"
+DriverDeclarationMedicalCondition: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition"
+  OnsetDate: ""
+  OnsetDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LastAttackDate: ""
+  LastAttackDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AttackPeriod: ""
+  AttackPeriodMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TotalNumberOfAttacks: ""
+  TotalNumberOfAttacksMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TimeOffWork: ""
+  TimeOffWorkMD: !map:HashWithIndifferentAccess
+    type: "number"
+DriverDeclarationMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/Code/Value"
+DriverDeclarationMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/Code/ShortDescription"
+DriverDeclarationMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/Code/Description"
+DriverDeclarationMedicalConditionOnsetDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/OnsetDate"
+DriverDeclarationMedicalConditionLastAttackDate: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/LastAttackDate"
+DriverDeclarationMedicalConditionAttackPeriod: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/AttackPeriod"
+DriverDeclarationMedicalConditionTotalNumberOfAttacks: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/TotalNumberOfAttacks"
+DriverDeclarationMedicalConditionStabilisedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/StabilisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationMedicalConditionStabilisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/StabilisedInd/Value"
+DriverDeclarationMedicalConditionTimeOffWork: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/TimeOffWork"
+DriverDeclarationMedicalConditionDVLAAdvisableInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/DVLAAdvisableInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationMedicalConditionDVLAAdvisableIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/DVLAAdvisableInd/Value"
+DriverDeclarationMedicalConditionDVLAAdvisedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/DVLAAdvisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DriverDeclarationMedicalConditionDVLAAdvisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalCondition/DVLAAdvisedInd/Value"
+DriverDeclarationMedicalConditionsReportedInd: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsReportedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverDeclarationMedicalConditionsReportedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsReportedInd/Value"
+DriverDeclarationMedicalConditionsReportedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/Declaration/MedicalConditionsReportedInd/Description"
+DriverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "Driver/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "Driver/Endorsement/ReasonApplied"
+DriverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/Endorsement/ShortWording"
+DriverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "Driver/Endorsement/Wording"
+DriverQuoteCondition: !map:HashWithIndifferentAccess
+  xpath: "Driver/QuoteCondition"
+DriverQuoteConditionItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Driver/QuoteCondition/ItemTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DriverQuoteConditionItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Driver/QuoteCondition/ItemTypeCode/Value"
+DriverQuoteConditionItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/QuoteCondition/ItemTypeCode/ShortDescription"
+DriverQuoteConditionItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Driver/QuoteCondition/ItemTypeCode/Description"
+DriverExcess: !map:HashWithIndifferentAccess
+  xpath: "Driver/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DriverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Driver/Excess/Amount"
+DriverNotes: !map:HashWithIndifferentAccess
+  xpath: "Driver/Notes"

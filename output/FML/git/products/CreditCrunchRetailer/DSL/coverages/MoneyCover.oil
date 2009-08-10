@@ -1,0 +1,6 @@
+coverage :MoneyCover
+    use :CoverDetail,:SumInsured,:Amount
+    use :CoverDetail,:Excess,:Amount, {:default_value => '0'}
+    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
+endcoverage
+

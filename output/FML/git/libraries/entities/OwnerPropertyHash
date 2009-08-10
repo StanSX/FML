@@ -1,0 +1,162 @@
+Owner: !map:HashWithIndifferentAccess
+  xpath: "Owner"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  HomeTelephoneNo: ""
+  HomeTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MobileTelephoneNo: ""
+  MobileTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  VATRegistrationNo: ""
+  VATRegistrationNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+OwnerId: !map:HashWithIndifferentAccess
+  xpath: "Owner/Id"
+OwnerIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ThirdForename: ""
+  ThirdForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+OwnerIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+OwnerIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/TitleCode/Value"
+OwnerIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/TitleCode/ShortDescription"
+OwnerIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/FirstForename"
+OwnerIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/SecondForename"
+OwnerIndividualNameThirdForename: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/ThirdForename"
+OwnerIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/Surname"
+OwnerIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "Owner/IndividualName/NameSuffix"
+OwnerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Owner/CompanyName"
+OwnerTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/TelephoneNo"
+OwnerHomeTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/HomeTelephoneNo"
+OwnerWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/WorkTelephoneNo"
+OwnerMobileTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/MobileTelephoneNo"
+OwnerFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/FaxTelephoneNo"
+OwnerEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Owner/EmailAddress"
+OwnerSexCode: !map:HashWithIndifferentAccess
+  xpath: "Owner/SexCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OwnerSexCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Owner/SexCode/Value"
+OwnerSexCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/SexCode/ShortDescription"
+OwnerSexCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/SexCode/Description"
+OwnerBirthDate: !map:HashWithIndifferentAccess
+  xpath: "Owner/BirthDate"
+OwnerVATRegisteredCode: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OwnerVATRegisteredCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode/ListOwner"
+OwnerVATRegisteredCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode/ListNo"
+OwnerVATRegisteredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode/Value"
+OwnerVATRegisteredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode/ShortDescription"
+OwnerVATRegisteredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegisteredCode/Description"
+OwnerVATRegistrationNo: !map:HashWithIndifferentAccess
+  xpath: "Owner/VATRegistrationNo"
+OwnerRelationshipToInsuredCode: !map:HashWithIndifferentAccess
+  xpath: "Owner/RelationshipToInsuredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OwnerRelationshipToInsuredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Owner/RelationshipToInsuredCode/Value"
+OwnerRelationshipToInsuredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/RelationshipToInsuredCode/ShortDescription"
+OwnerRelationshipToInsuredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Owner/RelationshipToInsuredCode/Description"
+OwnerNotes: !map:HashWithIndifferentAccess
+  xpath: "Owner/Notes"

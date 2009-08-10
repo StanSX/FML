@@ -1,0 +1,191 @@
+
+class IntruderAlarm  < ActiveRecord::Base 
+has_one :IntruderAlarmPresentInd
+has_one :IntruderAlarmIntruderAlarmDetail
+end
+
+class IntruderAlarmPresentInd  < ActiveRecord::Base 
+has_one :IntruderAlarmPresentIndValue
+has_one :IntruderAlarmPresentIndDescription
+end
+
+class IntruderAlarmPresentIndValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmPresentIndDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetail  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailSignallingCode
+has_one :IntruderAlarmIntruderAlarmDetailTypeCode
+has_one :IntruderAlarmIntruderAlarmDetailConfirmableTechnologyInd
+has_one :IntruderAlarmIntruderAlarmDetailPoliceResponseCode
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCode
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceContractInd
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCode
+has_one :IntruderAlarmIntruderAlarmDetailSoleControlInd
+has_one :IntruderAlarmIntruderAlarmDetailInstallerCode
+has_one :IntruderAlarmIntruderAlarmDetailAttackedInd
+has_one :IntruderAlarmIntruderAlarmDetailAttackMethod
+end
+
+class IntruderAlarmIntruderAlarmDetailSignallingCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailSignallingCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailSignallingCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailSignallingCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailSignallingCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailSignallingCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailSignallingCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailTypeCodeListOwner
+has_one :IntruderAlarmIntruderAlarmDetailTypeCodeListNo
+has_one :IntruderAlarmIntruderAlarmDetailTypeCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailTypeCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailTypeCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCodeListOwner  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCodeListNo  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailTypeCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailConfirmableTechnologyInd  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndValue
+has_one :IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailPoliceResponseCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailPoliceResponseCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailPoliceResponseCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailPoliceResponseCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailPoliceResponseCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailPoliceResponseCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailPoliceResponseCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCodeListOwner
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCodeListNo
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailAccreditationCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCodeListOwner  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCodeListNo  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAccreditationCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceContractInd  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceContractIndValue
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceContractIndValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailSoleControlInd  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailSoleControlIndValue
+has_one :IntruderAlarmIntruderAlarmDetailSoleControlIndDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailSoleControlIndValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailSoleControlIndDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailInstallerCode  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailInstallerCodeValue
+has_one :IntruderAlarmIntruderAlarmDetailInstallerCodeShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailInstallerCodeDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailInstallerCodeValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailInstallerCodeShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailInstallerCodeDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackedInd  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailAttackedIndValue
+has_one :IntruderAlarmIntruderAlarmDetailAttackedIndDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackedIndValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackedIndDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackMethod  < ActiveRecord::Base 
+has_one :IntruderAlarmIntruderAlarmDetailAttackMethodValue
+has_one :IntruderAlarmIntruderAlarmDetailAttackMethodShortDescription
+has_one :IntruderAlarmIntruderAlarmDetailAttackMethodDescription
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackMethodValue  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackMethodShortDescription  < ActiveRecord::Base 
+end
+
+class IntruderAlarmIntruderAlarmDetailAttackMethodDescription  < ActiveRecord::Base 
+end

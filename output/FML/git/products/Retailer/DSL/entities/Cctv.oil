@@ -1,0 +1,3 @@
+entity :Cctv
+    use :PresentInd,:Value
+endentity

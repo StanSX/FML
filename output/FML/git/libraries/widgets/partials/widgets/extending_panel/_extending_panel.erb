@@ -1,0 +1,12 @@
+<div class="extendingpanel <%= 'extendingpanel-readonly' if readonly == 'true' %>">
+  <div class="extendingpanel-header">
+    <div class="extendingpanel-title <%= 'editarea-40' if params[:edit] %>" id="<%= title %>"><%= __(title) %></div>
+    <% if editable == 'true' %>
+      <div class="extendingpanel-edit"><%= __('editlabel') %></div>
+    <% end %>
+    &nbsp;
+  </div>
+  <div class="extendingpanel-body">
+    <%= body %>
+  </div>
+</div>

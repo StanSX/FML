@@ -1,0 +1,40 @@
+LossBreakdown: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown"
+LossBreakdownCoverCode: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossBreakdownCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/CoverCode/Value"
+LossBreakdownCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/CoverCode/ShortDescription"
+LossBreakdownCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/CoverCode/Description"
+LossBreakdownMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossBreakdownMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/MonetaryAmount/Amount"
+LossBreakdownMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/MonetaryAmount/PaidAmount"
+LossBreakdownMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "LossBreakdown/MonetaryAmount/OutstandingAmount"

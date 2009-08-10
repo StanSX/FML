@@ -1,0 +1,18 @@
+<script>
+   function submitAction(action) {
+     var act = '<%=url_for(:action => action)%>';
+     document.forms[0].action = action;
+     document.forms[0].submit();
+   }
+</script>
+
+<div class="buttonpanel">
+  <%
+    i = 0
+    while ((button = eval("button#{i += 1}")) != nil)
+  %>
+        <input onclick="submitAction('<%=  "/iab/#{button}" %>');" type="button" class="button <%=  "#{button}" %>" value="<%= __(button) %>" >
+  <%
+    end
+  %>
+</div> 

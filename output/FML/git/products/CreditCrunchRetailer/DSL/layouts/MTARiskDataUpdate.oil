@@ -1,0 +1,52 @@
+layout 21
+    columns
+
+        column 1
+
+            widget :narration_text,{ :text => 'Update your policy information and get a new quote' }
+            endwidget
+
+            widget :extending_panel,{:title => :your_business_panel_title}
+                entity :Insured
+            endwidget
+
+            widget :extending_panel,{:title => :your_cover_panel_title}
+                entity :Policy
+                coverage :BuildingsCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
+                coverage :ContentsCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
+                widget :narration_text,{:text => :valid_twelve_months}
+                endwidget
+            endwidget
+
+            widget :extending_panel,{:title => :your_quote_panel_title}
+                entity :PremiumQuoteBreakdown
+                endwidget
+
+            widget :extending_panel,{:title => :your_cover_breakdown_panel_title}
+                coverage :BuildingsCover,{:hide => 'CoverRequiredInd&PremiumQuoteBreakdown'}
+                coverage :ContentsCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :MoneyCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :BookDebtsCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :PublicLiabilityCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :ProductLiabilityCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :EmployersLiabilityCover,{:hide => 'PremiumQuoteBreakdown'}
+                coverage :GlassCover,{:hide => 'PremiumQuoteBreakdown'}
+                endwidget
+
+            widget :button_panel
+            endwidget
+
+            widget :narration_text,{ :text => 'Buttons to: Save & Exit, Cancel, QuoteSummary via Get Quote' }
+            endwidget
+
+        endcolumn
+
+        column 2
+        endcolumn
+
+    endcolumns
+
+    footer
+    endfooter
+
+endlayout

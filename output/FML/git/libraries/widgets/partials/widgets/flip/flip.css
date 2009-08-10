@@ -1,0 +1,61 @@
+.flipcontainer {
+  margin: 0px 5px 5px 5px;
+  position: relative;
+  background-color: rgb(59,89,152);
+  padding: 5px;
+  color: white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.flip {
+  position: relative;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-color: rgb(59,89,152);
+}
+
+.flip li {
+  float: left;
+  list-style: none;
+}
+
+.flip li.back {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-color: #fff8cc;
+  width: 9px;
+  height: 36px;
+  z-index: 8;
+  position: absolute;
+}
+
+.flip li a {
+  font: bold 12px arial;
+  text-decoration: none;
+  color: #fd339b;
+  outline: none;
+  text-align: center;
+  top: 0px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: auto 10px;
+}
+
+.flip li a:hover, .flip li a:active, .flip li a:visited {
+  border: none;
+}
+
+.flip-panel {
+  margin: 10px 5px 5px 5px;
+  padding: 8px;
+  -moz-border-radius: 8px;
+  border: solid rgb(59,89,152) 2px;
+  height: 254px;
+}

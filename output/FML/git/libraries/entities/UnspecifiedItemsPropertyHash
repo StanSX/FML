@@ -1,0 +1,16 @@
+UnspecifiedItems: !map:HashWithIndifferentAccess
+  xpath: "UnspecifiedItems"
+  MaxValueOneItem: ""
+  MaxValueOneItemMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+UnspecifiedItemsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "UnspecifiedItems/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+UnspecifiedItemsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "UnspecifiedItems/SumInsured/Amount"
+UnspecifiedItemsMaxValueOneItem: !map:HashWithIndifferentAccess
+  xpath: "UnspecifiedItems/MaxValueOneItem"

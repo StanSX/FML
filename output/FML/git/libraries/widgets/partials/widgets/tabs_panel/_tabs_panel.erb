@@ -1,0 +1,11 @@
+
+<div class="tabsboxpanel <%= 'tabs-container' if tabcontent == 'true' %>" id="<%=id%>" <%if tabcontent == 'true'%>title="<%=__(tabTitle)%>-<%=id%>"<%end%> >
+
+    <div class="tabsboxpanel-title" id="<%= title %>"><%= __(title) %></div>
+    <% if editable == 'true' %>
+      <div class="tabsboxpanel-edit"><%= __('editlabel') %></div>
+    <% end %>
+
+    <%= body %>
+
+</div>

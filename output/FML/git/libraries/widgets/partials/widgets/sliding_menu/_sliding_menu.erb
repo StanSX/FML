@@ -1,0 +1,12 @@
+<ul id="main_menu">
+  <% for item in menuitems %>
+    <li id="a" class="menu_on">
+      <div class="head_menu"><a href="#"><%= item %></a></div>
+      <div class="body_menu"><div>
+          <p><a href="#" class="get_a_quote" title="Get a Van Insurance quote (opens in new window)" target="_blank" onclick="firewallFix('000024','link0001'); return false"> Get a quote <img style="height: 9px; width: 8px;" alt="*" src="/git/libraries/widgets/sliding_menu/images/greyarrow.gif" border="0"></a></p>
+          <p><a href="#" title="Information on Van Insurance">Information <img style="height: 9px; width: 8px;" alt="*" src="/widgets/partials/widgets/sliding_menu/images/greyarrow.gif" border="0"></a></p>
+          <p><a href="#" title="Retrieve a Van Insurance saved quote (opens in new window)" target="_blank" onclick="firewallFix('RETRIEVE'); return false">Retrieve a saved quote <img style="height: 9px; width: 8px;" alt="*" src="/git/libraries/widgets/sliding_menu/images/greyarrow.gif" border="0"></a></p>
+      </div></div>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,7 @@
+StandardAckn: !map:HashWithIndifferentAccess
+  xpath: "StandardAckn"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+StandardAcknDescription: !map:HashWithIndifferentAccess
+  xpath: "StandardAckn/Description"

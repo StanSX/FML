@@ -1,0 +1,129 @@
+Object: !map:HashWithIndifferentAccess
+  xpath: "Object"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+ObjectId: !map:HashWithIndifferentAccess
+  xpath: "Object/Id"
+ObjectTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ObjectTypeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode/ListOwner"
+ObjectTypeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode/ListNo"
+ObjectTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode/Value"
+ObjectTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode/ShortDescription"
+ObjectTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/TypeCode/Description"
+ObjectManufacturerCode: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ObjectManufacturerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode/ListOwner"
+ObjectManufacturerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode/ListNo"
+ObjectManufacturerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode/Value"
+ObjectManufacturerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode/ShortDescription"
+ObjectManufacturerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/ManufacturerCode/Description"
+ObjectMakeModelCode: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ObjectMakeModelCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode/ListOwner"
+ObjectMakeModelCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode/ListNo"
+ObjectMakeModelCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode/Value"
+ObjectMakeModelCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode/ShortDescription"
+ObjectMakeModelCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/MakeModelCode/Description"
+ObjectDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/Description"
+ObjectReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Object/ReferenceNumber"
+ObjectGlazingTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ObjectGlazingTypeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode/ListOwner"
+ObjectGlazingTypeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode/ListNo"
+ObjectGlazingTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode/Value"
+ObjectGlazingTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode/ShortDescription"
+ObjectGlazingTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Object/GlazingTypeCode/Description"

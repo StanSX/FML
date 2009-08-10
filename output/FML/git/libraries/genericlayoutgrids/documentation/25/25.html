@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <title>Dynamic Drive: CSS Liquid Layout #3.1- (Fixed-Fluid-Fixed)</title>
+        <style type="text/css">
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            .header {
+                height: 90px;
+            /* Height of top section */
+            }
+            .columnWrapper {
+                float: left;
+                width: 100%;
+            }
+            .column2 {
+                margin: 0 225px 0 225px;
+            /* Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth */
+            }
+            .column1 {
+                float: left;
+                width: 225px;
+            /* Width of left column */
+                margin-left: -100%;
+            }
+            .column3 {
+                float: left;
+                width: 225px;
+            /* Width of right column */
+                margin-left: -225px;
+            /* Set left marginto -(RightColumnWidth) */
+            }
+            .footer {
+                clear: left;
+                width: 100%;
+                text-align: center;
+                padding: 4px 0;
+            }</style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header"><h1>Header</h1></div>
+            <div class="columnWrapper">
+                <div class="column2"><h1>Column 2</h1></div>
+            </div>
+
+            <div class="column1"><h1>Column 1</h1></div>
+            <div class="column3"><h1>Column 3</h1></div>
+            <div class="footer"><h1>Footer</h1></div>
+        </div>
+    </body>
+</html>

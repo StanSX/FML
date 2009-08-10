@@ -1,0 +1,169 @@
+CrimeScene: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+CrimeSceneBusiness: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneBusinessCompanyName: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/CompanyName"
+CrimeSceneBusinessAddress: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+CrimeSceneBusinessAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line1"
+CrimeSceneBusinessAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line2"
+CrimeSceneBusinessAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line3"
+CrimeSceneBusinessAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line4"
+CrimeSceneBusinessAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line5"
+CrimeSceneBusinessAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Line6"
+CrimeSceneBusinessAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Business/Address/Postcode"
+CrimeSceneInformation: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Information/Description"
+CrimeSceneApproachMethodCode: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/ApproachMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneApproachMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/ApproachMethodCode/Value"
+CrimeSceneApproachMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/ApproachMethodCode/ShortDescription"
+CrimeSceneApproachMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/ApproachMethodCode/Description"
+CrimeSceneStartDate: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/StartDate"
+CrimeSceneStartTime: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/StartTime"
+CrimeSceneEndDate: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/EndDate"
+CrimeSceneEndTime: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/EndTime"
+CrimeSceneCrimeImplement: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CrimeImplement"
+CrimeSceneCrimeImplementTypeCode: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CrimeImplement/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneCrimeImplementTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CrimeImplement/TypeCode/Value"
+CrimeSceneCrimeImplementTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CrimeImplement/TypeCode/ShortDescription"
+CrimeSceneCrimeImplementTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CrimeImplement/TypeCode/Description"
+CrimeSceneCCTV: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CCTV"
+CrimeSceneCCTVPresentInd: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CCTV/PresentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneCCTVPresentIndValue: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CCTV/PresentInd/Value"
+CrimeSceneCCTVPresentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/CCTV/PresentInd/Description"
+CrimeSceneIntruderAlarm: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm"
+CrimeSceneIntruderAlarmIntruderAlarmDetail: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackedInd: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackedIndValue: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackedInd/Value"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackedInd/Description"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackMethod: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackMethod"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackMethodValue: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackMethod/Value"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackMethodShortDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackMethod/ShortDescription"
+CrimeSceneIntruderAlarmIntruderAlarmDetailAttackMethodDescription: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/IntruderAlarm/IntruderAlarmDetail/AttackMethod/Description"
+CrimeSceneNotes: !map:HashWithIndifferentAccess
+  xpath: "CrimeScene/Notes"

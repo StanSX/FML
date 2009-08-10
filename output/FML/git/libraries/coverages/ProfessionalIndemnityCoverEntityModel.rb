@@ -1,0 +1,115 @@
+
+class ProfessionalIndemnityCover  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetail
+end
+
+class ProfessionalIndemnityCoverCoverDetail  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailSumInsured
+has_one :ProfessionalIndemnityCoverCoverDetailBasisCode
+has_one :ProfessionalIndemnityCoverCoverDetailRetroactiveDate
+has_many :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdown
+end
+
+class ProfessionalIndemnityCoverCoverDetailSumInsured  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailSumInsuredAmount
+end
+
+class ProfessionalIndemnityCoverCoverDetailSumInsuredAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailBasisCode  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailBasisCodeValue
+has_one :ProfessionalIndemnityCoverCoverDetailBasisCodeShortDescription
+end
+
+class ProfessionalIndemnityCoverCoverDetailBasisCodeValue  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailBasisCodeShortDescription  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailRetroactiveDate  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdown  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCode
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCode
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownPercent
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownRunningTotal
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownGrossAmount
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownAmount
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownIPTAmount
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownIPTPercent
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCode  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCode  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownPercent  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownRunningTotal  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownGrossAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownIPTAmount  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownIPTPercent  < ActiveRecord::Base 
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd  < ActiveRecord::Base 
+has_one :ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue
+end
+
+class ProfessionalIndemnityCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue  < ActiveRecord::Base 
+end

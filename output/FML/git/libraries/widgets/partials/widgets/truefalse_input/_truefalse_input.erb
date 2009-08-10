@@ -1,0 +1,3 @@
+<% en = entityName %>
+<% pn = propertyName %>
+<%= check_box en,pn, :class => '', :title => __("#{en.downcase}_#{pn.downcase}_tooltip"), :checked => (default_value and eval(default_value) ? 'checked' : 'unchecked') %>

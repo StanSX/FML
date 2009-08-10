@@ -1,0 +1,256 @@
+LegalExpensesCover: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover"
+LegalExpensesCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LegalExpensesCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverRequiredInd/Value"
+LegalExpensesCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail"
+  NoOfObjectsCovered: ""
+  NoOfObjectsCoveredMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+LegalExpensesCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/BasisCode/Value"
+LegalExpensesCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/BasisCode/ShortDescription"
+LegalExpensesCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/BasisCode/Description"
+LegalExpensesCoverCoverDetailNoOfObjectsCovered: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/NoOfObjectsCovered"
+LegalExpensesCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LegalExpensesCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/SumInsured/Amount"
+LegalExpensesCoverCoverDetailEmployee: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Employee"
+  NoOfEmployees: ""
+  NoOfEmployeesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+LegalExpensesCoverCoverDetailEmployeeNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Employee/NoOfEmployees"
+LegalExpensesCoverCoverDetailEmployeeWages: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Employee/Wages"
+LegalExpensesCoverCoverDetailAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover"
+LegalExpensesCoverCoverDetailAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+LegalExpensesCoverCoverDetailAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover/Code/Value"
+LegalExpensesCoverCoverDetailAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover/Code/ShortDescription"
+LegalExpensesCoverCoverDetailAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LegalExpensesCoverCoverDetailAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/AdditionalCover/SumInsured/Amount"
+LegalExpensesCoverCoverDetailPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverCoverDetailPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverCoverDetailPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code/ListOwner"
+LegalExpensesCoverCoverDetailPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code/ListNo"
+LegalExpensesCoverCoverDetailPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code/Value"
+LegalExpensesCoverCoverDetailPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code/ShortDescription"
+LegalExpensesCoverCoverDetailPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/Code/Description"
+LegalExpensesCoverCoverDetailPriorInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PriorInsurer/CompanyName"
+LegalExpensesCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LegalExpensesCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Excess/Amount"
+LegalExpensesCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Endorsement/ReasonApplied"
+LegalExpensesCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Endorsement/ShortWording"
+LegalExpensesCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Endorsement/Wording"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LegalExpensesCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+LegalExpensesCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Notes"
+LegalExpensesCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/CoverDetail/Information/Description"
+LegalExpensesCoverAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover"
+LegalExpensesCoverAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+LegalExpensesCoverAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover/Code/Value"
+LegalExpensesCoverAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover/Code/ShortDescription"
+LegalExpensesCoverAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LegalExpensesCoverAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/AdditionalCover/ExcludedInd/Value"
+LegalExpensesCoverPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalExpensesCoverPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code/ListOwner"
+LegalExpensesCoverPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code/ListNo"
+LegalExpensesCoverPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code/Value"
+LegalExpensesCoverPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code/ShortDescription"
+LegalExpensesCoverPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/Code/Description"
+LegalExpensesCoverPriorInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/PriorInsurer/CompanyName"
+LegalExpensesCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LegalExpensesCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "LegalExpensesCover/ExcludedInd/Value"

@@ -1,0 +1,332 @@
+Loss: !map:HashWithIndifferentAccess
+  xpath: "Loss"
+  OccurrenceDate: ""
+  OccurrenceDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OccurrenceTime: ""
+  OccurrenceTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  NotifiedDate: ""
+  NotifiedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+LossOccurrenceDate: !map:HashWithIndifferentAccess
+  xpath: "Loss/OccurrenceDate"
+LossOccurrenceTime: !map:HashWithIndifferentAccess
+  xpath: "Loss/OccurrenceTime"
+LossCauseCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossCauseCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode/ListOwner"
+LossCauseCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode/ListNo"
+LossCauseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode/Value"
+LossCauseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode/ShortDescription"
+LossCauseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/CauseCode/Description"
+LossMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/MedicalConditionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/MedicalConditionCode/Value"
+LossMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/MedicalConditionCode/ShortDescription"
+LossMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/MedicalConditionCode/Description"
+LossBodilyInjuryCausedInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/BodilyInjuryCausedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossBodilyInjuryCausedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/BodilyInjuryCausedInd/Value"
+LossClaimMadeInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClaimMadeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossClaimMadeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClaimMadeInd/Value"
+LossClaimSettledInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClaimSettledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossClaimSettledIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClaimSettledInd/Value"
+LossDriverAtFaultInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/DriverAtFaultInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossDriverAtFaultIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/DriverAtFaultInd/Value"
+LossNCDAffectedInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/NCDAffectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossNCDAffectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/NCDAffectedInd/Value"
+LossClosedInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClosedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossClosedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/ClosedInd/Value"
+LossNotifiedDate: !map:HashWithIndifferentAccess
+  xpath: "Loss/NotifiedDate"
+LossPaymentOnAccountCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/PaymentOnAccountCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossPaymentOnAccountCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/PaymentOnAccountCode/Value"
+LossPaymentOnAccountCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/PaymentOnAccountCode/ShortDescription"
+LossPaymentOnAccountCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/PaymentOnAccountCode/Description"
+LossTotalLossInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/TotalLossInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+LossTotalLossIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/TotalLossInd/Value"
+LossCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/CoverCode/Value"
+LossCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/CoverCode/ShortDescription"
+LossCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/CoverCode/Description"
+LossReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Loss/ReferenceNumber"
+LossLossBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown"
+LossLossBreakdownCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossLossBreakdownCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/CoverCode/Value"
+LossLossBreakdownCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/CoverCode/ShortDescription"
+LossLossBreakdownCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/CoverCode/Description"
+LossLossBreakdownMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossLossBreakdownMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/MonetaryAmount/Amount"
+LossLossBreakdownMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/MonetaryAmount/PaidAmount"
+LossLossBreakdownMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/LossBreakdown/MonetaryAmount/OutstandingAmount"
+LossPremises: !map:HashWithIndifferentAccess
+  xpath: "Loss/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossPremisesId: !map:HashWithIndifferentAccess
+  xpath: "Loss/Premises/Id"
+LossPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "Loss/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+LossPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Loss/Premises/Address/Postcode"
+LossDriver: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossDriverId: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/Id"
+LossDriverIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossDriverIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+LossDriverIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/TitleCode/Value"
+LossDriverIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/TitleCode/ShortDescription"
+LossDriverIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/FirstForename"
+LossDriverIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/SecondForename"
+LossDriverIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Loss/Driver/IndividualName/Surname"
+LossClaimant: !map:HashWithIndifferentAccess
+  xpath: "Loss/Claimant"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossClaimantIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Loss/Claimant/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossClaimantIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Loss/Claimant/IndividualName/FirstForename"
+LossClaimantIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Loss/Claimant/IndividualName/Surname"
+LossClaimantCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Loss/Claimant/CompanyName"
+LossDelegatedInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/DelegatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossDelegatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/DelegatedInd/Value"
+LossDelegatedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/DelegatedInd/Description"
+LossMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/MonetaryAmount/Amount"
+LossMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/MonetaryAmount/PaidAmount"
+LossMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/MonetaryAmount/OutstandingAmount"
+LossExcess: !map:HashWithIndifferentAccess
+  xpath: "Loss/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Loss/Excess/Amount"
+LossPrecautionsInd: !map:HashWithIndifferentAccess
+  xpath: "Loss/PrecautionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossPrecautionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Loss/PrecautionsInd/Value"
+LossPrecautionsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Loss/PrecautionsInd/Description"
+LossNotes: !map:HashWithIndifferentAccess
+  xpath: "Loss/Notes"

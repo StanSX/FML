@@ -1,0 +1,88 @@
+HazardousGoods: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods"
+HazardousGoodsHazardousInd: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousGoodsHazardousIndValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousInd/Value"
+HazardousGoodsHazardousIndDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousInd/Description"
+HazardousGoodsHazardousGoodsCarried: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried"
+HazardousGoodsHazardousGoodsCarriedHazardousMaterialCode: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/HazardousMaterialCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousGoodsHazardousGoodsCarriedHazardousMaterialCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/HazardousMaterialCode/Value"
+HazardousGoodsHazardousGoodsCarriedHazardousMaterialCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/HazardousMaterialCode/ShortDescription"
+HazardousGoodsHazardousGoodsCarriedHazardousMaterialCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/HazardousMaterialCode/Description"
+HazardousGoodsHazardousGoodsCarriedDangerousGoodsClass: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/DangerousGoodsClass"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousGoodsHazardousGoodsCarriedDangerousGoodsClassValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/DangerousGoodsClass/Value"
+HazardousGoodsHazardousGoodsCarriedDangerousGoodsClassShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/DangerousGoodsClass/ShortDescription"
+HazardousGoodsHazardousGoodsCarriedDangerousGoodsClassDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/DangerousGoodsClass/Description"
+HazardousGoodsHazardousGoodsCarriedActivity: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity"
+HazardousGoodsHazardousGoodsCarriedActivityFrequency: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/Frequency"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+HazardousGoodsHazardousGoodsCarriedActivityFrequencyUnit: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/Frequency/Unit"
+HazardousGoodsHazardousGoodsCarriedActivityFrequencyType: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/Frequency/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+HazardousGoodsHazardousGoodsCarriedActivityFrequencyTypeValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/Frequency/Type/Value"
+HazardousGoodsHazardousGoodsCarriedActivityFrequencyTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/Frequency/Type/ShortDescription"
+HazardousGoodsHazardousGoodsCarriedActivityCarriedByTankerInd: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/CarriedByTankerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousGoodsHazardousGoodsCarriedActivityCarriedByTankerIndValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/CarriedByTankerInd/Value"
+HazardousGoodsHazardousGoodsCarriedActivityCarriedByTankerIndDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousGoods/HazardousGoodsCarried/Activity/CarriedByTankerInd/Description"

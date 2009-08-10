@@ -1,0 +1,7 @@
+PremisesDetail: !map:HashWithIndifferentAccess
+  xpath: "PremisesDetail"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+PremisesDetailNoOf: !map:HashWithIndifferentAccess
+  xpath: "PremisesDetail/NoOf"

@@ -1,0 +1,47 @@
+layout 21
+    widget :logo
+    endwidget
+    widget :page_title
+    endwidget
+    columns
+
+	column 1
+            widget :teaser,{:name => :pub_teaser, :link => :CreditCrunchRetailer}
+            endwidget
+            widget :teaser,{:name => :hotel_teaser, :link => :CreditCrunchRetailer}
+            endwidget
+            widget :teaser,{:name => :surgery_teaser, :link => :CreditCrunchRetailer}
+            endwidget
+    	endcolumn
+
+        column 2
+
+            widget :flip
+            endwidget
+
+            widget :image,{:image_name => :florist_ad, :link_url => :florist_insurance}
+            endwidget
+
+        endcolumn
+
+        column 3
+
+            widget :login_panel
+            endwidget
+
+            widget :extending_panel, {:title => 'Products from First Commercial'}
+                widget :product_list
+                endwidget
+            endwidget
+        endcolumn
+
+    endcolumns
+
+    footer
+      widget :sitemap
+      endwidget
+      widget :legal_notice, {:text => :legal_notice}
+      endwidget
+    endfooter
+
+endlayout

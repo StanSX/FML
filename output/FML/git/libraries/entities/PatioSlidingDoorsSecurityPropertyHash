@@ -1,0 +1,15 @@
+PatioSlidingDoorsSecurity: !map:HashWithIndifferentAccess
+  xpath: "PatioSlidingDoorsSecurity"
+PatioSlidingDoorsSecurityTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PatioSlidingDoorsSecurity/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PatioSlidingDoorsSecurityTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PatioSlidingDoorsSecurity/TypeCode/Value"
+PatioSlidingDoorsSecurityTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PatioSlidingDoorsSecurity/TypeCode/ShortDescription"

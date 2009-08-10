@@ -1,0 +1,42 @@
+/* 
+Document   : premium
+Created on : Oct 9, 2008, 3:01:30 PM
+Author     : narcissus
+Description:
+Purpose of the stylesheet follows.
+*/
+
+/* 
+TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+/*.premium {
+  margin: 6px;
+  padding: 8px;
+  background-color: #fff8cc;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;  
+}*/
+
+.premium{
+    width:100%;
+    float:left;
+}
+
+.premium-container, .premium-details {
+  font-size: 10px;
+  margin-bottom:1%;
+  margin-top:1%;
+}
+
+.premium-details td {
+  padding-left: 32px;
+}
+
+.premium-headline {
+  font-size: 2em;
+}
+
+.premium-frequency {
+  font-weight: bold;
+}

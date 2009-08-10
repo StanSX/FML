@@ -1,0 +1,26 @@
+BusinessCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover"
+BusinessCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/CoverRequiredInd/Value"
+BusinessCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BusinessCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/SumInsured/Amount"
+BusinessCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessCover/ExcludedInd/Value"

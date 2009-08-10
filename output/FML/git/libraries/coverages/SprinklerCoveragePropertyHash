@@ -1,0 +1,20 @@
+SprinklerCoverage: !map:HashWithIndifferentAccess
+  xpath: "SprinklerCoverage"
+SprinklerCoverageCode: !map:HashWithIndifferentAccess
+  xpath: "SprinklerCoverage/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SprinklerCoverageCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SprinklerCoverage/Code/Value"
+SprinklerCoverageCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerCoverage/Code/ShortDescription"
+SprinklerCoverageCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerCoverage/Code/Description"

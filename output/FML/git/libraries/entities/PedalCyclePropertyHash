@@ -1,0 +1,18 @@
+PedalCycle: !map:HashWithIndifferentAccess
+  xpath: "PedalCycle"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+PedalCycleReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "PedalCycle/ReferenceNumber"
+PedalCycleMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "PedalCycle/MakeModelDescription"
+PedalCycleValue: !map:HashWithIndifferentAccess
+  xpath: "PedalCycle/Value"

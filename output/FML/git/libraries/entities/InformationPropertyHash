@@ -1,0 +1,7 @@
+Information: !map:HashWithIndifferentAccess
+  xpath: "Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+InformationDescription: !map:HashWithIndifferentAccess
+  xpath: "Information/Description"

@@ -1,0 +1,46 @@
+ul#menu {
+	list-style-type:none;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFF;
+	margin: 0em;
+}
+
+ul#menu ul {
+	list-style-type:none;
+}
+
+ul#menu a {
+	display: block;
+	text-decoration: none;
+}
+
+ul#menu li {
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+
+ul#menu li a {
+	color: #FFF;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+ul#menu li a:hover {
+	color: #9FD949;
+}
+
+ul#menu li ul li a {
+	color: #999999;
+}
+
+ul#menu li ul li a:hover {
+	color: #A41952;
+}
+
+ul#menu li .selected {
+	color: #9FD949;
+}

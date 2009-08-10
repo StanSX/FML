@@ -1,0 +1,193 @@
+Motorcore: !map:HashWithIndifferentAccess
+  xpath: "Motorcore"
+  ReplacedPolicyNumber: ""
+  ReplacedPolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DateGenerated: ""
+  DateGeneratedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TimeGenerated: ""
+  TimeGeneratedMD: !map:HashWithIndifferentAccess
+    type: "time"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  RespondByDate: ""
+  RespondByDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ProductName: ""
+  ProductNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreReplacedPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/ReplacedPolicyNumber"
+MotorcoreDateGenerated: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/DateGenerated"
+MotorcoreTimeGenerated: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/TimeGenerated"
+MotorcoreStartDate: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/StartDate"
+MotorcoreStartTime: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/StartTime"
+MotorcoreEndDate: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/EndDate"
+MotorcoreDuration: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+MotorcoreDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Duration/Unit"
+MotorcoreDurationType: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+MotorcoreDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Duration/Type/Value"
+MotorcoreDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Duration/Type/ShortDescription"
+MotorcoreRespondByDate: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/RespondByDate"
+MotorcorePaymentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/PaymentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcorePaymentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/PaymentMethodCode/Value"
+MotorcorePaymentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/PaymentMethodCode/ShortDescription"
+MotorcorePaymentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/PaymentMethodCode/Description"
+MotorcoreCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CoverCode/Value"
+MotorcoreCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CoverCode/ShortDescription"
+MotorcoreCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CoverCode/Description"
+MotorcoreReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/ReferenceNumber"
+MotorcoreProductName: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/ProductName"
+MotorcoreIntermediary: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  RiskReference: ""
+  RiskReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TransactionReference: ""
+  TransactionReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreIntermediaryPEMId: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/PEMId"
+MotorcoreIntermediaryInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/InStepCode"
+MotorcoreIntermediaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/CompanyName"
+MotorcoreIntermediaryFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/FaxTelephoneNo"
+MotorcoreIntermediaryRiskReference: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/RiskReference"
+MotorcoreIntermediaryTransactionReference: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/TransactionReference"
+MotorcoreIntermediaryContact: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreIntermediaryContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreIntermediaryContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact/IndividualName/FirstForename"
+MotorcoreIntermediaryContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact/IndividualName/Surname"
+MotorcoreIntermediaryContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact/WorkTelephoneNo"
+MotorcoreIntermediaryContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/Intermediary/Contact/EmailAddress"
+MotorcoreCurrentInsurer: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer"
+MotorcoreCurrentInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorcoreCurrentInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code/ListOwner"
+MotorcoreCurrentInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code/ListNo"
+MotorcoreCurrentInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code/Value"
+MotorcoreCurrentInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code/ShortDescription"
+MotorcoreCurrentInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Motorcore/CurrentInsurer/Code/Description"

@@ -1,0 +1,39 @@
+ClaimHistory: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TotalLossesReported: ""
+  TotalLossesReportedMD: !map:HashWithIndifferentAccess
+    type: "number"
+ClaimHistoryStartDate: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/StartDate"
+ClaimHistoryEndDate: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/EndDate"
+ClaimHistoryTotalLossesReported: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/TotalLossesReported"
+ClaimHistoryMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ClaimHistoryMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/MonetaryAmount/Amount"
+ClaimHistoryMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/MonetaryAmount/PaidAmount"
+ClaimHistoryMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "ClaimHistory/MonetaryAmount/OutstandingAmount"

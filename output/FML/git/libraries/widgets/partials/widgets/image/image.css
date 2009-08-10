@@ -1,0 +1,8 @@
+
+.image {
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  margin: 20px 5px 5px 5px;
+  padding: 8px;
+  border: solid 2px #861243;
+}

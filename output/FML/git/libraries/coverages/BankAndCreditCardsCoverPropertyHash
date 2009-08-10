@@ -1,0 +1,28 @@
+BankAndCreditCardsCover: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover"
+BankAndCreditCardsCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BankAndCreditCardsCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/CoverRequiredInd/Value"
+BankAndCreditCardsCoverCoverDetails: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/CoverDetails"
+BankAndCreditCardsCoverCoverDetailsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/CoverDetails/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+BankAndCreditCardsCoverCoverDetailsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/CoverDetails/SumInsured/Amount"
+BankAndCreditCardsCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BankAndCreditCardsCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BankAndCreditCardsCover/ExcludedInd/Value"

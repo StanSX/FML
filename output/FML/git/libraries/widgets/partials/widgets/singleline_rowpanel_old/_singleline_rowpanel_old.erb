@@ -1,0 +1,34 @@
+<%
+    entity_id = "#{entityName.downcase}_#{propertyName.downcase}"
+%>
+<div class="rowpanel">
+  <table class="rowpanel-table">
+    <tr>
+      <td width="5%">
+        <% if mandatory and eval(mandatory) %>
+          <div class="rowpanel-mandatory">&nbsp;</div>
+        <% elsif params[:edit] %>
+          <div class="rowpanel-nonmandatory">&nbsp;</div>
+        <% end %>
+      </td>
+      <td width="65%">
+        <label class="<%= 'editarea-25' if params[:edit] %>" id="<%= entity_id %>"><%= __(entity_id) %></label>
+      </td>
+      <td width="5%" align="right">
+        <!-- fixme nasty hack -->
+        <% if local_assigns['mask'] == 'money' or local_assigns['mask'] == 'premium' %>£<% end %>
+        <% if local_assigns['mask'] == 'percent' %>%<% end %>
+        </td>
+        <td width="20%">
+          <%= body %>
+        </td>
+        <td width="5%">
+          <img class="rowpanel-tick" style="display: none;" src="<%= @tickIcon %>"/>
+        </td>
+        <td width="5%">
+          <img class="rowpanel-info" src="<%= @helpIcon %>"/>
+        </td>
+      </tr>
+    </table>
+    <div class="rowpanel-help <%= 'editarea-40' if params[:edit] %>" style="display: none;" id="<%= "#{entity_id}_tooltip" %>"><%= __("#{entity_id}_tooltip") %></div>
+  </div>

@@ -1,0 +1,210 @@
+IntruderAlarm: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm"
+IntruderAlarmPresentInd: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/PresentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmPresentIndValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/PresentInd/Value"
+IntruderAlarmPresentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/PresentInd/Description"
+IntruderAlarmIntruderAlarmDetail: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail"
+IntruderAlarmIntruderAlarmDetailSignallingCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SignallingCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailSignallingCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SignallingCode/Value"
+IntruderAlarmIntruderAlarmDetailSignallingCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SignallingCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailSignallingCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SignallingCode/Description"
+IntruderAlarmIntruderAlarmDetailTypeCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailTypeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode/ListOwner"
+IntruderAlarmIntruderAlarmDetailTypeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode/ListNo"
+IntruderAlarmIntruderAlarmDetailTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode/Value"
+IntruderAlarmIntruderAlarmDetailTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/TypeCode/Description"
+IntruderAlarmIntruderAlarmDetailConfirmableTechnologyInd: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/ConfirmableTechnologyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/ConfirmableTechnologyInd/Value"
+IntruderAlarmIntruderAlarmDetailConfirmableTechnologyIndDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/ConfirmableTechnologyInd/Description"
+IntruderAlarmIntruderAlarmDetailPoliceResponseCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/PoliceResponseCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailPoliceResponseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/PoliceResponseCode/Value"
+IntruderAlarmIntruderAlarmDetailPoliceResponseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/PoliceResponseCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailPoliceResponseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/PoliceResponseCode/Description"
+IntruderAlarmIntruderAlarmDetailAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailAccreditationCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode/ListOwner"
+IntruderAlarmIntruderAlarmDetailAccreditationCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode/ListNo"
+IntruderAlarmIntruderAlarmDetailAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode/Value"
+IntruderAlarmIntruderAlarmDetailAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AccreditationCode/Description"
+IntruderAlarmIntruderAlarmDetailMaintenanceContractInd: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceContractInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+IntruderAlarmIntruderAlarmDetailMaintenanceContractIndValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceContractInd/Value"
+IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceAccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceAccreditationCode/Value"
+IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceAccreditationCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailMaintenanceAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/MaintenanceAccreditationCode/Description"
+IntruderAlarmIntruderAlarmDetailSoleControlInd: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SoleControlInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailSoleControlIndValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SoleControlInd/Value"
+IntruderAlarmIntruderAlarmDetailSoleControlIndDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/SoleControlInd/Description"
+IntruderAlarmIntruderAlarmDetailInstallerCode: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/InstallerCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailInstallerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/InstallerCode/Value"
+IntruderAlarmIntruderAlarmDetailInstallerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/InstallerCode/ShortDescription"
+IntruderAlarmIntruderAlarmDetailInstallerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/InstallerCode/Description"
+IntruderAlarmIntruderAlarmDetailAttackedInd: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailAttackedIndValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackedInd/Value"
+IntruderAlarmIntruderAlarmDetailAttackedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackedInd/Description"
+IntruderAlarmIntruderAlarmDetailAttackMethod: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackMethod"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IntruderAlarmIntruderAlarmDetailAttackMethodValue: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackMethod/Value"
+IntruderAlarmIntruderAlarmDetailAttackMethodShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackMethod/ShortDescription"
+IntruderAlarmIntruderAlarmDetailAttackMethodDescription: !map:HashWithIndifferentAccess
+  xpath: "IntruderAlarm/IntruderAlarmDetail/AttackMethod/Description"

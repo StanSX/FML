@@ -1,0 +1,26 @@
+RoofConstruction: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+RoofConstructionCode: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoofConstructionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction/Code/Value"
+RoofConstructionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction/Code/ShortDescription"
+RoofConstructionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction/Code/Description"
+RoofConstructionPercent: !map:HashWithIndifferentAccess
+  xpath: "RoofConstruction/Percent"

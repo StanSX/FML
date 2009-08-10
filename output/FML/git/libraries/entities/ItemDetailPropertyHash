@@ -1,0 +1,166 @@
+ItemDetail: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ManufacturedYear: ""
+  ManufacturedYearMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  YearBuilt: ""
+  YearBuiltMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ItemDetailId: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Id"
+ItemDetailTypeCode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ItemDetailTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TypeCode/Value"
+ItemDetailTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TypeCode/ShortDescription"
+ItemDetailTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TypeCode/Description"
+ItemDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ItemDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/SumInsured/Amount"
+ItemDetailMakeModelCode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MakeModelCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ItemDetailMakeModelCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MakeModelCode/Value"
+ItemDetailMakeModelCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MakeModelCode/ShortDescription"
+ItemDetailMakeModelCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MakeModelCode/Description"
+ItemDetailManufacturedYear: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/ManufacturedYear"
+ItemDetailNoOf: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/NoOf"
+ItemDetailValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Value"
+ItemDetailMaintenanceAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MaintenanceAccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ItemDetailMaintenanceAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MaintenanceAccreditationCode/Value"
+ItemDetailMaintenanceAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/MaintenanceAccreditationCode/ShortDescription"
+ItemDetailLocationCode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/LocationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ItemDetailLocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/LocationCode/Value"
+ItemDetailLocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/LocationCode/ShortDescription"
+ItemDetailYearBuilt: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/YearBuilt"
+ItemDetailInspectionRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/InspectionRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ItemDetailInspectionRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/InspectionRequiredInd/Value"
+ItemDetailDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Description"
+ItemDetailTerritorialLimit: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TerritorialLimit"
+ItemDetailTerritorialLimitCode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TerritorialLimit/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ItemDetailTerritorialLimitCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TerritorialLimit/Code/Value"
+ItemDetailTerritorialLimitCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TerritorialLimit/Code/ShortDescription"
+ItemDetailTerritorialLimitCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/TerritorialLimit/Code/Description"
+ItemDetailPremises: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+ItemDetailPremisesId: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Premises/Id"
+ItemDetailPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+ItemDetailPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Premises/Address/Postcode"
+ItemDetailSize: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Size"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+ItemDetailSizeUnit: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Size/Unit"
+ItemDetailSizeType: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Size/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ItemDetailSizeTypeValue: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Size/Type/Value"
+ItemDetailSizeTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ItemDetail/Size/Type/ShortDescription"

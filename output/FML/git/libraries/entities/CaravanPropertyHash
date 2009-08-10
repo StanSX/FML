@@ -1,0 +1,226 @@
+Caravan: !map:HashWithIndifferentAccess
+  xpath: "Caravan"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ManufacturedYear: ""
+  ManufacturedYearMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+CaravanId: !map:HashWithIndifferentAccess
+  xpath: "Caravan/Id"
+CaravanTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CaravanTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/TypeCode/Value"
+CaravanTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/TypeCode/ShortDescription"
+CaravanTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/TypeCode/Description"
+CaravanReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ReferenceNumber"
+CaravanMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MakeModelDescription"
+CaravanManufacturedYear: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ManufacturedYear"
+CaravanManufacturerCode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ManufacturerCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CaravanManufacturerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ManufacturerCode/Value"
+CaravanManufacturerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ManufacturerCode/ShortDescription"
+CaravanManufacturerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/ManufacturerCode/Description"
+CaravanValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/Value"
+CaravanPatioDoorInd: !map:HashWithIndifferentAccess
+  xpath: "Caravan/PatioDoorInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CaravanPatioDoorIndValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/PatioDoorInd/Value"
+CaravanCookingMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/CookingMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CaravanCookingMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/CookingMethodCode/Value"
+CaravanCookingMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/CookingMethodCode/ShortDescription"
+CaravanCookingMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/CookingMethodCode/Description"
+CaravanHeatingCategoryCode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/HeatingCategoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CaravanHeatingCategoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/HeatingCategoryCode/Value"
+CaravanHeatingCategoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/HeatingCategoryCode/ShortDescription"
+CaravanHeatingCategoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/HeatingCategoryCode/Description"
+CaravanMainsWaterInd: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsWaterInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CaravanMainsWaterIndValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsWaterInd/Value"
+CaravanMainsElectricInd: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsElectricInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CaravanMainsElectricIndValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsElectricInd/Value"
+CaravanMainsSewageInd: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsSewageInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CaravanMainsSewageIndValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/MainsSewageInd/Value"
+CaravanUseCode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/UseCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CaravanUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Caravan/UseCode/Value"
+CaravanUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/UseCode/ShortDescription"
+CaravanUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Caravan/UseCode/Description"
+CaravanInUseAddress: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+CaravanInUseAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line1"
+CaravanInUseAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line2"
+CaravanInUseAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line3"
+CaravanInUseAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line4"
+CaravanInUseAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line5"
+CaravanInUseAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Line6"
+CaravanInUseAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/InUseAddress/Postcode"
+CaravanNotInUseAddress: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+CaravanNotInUseAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line1"
+CaravanNotInUseAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line2"
+CaravanNotInUseAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line3"
+CaravanNotInUseAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line4"
+CaravanNotInUseAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line5"
+CaravanNotInUseAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Line6"
+CaravanNotInUseAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Caravan/NotInUseAddress/Postcode"

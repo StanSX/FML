@@ -1,0 +1,30 @@
+.quote_col_sx {
+	font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 80%;
+	color: #FFF;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+
+.quote_col_dx {
+	font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 20%;
+	color: #9FD949;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	text-align: right;
+}
+
+.quote_col_dx a:link, .quote_col_dx a:active, .quote_col_dx a:visited {
+	color: #9FD949;
+	text-decoration: none;
+	display: block;
+}
+
+.quote_col_dx a:hover {
+	color: #A41952;
+}

@@ -1,0 +1,8 @@
+coverage :MoneyCover
+    use :CoverDetail,:SumInsured,:Amount, {:default_value => '2500'}#, :ABI_code => 'B205 240', :ABI_desc => 'Money In Transit',:ABI_code => 'B205 M05', :ABI_desc => 'Money During Hours'}
+    use :CoverDetail,:Excess,:Amount, {:default_value => '0'}
+    #use :CoverDetail,:SumInsured,:Amount, {:default_value => '2500'}#, :ABI_code => 'B205 M03', :ABI_desc => 'Money In Safe Out Of Hours'}
+    #use :CoverDetail,:Excess,:Amount, {:default_value => '0'}
+    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
+endcoverage
+

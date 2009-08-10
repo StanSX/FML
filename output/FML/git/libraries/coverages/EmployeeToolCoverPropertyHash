@@ -1,0 +1,28 @@
+EmployeeToolCover: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover"
+EmployeeToolCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EmployeeToolCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/CoverRequiredInd/Value"
+EmployeeToolCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/CoverDetail"
+EmployeeToolCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+EmployeeToolCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/CoverDetail/SumInsured/Amount"
+EmployeeToolCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EmployeeToolCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EmployeeToolCover/ExcludedInd/Value"

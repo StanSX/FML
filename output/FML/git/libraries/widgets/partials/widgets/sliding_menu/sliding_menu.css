@@ -1,0 +1,65 @@
+
+#main_menu{
+  color:#CC3333;
+  font-family:verdana,Arial,Helvetica,sans-serif;
+  font-size:80%;
+  padding:0;
+  left:-5px;
+  top:-11px;
+  width:212px;
+}
+
+#main_menu li{list-style:none; padding:0; margin-bottom:3px; width:212px;}
+
+#main_menu a image{
+  border:0;
+}
+
+#main_menu a {
+  /* it is to fix IE bug */
+  background-color: #ffffff;
+  display:block;
+  /* end */
+  text-decoration:none;
+  color:#CC3333;
+}
+
+#main_menu .body_menu a:hover {
+  text-decoration:underline;
+}
+
+#main_menu .get_a_quote{font-weight:bold;}
+
+#main_menu .largeText .head_menu {
+  height:37px;
+}
+
+#main_menu .head_menu a{
+  background-color: transparent !important;
+}
+#main_menu .head_menu {
+  height:24px;
+  font-weight:bold;
+  width:auto;
+  cursor:pointer; padding:0px 0 0 6px;
+}
+
+#main_menu  .menu_on .body_menu{background:#ffffff url(/widgets/partials/widgets/sliding_menu/images/menu-border.gif) no-repeat scroll bottom left;}
+#main_menu  .body_menu{padding:0; font-size:100%; text-align:right; background:#ffffff;}
+
+#main_menu .body_menu div{padding: 0 0px; height: 96px;}
+
+#main_menu .head_menu{background:#ffffff url(/widgets/partials/widgets/sliding_menu/images/menu-header-1.gif) no-repeat scroll top left;}
+#main_menu .menu_on .head_menu{background:#ffffff url(/widgets/partials/widgets/sliding_menu/images/menu-header-1-on.gif) no-repeat scroll top left;}
+
+#main_menu .largeText .head_menu{background:#ffffff url(/widgets/partials/widgets/sliding_menu/images/menu-header-2.gif) no-repeat scroll top left;}
+#main_menu .largeText.menu_on .head_menu{background:#ffffff url(/widgets/partials/widgets/sliding_menu/images/menu-header-2-on.gif) no-repeat scroll top left;}
+
+#main_menu .body_menu p{margin:0; padding:0px 0px 0px 0px; background: #ffffff;}
+
+#bottom_menu_image.jsOn{
+  position: relative;
+  width: 209px;
+  height: 1px;
+  margin-left: -3px;
+}

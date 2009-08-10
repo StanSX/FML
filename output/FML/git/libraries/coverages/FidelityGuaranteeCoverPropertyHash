@@ -1,0 +1,202 @@
+FidelityGuaranteeCover: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover"
+FidelityGuaranteeCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+FidelityGuaranteeCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverRequiredInd/Value"
+FidelityGuaranteeCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+FidelityGuaranteeCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+FidelityGuaranteeCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/SumInsured/Amount"
+FidelityGuaranteeCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+FidelityGuaranteeCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Excess/Amount"
+FidelityGuaranteeCoverCoverDetailAllEmployees: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/AllEmployees"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+FidelityGuaranteeCoverCoverDetailAllEmployeesWages: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/AllEmployees/Wages"
+FidelityGuaranteeCoverCoverDetailResponsibleEmployees: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/ResponsibleEmployees"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+FidelityGuaranteeCoverCoverDetailResponsibleEmployeesWages: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/ResponsibleEmployees/Wages"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCover: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/CoverRequiredInd/Value"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/CoverDetail"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/CoverDetail/SumInsured/Amount"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/ExcludedInd/Value"
+FidelityGuaranteeCoverCoverDetailNonEmployeesCoverExcludedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/NonEmployeesCover/ExcludedInd/Description"
+FidelityGuaranteeCoverCoverDetailDiscoveryPeriod: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/DiscoveryPeriod"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+FidelityGuaranteeCoverCoverDetailDiscoveryPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/DiscoveryPeriod/Unit"
+FidelityGuaranteeCoverCoverDetailDiscoveryPeriodType: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/DiscoveryPeriod/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+FidelityGuaranteeCoverCoverDetailDiscoveryPeriodTypeValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/DiscoveryPeriod/Type/Value"
+FidelityGuaranteeCoverCoverDetailDiscoveryPeriodTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/DiscoveryPeriod/Type/ShortDescription"
+FidelityGuaranteeCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+FidelityGuaranteeCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Endorsement/ReasonApplied"
+FidelityGuaranteeCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Endorsement/ShortWording"
+FidelityGuaranteeCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Endorsement/Wording"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+FidelityGuaranteeCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+FidelityGuaranteeCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Notes"
+FidelityGuaranteeCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FidelityGuaranteeCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/CoverDetail/Information/Description"
+FidelityGuaranteeCoverPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer"
+FidelityGuaranteeCoverPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FidelityGuaranteeCoverPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code/ListOwner"
+FidelityGuaranteeCoverPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code/ListNo"
+FidelityGuaranteeCoverPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code/Value"
+FidelityGuaranteeCoverPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code/ShortDescription"
+FidelityGuaranteeCoverPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/PriorInsurer/Code/Description"
+FidelityGuaranteeCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+FidelityGuaranteeCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "FidelityGuaranteeCover/ExcludedInd/Value"

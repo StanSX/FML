@@ -1,0 +1,42 @@
+NorthAmericaDetail: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail"
+  TotalAssetsAmount: ""
+  TotalAssetsAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+NorthAmericaDetailTotalAssetsAmount: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/TotalAssetsAmount"
+NorthAmericaDetailSubsidiary: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Subsidiary"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+NorthAmericaDetailSubsidiaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Subsidiary/CompanyName"
+NorthAmericaDetailSubsidiaryPercentage: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Subsidiary/Percentage"
+NorthAmericaDetailDeclaration: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Declaration"
+NorthAmericaDetailDeclarationStockInd: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Declaration/StockInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NorthAmericaDetailDeclarationStockIndValue: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Declaration/StockInd/Value"
+NorthAmericaDetailDeclarationStockIndDescription: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Declaration/StockInd/Description"
+NorthAmericaDetailPercent: !map:HashWithIndifferentAccess
+  xpath: "NorthAmericaDetail/Percent"

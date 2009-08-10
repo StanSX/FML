@@ -1,0 +1,31 @@
+<div class="flipcontainer">
+  <ul class="flip" id="2">
+    <li class="current"><a href="#creditCrunchInsurance">Credit crunch retailer</a></li>
+    <li><a href="#retailerInsurance">Retailer</a></li>
+    <li><a href="#carInsurance">Car</a></li>
+    <li><a href="#vanInsurance">Van</a></li>
+    <li><a href="#studentInsurance">Student</a></li>
+  </ul>
+  <br />
+  <br />
+</div>
+<div style="clear: both;">
+  <div id="creditCrunchInsurance" class="flip-panel">
+    Credit crunch insurance
+  </div>
+  <div id="vanInsurance" style="display: none;" class="flip-panel">
+    Van insurance
+    <img src="/git/brands/FC/images/2col[1].jpg" />
+  </div>
+  <div id="retailerInsurance" style="display: none;" class="flip-panel">
+    Retailer insurance
+      <a class="new" href="/iab/QNBRiskDataCollect?brand=KP&product=Retailer&lang=en"><%= @newBusiness %></a>
+      <a class="search" href="/iab/QuoteSearch?brand=KP&product=Retailer&lang=en"><%= @quoteSearch %></a>
+  </div>
+  <div id="studentInsurance" style="display: none;" class="flip-panel">
+    Student insurance
+  </div>
+  <div id="carInsurance" style="display: none;" class="flip-panel">
+    Car insurance
+  </div>
+</div>

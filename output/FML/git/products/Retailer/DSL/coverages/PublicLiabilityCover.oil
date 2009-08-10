@@ -1,0 +1,5 @@
+coverage :PublicLiabilityCover
+    use :CoverDetail,:SumInsured,:Amount, {:default_value => '2000000'}
+    use :CoverDetail,:Excess,:Amount, {:default_value => '100'}
+    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
+endcoverage

@@ -1,0 +1,115 @@
+layout :kpstructure
+
+  panel :box_sx
+
+        widget :logo
+        endwidget
+
+        panel :quote
+
+          widget :generic_search,{:title => :generic_search}
+          endwidget
+
+          widget :quotes_search,{:title => :search_quotes_reference}
+          endwidget
+
+          widget :quotes_search,{:title => :search_quotes_name}
+          endwidget
+
+        endpanel
+
+        panel :slide_menu
+
+          widget :slide_menu
+          endwidget
+
+        endpanel
+
+        panel :logged_stage
+
+            widget :welcome_panel
+            endwidget
+
+        endpanel
+
+        widget :box_login
+        endwidget
+
+  #chiude box_sx
+  endpanel
+
+  widget :submit_panel
+
+  panel :box_cent
+
+    panel :main_frame
+
+     panel :box_contents
+
+      tabs :tabs_nav
+
+          tab :tab_1
+            widget :tabs_panel,{:title => :your_business_panel_title, :tabcontent => 'true', :id => 'tab_1', :tabTitle => :your_business_panel_title}
+              entity :Insured,{:hide => 'IndividualName&TelephoneNo'}
+            endwidget
+          endtab
+
+          tab :tab_2
+            widget :tabs_panel, {:title => :mandatory_cover_panel_title, :tabcontent => 'true', :id => 'tab_2', :tabTitle => :covers_tab_title}
+              coverage :EmployersLiabilityCover,{:hide => 'Excess&PremiumQuoteBreakdown'}
+              entity :Policy,{:hide => 'PolicyNumber&EndDate'}
+
+              widget :page_title,{:title => :optional_cover_panel_title}
+              endwidget
+
+              coverage :BuildingsCover,{:hide => 'Excess'}
+              coverage :ContentsCover,{:hide => 'Excess'}
+              coverage :BusinessInterruptionCover,{:hide => 'Excess'}
+              coverage :MoneyCover,{:hide => 'Excess'}
+              coverage :ProductLiabilityCover,{:hide => 'Excess'}
+              coverage :PublicLiabilityCover,{:hide => 'Excess'}
+
+           endwidget
+          endtab
+
+      endtabs
+
+    #close panel box_contents
+    endpanel
+
+    widget :button_panel
+    endwidget
+
+    #close panel main frame
+    endpanel
+
+  #close panel box_cent
+  endpanel
+
+  #close submit panel widget
+  endwidget
+  
+  panel :box_dx
+
+    panel :new_sug
+
+      widget :content_link,{:title => :suggestion_title}
+      endwidget
+
+      widget :content_link,{:title => :suggestion_title}
+      endwidget
+
+      widget :content_link,{:title => :suggestion_title}
+      endwidget
+      
+    endpanel
+
+  #close panel box_dx
+  endpanel
+
+  footer
+    widget :copyright_panel
+    endwidget
+  endfooter
+
+endlayout 

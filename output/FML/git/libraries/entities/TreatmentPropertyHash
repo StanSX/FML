@@ -1,0 +1,53 @@
+Treatment: !map:HashWithIndifferentAccess
+  xpath: "Treatment"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+TreatmentTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Treatment/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TreatmentTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Treatment/TreatmentCode/Value"
+TreatmentTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Treatment/TreatmentCode/ShortDescription"
+TreatmentTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Treatment/TreatmentCode/Description"
+TreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TreatmentCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code/ListOwner"
+TreatmentCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code/ListNo"
+TreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code/Value"
+TreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code/ShortDescription"
+TreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Treatment/Code/Description"
+TreatmentNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Treatment/NoOfWorkers"

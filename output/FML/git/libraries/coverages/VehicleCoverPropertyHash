@@ -1,0 +1,166 @@
+VehicleCover: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover"
+VehicleCoverCode: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Code/Value"
+VehicleCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Code/ShortDescription"
+VehicleCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Code/Description"
+VehicleCoverDrivingRestriction: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DrivingRestriction"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverDrivingRestrictionValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DrivingRestriction/Value"
+VehicleCoverDrivingRestrictionShortDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DrivingRestriction/ShortDescription"
+VehicleCoverDrivingRestrictionDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DrivingRestriction/Description"
+VehicleCoverBasisCode: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/BasisCode/Value"
+VehicleCoverBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/BasisCode/ShortDescription"
+VehicleCoverBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/BasisCode/Description"
+VehicleCoverForeignCoverInd: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ForeignCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverForeignCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ForeignCoverInd/Value"
+VehicleCoverForeignCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ForeignCoverInd/Description"
+VehicleCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+VehicleCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Excess/Amount"
+VehicleCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Excess/Percent"
+VehicleCoverActivityCoveredCode: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ActivityCoveredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverActivityCoveredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ActivityCoveredCode/Value"
+VehicleCoverActivityCoveredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ActivityCoveredCode/ShortDescription"
+VehicleCoverActivityCoveredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/ActivityCoveredCode/Description"
+VehicleCoverWindscreenExcess: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/WindscreenExcess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+VehicleCoverWindscreenExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/WindscreenExcess/Amount"
+VehicleCoverDetachedInd: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DetachedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverDetachedIndValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DetachedInd/Value"
+VehicleCoverDetachedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/DetachedInd/Description"
+VehicleCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+VehicleCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/SumInsured/Amount"
+VehicleCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/SumInsured/Percent"
+VehicleCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+VehicleCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Endorsement/ReasonApplied"
+VehicleCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Endorsement/ShortWording"
+VehicleCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/Endorsement/Wording"
+VehicleCoverNCDDetail: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/NCDDetail"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+VehicleCoverNCDDetailNCDYears: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/NCDDetail/NCDYears"
+VehicleCoverNCDDetailPercent: !map:HashWithIndifferentAccess
+  xpath: "VehicleCover/NCDDetail/Percent"

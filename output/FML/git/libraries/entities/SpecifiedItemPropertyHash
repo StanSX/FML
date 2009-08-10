@@ -1,0 +1,109 @@
+SpecifiedItem: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  MaxValueOneLocation: ""
+  MaxValueOneLocationMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  MaxValueOneItem: ""
+  MaxValueOneItemMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+SpecifiedItemId: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Id"
+SpecifiedItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SpecifiedItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TypeCode/Value"
+SpecifiedItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TypeCode/ShortDescription"
+SpecifiedItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TypeCode/Description"
+SpecifiedItemReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/ReferenceNumber"
+SpecifiedItemValue: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Value"
+SpecifiedItemSumInsured: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+SpecifiedItemSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/SumInsured/Amount"
+SpecifiedItemExcess: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+SpecifiedItemExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Excess/Amount"
+SpecifiedItemMaxValueOneLocation: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/MaxValueOneLocation"
+SpecifiedItemMaxValueOneItem: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/MaxValueOneItem"
+SpecifiedItemTerritorialLimit: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TerritorialLimit"
+SpecifiedItemTerritorialLimitTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TerritorialLimit/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SpecifiedItemTerritorialLimitTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TerritorialLimit/TerritoryCode/Value"
+SpecifiedItemTerritorialLimitTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TerritorialLimit/TerritoryCode/ShortDescription"
+SpecifiedItemTerritorialLimitTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/TerritorialLimit/TerritoryCode/Description"
+SpecifiedItemValuationRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/ValuationRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SpecifiedItemValuationRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/ValuationRequiredInd/Value"
+SpecifiedItemValuationRequiredIndDescription: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/ValuationRequiredInd/Description"
+SpecifiedItemAttachment: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+SpecifiedItemAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Attachment/URI"
+SpecifiedItemNotes: !map:HashWithIndifferentAccess
+  xpath: "SpecifiedItem/Notes"

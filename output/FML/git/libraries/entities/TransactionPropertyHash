@@ -1,0 +1,1699 @@
+Transaction: !map:HashWithIndifferentAccess
+  xpath: "Transaction"
+  ReplacedPolicyNumber: ""
+  ReplacedPolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ExemptionPercent: ""
+  ExemptionPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  DateGenerated: ""
+  DateGeneratedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TimeGenerated: ""
+  TimeGeneratedMD: !map:HashWithIndifferentAccess
+    type: "time"
+  LastMessageReference: ""
+  LastMessageReferenceMD: !map:HashWithIndifferentAccess
+    type: "number"
+  OurMessageReference: ""
+  OurMessageReferenceMD: !map:HashWithIndifferentAccess
+    type: "number"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  ExtensionDate: ""
+  ExtensionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  RespondByDate: ""
+  RespondByDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OriginalInceptionDate: ""
+  OriginalInceptionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  RenewalDate: ""
+  RenewalDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  CancellationDate: ""
+  CancellationDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LapseDate: ""
+  LapseDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OccurrenceDate: ""
+  OccurrenceDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OccurrenceTime: ""
+  OccurrenceTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  PaidDate: ""
+  PaidDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  QuoteOptionCode: ""
+  QuoteOptionCodeMD: !map:HashWithIndifferentAccess
+    type: "number"
+  InsuredTitle: ""
+  InsuredTitleMD: !map:HashWithIndifferentAccess
+    type: "text"
+  LTUInPlaceExpiryDate: ""
+  LTUInPlaceExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LTUPeriod: ""
+  LTUPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  AgencyAccountRef: ""
+  AgencyAccountRefMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TurnoverForPeriod: ""
+  TurnoverForPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  DateCalculatedTo: ""
+  DateCalculatedToMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EventDateLastLossIncluded: ""
+  EventDateLastLossIncludedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  VehicleYears: ""
+  VehicleYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfLosses: ""
+  NoOfLossesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TotalLossesReported: ""
+  TotalLossesReportedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfLossesOutstanding: ""
+  NoOfLossesOutstandingMD: !map:HashWithIndifferentAccess
+    type: "number"
+  UnconfirmedNarrative: ""
+  UnconfirmedNarrativeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NotifiedDate: ""
+  NotifiedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  PenaltyPoints: ""
+  PenaltyPointsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NCDIntroPercent: ""
+  NCDIntroPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  NCDProtectedYears: ""
+  NCDProtectedYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NCDBaseDate: ""
+  NCDBaseDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  NCDProtectionAppliedDate: ""
+  NCDProtectionAppliedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  CurrentCommissionPercent: ""
+  CurrentCommissionPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  LastMTADate: ""
+  LastMTADateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AuthorisationRef: ""
+  AuthorisationRefMD: !map:HashWithIndifferentAccess
+    type: "text"
+  AuthorityLevel: ""
+  AuthorityLevelMD: !map:HashWithIndifferentAccess
+    type: "number"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ProductName: ""
+  ProductNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  QuoteValidUntil: ""
+  QuoteValidUntilMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+  CommissionAmount: ""
+  CommissionAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  CommissionPercent: ""
+  CommissionPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  RenewalPremium: ""
+  RenewalPremiumMD: !map:HashWithIndifferentAccess
+    type: "number"
+TransactionLiabilityCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LiabilityCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionLiabilityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LiabilityCode/Value"
+TransactionLiabilityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LiabilityCode/ShortDescription"
+TransactionLiabilityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LiabilityCode/Description"
+TransactionReferRenewalInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReferRenewalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionReferRenewalIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReferRenewalInd/Value"
+TransactionQuoteOnlyInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/QuoteOnlyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionQuoteOnlyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/QuoteOnlyInd/Value"
+TransactionReplacedPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReplacedPolicyNumber"
+TransactionExemptionPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ExemptionPercent"
+TransactionDateGenerated: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DateGenerated"
+TransactionTimeGenerated: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TimeGenerated"
+TransactionLastMessageReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LastMessageReference"
+TransactionOurMessageReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/OurMessageReference"
+TransactionValidityPeriod: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ValidityPeriod"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TransactionValidityPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ValidityPeriod/Unit"
+TransactionStartDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StartDate"
+TransactionStartTime: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StartTime"
+TransactionEndDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/EndDate"
+TransactionEndTime: !map:HashWithIndifferentAccess
+  xpath: "Transaction/EndTime"
+TransactionExtensionDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ExtensionDate"
+TransactionDuration: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TransactionDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Duration/Unit"
+TransactionDurationType: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TransactionDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Duration/Type/Value"
+TransactionDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Duration/Type/ShortDescription"
+TransactionStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StatusCode/Value"
+TransactionStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StatusCode/ShortDescription"
+TransactionStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/StatusCode/Description"
+TransactionResponseNarrative: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative"
+  Para1: ""
+  Para1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para2: ""
+  Para2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para3: ""
+  Para3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para4: ""
+  Para4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para5: ""
+  Para5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para6: ""
+  Para6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para7: ""
+  Para7MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para8: ""
+  Para8MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para9: ""
+  Para9MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para10: ""
+  Para10MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para11: ""
+  Para11MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para12: ""
+  Para12MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para13: ""
+  Para13MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para14: ""
+  Para14MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para15: ""
+  Para15MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para16: ""
+  Para16MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para17: ""
+  Para17MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para18: ""
+  Para18MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para19: ""
+  Para19MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para20: ""
+  Para20MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para21: ""
+  Para21MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para22: ""
+  Para22MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para23: ""
+  Para23MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para24: ""
+  Para24MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para25: ""
+  Para25MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para26: ""
+  Para26MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para27: ""
+  Para27MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para28: ""
+  Para28MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para29: ""
+  Para29MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para30: ""
+  Para30MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para31: ""
+  Para31MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para32: ""
+  Para32MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para33: ""
+  Para33MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para34: ""
+  Para34MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para35: ""
+  Para35MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para36: ""
+  Para36MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para37: ""
+  Para37MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para38: ""
+  Para38MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para39: ""
+  Para39MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para40: ""
+  Para40MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para41: ""
+  Para41MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para42: ""
+  Para42MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para43: ""
+  Para43MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para44: ""
+  Para44MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para45: ""
+  Para45MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para46: ""
+  Para46MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para47: ""
+  Para47MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para48: ""
+  Para48MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para49: ""
+  Para49MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Para50: ""
+  Para50MD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionResponseNarrativePara1: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para1"
+TransactionResponseNarrativePara2: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para2"
+TransactionResponseNarrativePara3: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para3"
+TransactionResponseNarrativePara4: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para4"
+TransactionResponseNarrativePara5: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para5"
+TransactionResponseNarrativePara6: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para6"
+TransactionResponseNarrativePara7: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para7"
+TransactionResponseNarrativePara8: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para8"
+TransactionResponseNarrativePara9: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para9"
+TransactionResponseNarrativePara10: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para10"
+TransactionResponseNarrativePara11: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para11"
+TransactionResponseNarrativePara12: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para12"
+TransactionResponseNarrativePara13: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para13"
+TransactionResponseNarrativePara14: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para14"
+TransactionResponseNarrativePara15: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para15"
+TransactionResponseNarrativePara16: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para16"
+TransactionResponseNarrativePara17: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para17"
+TransactionResponseNarrativePara18: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para18"
+TransactionResponseNarrativePara19: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para19"
+TransactionResponseNarrativePara20: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para20"
+TransactionResponseNarrativePara21: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para21"
+TransactionResponseNarrativePara22: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para22"
+TransactionResponseNarrativePara23: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para23"
+TransactionResponseNarrativePara24: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para24"
+TransactionResponseNarrativePara25: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para25"
+TransactionResponseNarrativePara26: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para26"
+TransactionResponseNarrativePara27: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para27"
+TransactionResponseNarrativePara28: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para28"
+TransactionResponseNarrativePara29: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para29"
+TransactionResponseNarrativePara30: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para30"
+TransactionResponseNarrativePara31: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para31"
+TransactionResponseNarrativePara32: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para32"
+TransactionResponseNarrativePara33: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para33"
+TransactionResponseNarrativePara34: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para34"
+TransactionResponseNarrativePara35: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para35"
+TransactionResponseNarrativePara36: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para36"
+TransactionResponseNarrativePara37: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para37"
+TransactionResponseNarrativePara38: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para38"
+TransactionResponseNarrativePara39: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para39"
+TransactionResponseNarrativePara40: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para40"
+TransactionResponseNarrativePara41: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para41"
+TransactionResponseNarrativePara42: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para42"
+TransactionResponseNarrativePara43: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para43"
+TransactionResponseNarrativePara44: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para44"
+TransactionResponseNarrativePara45: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para45"
+TransactionResponseNarrativePara46: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para46"
+TransactionResponseNarrativePara47: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para47"
+TransactionResponseNarrativePara48: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para48"
+TransactionResponseNarrativePara49: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para49"
+TransactionResponseNarrativePara50: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseNarrative/Para50"
+TransactionRespondByDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RespondByDate"
+TransactionResponseTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionResponseTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseTypeCode/Value"
+TransactionResponseTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseTypeCode/ShortDescription"
+TransactionResponseTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ResponseTypeCode/Description"
+TransactionOriginalInceptionDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/OriginalInceptionDate"
+TransactionRenewalDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RenewalDate"
+TransactionCancellationDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CancellationDate"
+TransactionLapseDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LapseDate"
+TransactionOccurrenceDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/OccurrenceDate"
+TransactionOccurrenceTime: !map:HashWithIndifferentAccess
+  xpath: "Transaction/OccurrenceTime"
+TransactionPaidDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaidDate"
+TransactionQuoteOptionCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/QuoteOptionCode"
+TransactionPreQuoteResponseCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreQuoteResponseCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPreQuoteResponseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreQuoteResponseCode/Value"
+TransactionPreQuoteResponseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreQuoteResponseCode/ShortDescription"
+TransactionPreQuoteResponseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreQuoteResponseCode/Description"
+TransactionRequestTempCoverInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestTempCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionRequestTempCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestTempCoverInd/Value"
+TransactionRequestProofOfNCDInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestProofOfNCDInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionRequestProofOfNCDIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestProofOfNCDInd/Value"
+TransactionRequestClaimsExpInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestClaimsExpInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionRequestClaimsExpIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RequestClaimsExpInd/Value"
+TransactionTemporaryChangeInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TemporaryChangeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionTemporaryChangeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TemporaryChangeInd/Value"
+TransactionDocumentsPrintedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DocumentsPrintedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionDocumentsPrintedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DocumentsPrintedInd/Value"
+TransactionInsuredTitle: !map:HashWithIndifferentAccess
+  xpath: "Transaction/InsuredTitle"
+TransactionNetRatedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NetRatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionNetRatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NetRatedInd/Value"
+TransactionNetRatedRequestInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NetRatedRequestInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionNetRatedRequestIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NetRatedRequestInd/Value"
+TransactionLTUInPlaceInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUInPlaceInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionLTUInPlaceIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUInPlaceInd/Value"
+TransactionLTUInPlaceExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUInPlaceExpiryDate"
+TransactionLTURequiredInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTURequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionLTURequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTURequiredInd/Value"
+TransactionLTUPeriod: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUPeriod"
+TransactionLTUBasisCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUBasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionLTUBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUBasisCode/Value"
+TransactionLTUBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUBasisCode/ShortDescription"
+TransactionLTUBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LTUBasisCode/Description"
+TransactionPaymentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentMethodCode/Value"
+TransactionPaymentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentMethodCode/ShortDescription"
+TransactionPaymentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentMethodCode/Description"
+TransactionPremiumBasisCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumBasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPremiumBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumBasisCode/Value"
+TransactionPremiumBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumBasisCode/ShortDescription"
+TransactionPremiumBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumBasisCode/Description"
+TransactionAgencyAccountRef: !map:HashWithIndifferentAccess
+  xpath: "Transaction/AgencyAccountRef"
+TransactionHoldingBrokerInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/HoldingBrokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionHoldingBrokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/HoldingBrokerInd/Value"
+TransactionHoldingBrokerIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/HoldingBrokerInd/Description"
+TransactionClientMandateInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClientMandateInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionClientMandateIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClientMandateInd/Value"
+TransactionTurnoverForPeriod: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TurnoverForPeriod"
+TransactionDateCalculatedTo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DateCalculatedTo"
+TransactionEventDateLastLossIncluded: !map:HashWithIndifferentAccess
+  xpath: "Transaction/EventDateLastLossIncluded"
+TransactionForeignUsageInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ForeignUsageInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionForeignUsageIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ForeignUsageInd/Value"
+TransactionVehicleYears: !map:HashWithIndifferentAccess
+  xpath: "Transaction/VehicleYears"
+TransactionNoOfLosses: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NoOfLosses"
+TransactionTotalLossesReported: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TotalLossesReported"
+TransactionNoOfLossesOutstanding: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NoOfLossesOutstanding"
+TransactionRevenueYearInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RevenueYearInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionRevenueYearIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RevenueYearInd/Value"
+TransactionUnconfirmedNarrative: !map:HashWithIndifferentAccess
+  xpath: "Transaction/UnconfirmedNarrative"
+TransactionPreviousCertValidInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreviousCertValidInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionPreviousCertValidIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PreviousCertValidInd/Value"
+TransactionCauseCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CauseCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionCauseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CauseCode/Value"
+TransactionCauseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CauseCode/ShortDescription"
+TransactionCauseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CauseCode/Description"
+TransactionMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/MedicalConditionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/MedicalConditionCode/Value"
+TransactionMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/MedicalConditionCode/ShortDescription"
+TransactionMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/MedicalConditionCode/Description"
+TransactionDirectClaimsInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DirectClaimsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionDirectClaimsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DirectClaimsInd/Value"
+TransactionBodilyInjuryCausedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/BodilyInjuryCausedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionBodilyInjuryCausedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/BodilyInjuryCausedInd/Value"
+TransactionClaimMadeInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClaimMadeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionClaimMadeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClaimMadeInd/Value"
+TransactionClaimSettledInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClaimSettledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionClaimSettledIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ClaimSettledInd/Value"
+TransactionConfirmedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ConfirmedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionConfirmedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ConfirmedInd/Value"
+TransactionDriverAtFaultInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DriverAtFaultInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionDriverAtFaultIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/DriverAtFaultInd/Value"
+TransactionNCDAffectedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDAffectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionNCDAffectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDAffectedInd/Value"
+TransactionNotifiedDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NotifiedDate"
+TransactionPaymentOnAccountCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentOnAccountCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentOnAccountCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentOnAccountCode/Value"
+TransactionPaymentOnAccountCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentOnAccountCode/ShortDescription"
+TransactionPaymentOnAccountCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentOnAccountCode/Description"
+TransactionPenaltyPoints: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PenaltyPoints"
+TransactionTotalLossInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TotalLossInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionTotalLossIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/TotalLossInd/Value"
+TransactionCoverCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CoverCode/Value"
+TransactionCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CoverCode/ShortDescription"
+TransactionCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CoverCode/Description"
+TransactionNCDProvenInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProvenInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionNCDProvenIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProvenInd/Value"
+TransactionNCDYears: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDYears"
+TransactionNCDCountryEarnedCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDCountryEarnedCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionNCDCountryEarnedCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDCountryEarnedCode/Value"
+TransactionNCDCountryEarnedCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDCountryEarnedCode/ShortDescription"
+TransactionNCDCountryEarnedCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDCountryEarnedCode/Description"
+TransactionNCDIntroPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDIntroPercent"
+TransactionNCDProtectedYears: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProtectedYears"
+TransactionNCDBaseDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDBaseDate"
+TransactionNCDProtectedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProtectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionNCDProtectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProtectedInd/Value"
+TransactionNCDProtectionAppliedDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDProtectionAppliedDate"
+TransactionNCDTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionNCDTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDTypeCode/Value"
+TransactionNCDTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDTypeCode/ShortDescription"
+TransactionNCDTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDTypeCode/Description"
+TransactionNCDReasonCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionNCDReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDReasonCode/Value"
+TransactionNCDReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDReasonCode/ShortDescription"
+TransactionNCDReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NCDReasonCode/Description"
+TransactionCurrentCommissionPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CurrentCommissionPercent"
+TransactionPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Percent"
+TransactionLastMTADate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/LastMTADate"
+TransactionAuthorisationRef: !map:HashWithIndifferentAccess
+  xpath: "Transaction/AuthorisationRef"
+TransactionAuthorityLevel: !map:HashWithIndifferentAccess
+  xpath: "Transaction/AuthorityLevel"
+TransactionReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReferenceNumber"
+TransactionReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference"
+  Reference: ""
+  ReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionReferenceTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionReferenceTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference/TypeCode/Value"
+TransactionReferenceTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference/TypeCode/ShortDescription"
+TransactionReferenceTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference/TypeCode/Description"
+TransactionReferenceReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Reference/Reference"
+TransactionProductName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ProductName"
+TransactionNoOf: !map:HashWithIndifferentAccess
+  xpath: "Transaction/NoOf"
+TransactionIntermediary: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  RiskReference: ""
+  RiskReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TransactionReference: ""
+  TransactionReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionIntermediaryPEMId: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/PEMId"
+TransactionIntermediaryInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/InStepCode"
+TransactionIntermediaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/CompanyName"
+TransactionIntermediaryFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/FaxTelephoneNo"
+TransactionIntermediaryRiskReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/RiskReference"
+TransactionIntermediaryTransactionReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/TransactionReference"
+TransactionIntermediaryContact: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionIntermediaryContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionIntermediaryContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact/IndividualName/FirstForename"
+TransactionIntermediaryContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact/IndividualName/Surname"
+TransactionIntermediaryContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact/WorkTelephoneNo"
+TransactionIntermediaryContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Intermediary/Contact/EmailAddress"
+TransactionInsurer: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  QuoteReference: ""
+  QuoteReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionInsurerPEMId: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/PEMId"
+TransactionInsurerInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/InStepCode"
+TransactionInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/CompanyName"
+TransactionInsurerFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/FaxTelephoneNo"
+TransactionInsurerQuoteReference: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/QuoteReference"
+TransactionInsurerContact: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionInsurerContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionInsurerContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact/IndividualName/FirstForename"
+TransactionInsurerContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact/IndividualName/Surname"
+TransactionInsurerContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact/WorkTelephoneNo"
+TransactionInsurerContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Insurer/Contact/EmailAddress"
+TransactionPaymentPlan: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan"
+  PlanId: ""
+  PlanIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  PlanName: ""
+  PlanNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DayOfMonthDue: ""
+  DayOfMonthDueMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfPayments: ""
+  NoOfPaymentsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PaymentAmount: ""
+  PaymentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OriginatorsIdNo: ""
+  OriginatorsIdNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DownPaymentAmount: ""
+  DownPaymentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DownPaymentPercent: ""
+  DownPaymentPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  FirstInstalmentAmount: ""
+  FirstInstalmentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  FirstInstalmentDueDate: ""
+  FirstInstalmentDueDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  SuccessiveInstalmentAmount: ""
+  SuccessiveInstalmentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  TotalAmountPayable: ""
+  TotalAmountPayableMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  InterestAmount: ""
+  InterestAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  InterestPercent: ""
+  InterestPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  APR: ""
+  APRMD: !map:HashWithIndifferentAccess
+    type: "number"
+  AdministrationFeePercent: ""
+  AdministrationFeePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  AdministrationFeeAmount: ""
+  AdministrationFeeAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  AmountCollectedByAgent: ""
+  AmountCollectedByAgentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+TransactionPaymentPlanPlanId: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PlanId"
+TransactionPaymentPlanPlanName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PlanName"
+TransactionPaymentPlanDayOfMonthDue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DayOfMonthDue"
+TransactionPaymentPlanNoOfPayments: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/NoOfPayments"
+TransactionPaymentPlanPaymentAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PaymentAmount"
+TransactionPaymentPlanPaymentFrequencyCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PaymentFrequencyCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanPaymentFrequencyCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PaymentFrequencyCode/Value"
+TransactionPaymentPlanPaymentFrequencyCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PaymentFrequencyCode/ShortDescription"
+TransactionPaymentPlanPaymentFrequencyCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PaymentFrequencyCode/Description"
+TransactionPaymentPlanOriginatorsIdNo: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/OriginatorsIdNo"
+TransactionPaymentPlanDownPaymentAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentAmount"
+TransactionPaymentPlanDownPaymentPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentPercent"
+TransactionPaymentPlanDownPaymentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanDownPaymentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentMethodCode/Value"
+TransactionPaymentPlanDownPaymentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentMethodCode/ShortDescription"
+TransactionPaymentPlanDownPaymentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/DownPaymentMethodCode/Description"
+TransactionPaymentPlanFirstInstalmentAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/FirstInstalmentAmount"
+TransactionPaymentPlanFirstInstalmentDueDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/FirstInstalmentDueDate"
+TransactionPaymentPlanSuccessiveInstalmentAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/SuccessiveInstalmentAmount"
+TransactionPaymentPlanMethodOfPaymentCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/MethodOfPaymentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanMethodOfPaymentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/MethodOfPaymentCode/Value"
+TransactionPaymentPlanMethodOfPaymentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/MethodOfPaymentCode/ShortDescription"
+TransactionPaymentPlanMethodOfPaymentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/MethodOfPaymentCode/Description"
+TransactionPaymentPlanTotalAmountPayable: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/TotalAmountPayable"
+TransactionPaymentPlanInterestAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/InterestAmount"
+TransactionPaymentPlanInterestPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/InterestPercent"
+TransactionPaymentPlanAPR: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/APR"
+TransactionPaymentPlanAdministrationFeePercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/AdministrationFeePercent"
+TransactionPaymentPlanAdministrationFeeAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/AdministrationFeeAmount"
+TransactionPaymentPlanAmountCollectedByAgent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/AmountCollectedByAgent"
+TransactionPaymentPlanCCARegulatedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CCARegulatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionPaymentPlanCCARegulatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CCARegulatedInd/Value"
+TransactionPaymentPlanCCASignedOnPremisesInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CCASignedOnPremisesInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionPaymentPlanCCASignedOnPremisesIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CCASignedOnPremisesInd/Value"
+TransactionPaymentPlanBankAccount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount"
+  AccountNumber: ""
+  AccountNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  AccountName: ""
+  AccountNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BankName: ""
+  BankNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BranchName: ""
+  BranchNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SortCode: ""
+  SortCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanBankAccountAccountNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/AccountNumber"
+TransactionPaymentPlanBankAccountAccountName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/AccountName"
+TransactionPaymentPlanBankAccountBankName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankName"
+TransactionPaymentPlanBankAccountBranchName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BranchName"
+TransactionPaymentPlanBankAccountSortCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/SortCode"
+TransactionPaymentPlanBankAccountBankAddress: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+TransactionPaymentPlanBankAccountBankAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line1"
+TransactionPaymentPlanBankAccountBankAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line2"
+TransactionPaymentPlanBankAccountBankAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line3"
+TransactionPaymentPlanBankAccountBankAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line4"
+TransactionPaymentPlanBankAccountBankAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line5"
+TransactionPaymentPlanBankAccountBankAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Line6"
+TransactionPaymentPlanBankAccountBankAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/BankAccount/BankAddress/Postcode"
+TransactionPaymentPlanCreditCard: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard"
+  CardNumber: ""
+  CardNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardStartDate: ""
+  CardStartDateMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardExpiryDate: ""
+  CardExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardIssueNumber: ""
+  CardIssueNumberMD: !map:HashWithIndifferentAccess
+    type: "number"
+  CardHolderName: ""
+  CardHolderNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardSecurityNumber: ""
+  CardSecurityNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanCreditCardCardTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanCreditCardCardTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardTypeCode/Value"
+TransactionPaymentPlanCreditCardCardTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardTypeCode/ShortDescription"
+TransactionPaymentPlanCreditCardCardTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardTypeCode/Description"
+TransactionPaymentPlanCreditCardCardNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardNumber"
+TransactionPaymentPlanCreditCardCardStartDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardStartDate"
+TransactionPaymentPlanCreditCardCardExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardExpiryDate"
+TransactionPaymentPlanCreditCardCardIssueNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardIssueNumber"
+TransactionPaymentPlanCreditCardCardHolderName: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardHolderName"
+TransactionPaymentPlanCreditCardCardSecurityNumber: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/CreditCard/CardSecurityNumber"
+TransactionPaymentPlanConsentToRetainInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/ConsentToRetainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanConsentToRetainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/ConsentToRetainInd/Value"
+TransactionPaymentPlanConsentToRetainIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/ConsentToRetainInd/Description"
+TransactionPaymentPlanPolicyholderIsAccountHolderInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PolicyholderIsAccountHolderInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanPolicyholderIsAccountHolderIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PolicyholderIsAccountHolderInd/Value"
+TransactionPaymentPlanPolicyholderIsAccountHolderIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/PolicyholderIsAccountHolderInd/Description"
+TransactionPaymentPlanDocument: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document"
+TransactionPaymentPlanDocumentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanDocumentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/TypeCode/Value"
+TransactionPaymentPlanDocumentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/TypeCode/ShortDescription"
+TransactionPaymentPlanDocumentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/TypeCode/Description"
+TransactionPaymentPlanDocumentStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionPaymentPlanDocumentStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/StatusCode/Value"
+TransactionPaymentPlanDocumentStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/StatusCode/ShortDescription"
+TransactionPaymentPlanDocumentStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Document/StatusCode/Description"
+TransactionPaymentPlanNotes: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PaymentPlan/Notes"
+TransactionDocument: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document"
+TransactionDocumentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionDocumentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/TypeCode/Value"
+TransactionDocumentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/TypeCode/ShortDescription"
+TransactionDocumentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/TypeCode/Description"
+TransactionDocumentDeliveryMethodCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/DeliveryMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TransactionDocumentDeliveryMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/DeliveryMethodCode/Value"
+TransactionDocumentDeliveryMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Document/DeliveryMethodCode/ShortDescription"
+TransactionCategoryCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CategoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionCategoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CategoryCode/Value"
+TransactionCategoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CategoryCode/ShortDescription"
+TransactionCategoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CategoryCode/Description"
+TransactionReasonCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReasonCode/Value"
+TransactionReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReasonCode/ShortDescription"
+TransactionReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ReasonCode/Description"
+TransactionQuoteValidUntil: !map:HashWithIndifferentAccess
+  xpath: "Transaction/QuoteValidUntil"
+TransactionNotes: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Notes"
+TransactionAttachment: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+TransactionAttachmentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionAttachmentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment/TypeCode/Value"
+TransactionAttachmentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment/TypeCode/ShortDescription"
+TransactionAttachmentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment/TypeCode/Description"
+TransactionAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Attachment/URI"
+TransactionCommissionAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CommissionAmount"
+TransactionCommissionPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/CommissionPercent"
+TransactionRenewalPremium: !map:HashWithIndifferentAccess
+  xpath: "Transaction/RenewalPremium"
+TransactionInformation: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/Information/Description"
+TransactionPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  VATPercent: ""
+  VATPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  AmountInclCommExclTax: ""
+  AmountInclCommExclTaxMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+TransactionPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/GrossAmount"
+TransactionPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/Amount"
+TransactionPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/BrokerageAmount"
+TransactionPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/BrokeragePercent"
+TransactionPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/IPTAmount"
+TransactionPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/IPTPercent"
+TransactionPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/VATAmount"
+TransactionPremiumQuoteBreakdownVATPercent: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/VATPercent"
+TransactionPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TransactionPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/MinAppliedInd/Value"
+TransactionPremiumQuoteBreakdownAmountInclCommExclTax: !map:HashWithIndifferentAccess
+  xpath: "Transaction/PremiumQuoteBreakdown/AmountInclCommExclTax"
+TransactionElectronicRenewalInd: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ElectronicRenewalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TransactionElectronicRenewalIndValue: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ElectronicRenewalInd/Value"
+TransactionElectronicRenewalIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Transaction/ElectronicRenewalInd/Description"

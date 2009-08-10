@@ -1,0 +1,13 @@
+ShareholderDetail: !map:HashWithIndifferentAccess
+  xpath: "ShareholderDetail"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ShareholderDetailCompanyName: !map:HashWithIndifferentAccess
+  xpath: "ShareholderDetail/CompanyName"
+ShareholderDetailPercentage: !map:HashWithIndifferentAccess
+  xpath: "ShareholderDetail/Percentage"

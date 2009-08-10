@@ -1,0 +1,15 @@
+FireExtinguisher: !map:HashWithIndifferentAccess
+  xpath: "FireExtinguisher"
+FireExtinguisherLPCScaleInd: !map:HashWithIndifferentAccess
+  xpath: "FireExtinguisher/LPCScaleInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FireExtinguisherLPCScaleIndValue: !map:HashWithIndifferentAccess
+  xpath: "FireExtinguisher/LPCScaleInd/Value"
+FireExtinguisherLPCScaleIndDescription: !map:HashWithIndifferentAccess
+  xpath: "FireExtinguisher/LPCScaleInd/Description"

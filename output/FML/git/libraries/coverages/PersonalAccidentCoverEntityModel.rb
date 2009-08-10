@@ -1,0 +1,695 @@
+
+class PersonalAccidentCover  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverRequiredInd
+has_one :PersonalAccidentCoverPremises
+has_one :PersonalAccidentCoverEmployee
+has_many :PersonalAccidentCoverCoverDetail
+has_many :PersonalAccidentCoverGroupDetail
+has_many :PersonalAccidentCoverEndorsement
+has_one :PersonalAccidentCoverPremiumQuoteBreakdown
+has_one :PersonalAccidentCoverNotes
+has_many :PersonalAccidentCoverInformation
+has_one :PersonalAccidentCoverAttachment
+has_one :PersonalAccidentCoverPriorInsurer
+has_one :PersonalAccidentCoverExcludedInd
+end
+
+class PersonalAccidentCoverCoverRequiredInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverRequiredIndValue
+end
+
+class PersonalAccidentCoverCoverRequiredIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremises  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremisesNoOf
+has_one :PersonalAccidentCoverPremisesAddress
+end
+
+class PersonalAccidentCoverPremisesNoOf  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremisesAddress  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremisesAddressPostcode
+end
+
+class PersonalAccidentCoverPremisesAddressPostcode  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEmployee  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverEmployeeNoOfEmployees
+has_one :PersonalAccidentCoverEmployeeWages
+has_one :PersonalAccidentCoverEmployeeMaximumAnnualSalary
+end
+
+class PersonalAccidentCoverEmployeeNoOfEmployees  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEmployeeWages  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEmployeeMaximumAnnualSalary  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailBasisCode
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefit
+has_one :PersonalAccidentCoverCoverDetailGroupDetail
+has_one :PersonalAccidentCoverCoverDetailIndividualDetail
+has_one :PersonalAccidentCoverCoverDetailAdditionalCover
+has_one :PersonalAccidentCoverCoverDetailExcludedInd
+end
+
+class PersonalAccidentCoverCoverDetailBasisCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailBasisCodeValue
+has_one :PersonalAccidentCoverCoverDetailBasisCodeShortDescription
+has_one :PersonalAccidentCoverCoverDetailBasisCodeDescription
+end
+
+class PersonalAccidentCoverCoverDetailBasisCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailBasisCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailBasisCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefit  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefitAmount
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefitMultiplier
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefitBasisCode
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefitAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefitMultiplier  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefitBasisCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeValue
+has_one :PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailCapitalBenefitBasisCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCode
+has_one :PersonalAccidentCoverCoverDetailGroupDetailPAGroupCode
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivity
+has_one :PersonalAccidentCoverCoverDetailGroupDetailNoOfEmployees
+has_one :PersonalAccidentCoverCoverDetailGroupDetailWages
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeValue
+has_one :PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailEmploymentTypeCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailPAGroupCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeValue
+has_one :PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeShortDescription
+has_one :PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeDescription
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailPAGroupCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivity  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityCode
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCode
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityCodeValue
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityCodeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeValue
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeShortDescription
+has_one :PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeDescription
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailActivityEmploymentStatusCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailNoOfEmployees  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailGroupDetailWages  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailId
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualName
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailBirthDate
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailId  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualName  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCode
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameFirstForename
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameSurname
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeValue
+has_one :PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameTitleCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameFirstForename  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailIndividualNameSurname  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailIndividualDetailBirthDate  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCover  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverCode
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefit
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverSumInsured
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcess
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriod
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcludedInd
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverCodeValue
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverCodeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefit  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitAmount
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriod
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDuration
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriod  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodUnit
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodType
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodUnit  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodType  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeValue
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitWaitingPeriodTypeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDuration  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationUnit
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationType
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationUnit  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationType  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeValue
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverWeeklyBenefitDurationTypeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverSumInsured  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredAmount
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredPercent
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverSumInsuredPercent  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcess  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessAmount
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriod  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodUnit
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodType
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodUnit  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodType  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeValue
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeShortDescription
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcessPeriodTypeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailAdditionalCoverExcludedIndValue
+end
+
+class PersonalAccidentCoverCoverDetailAdditionalCoverExcludedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverCoverDetailExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverCoverDetailExcludedIndValue
+end
+
+class PersonalAccidentCoverCoverDetailExcludedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailId
+has_one :PersonalAccidentCoverGroupDetailEmploymentTypeCode
+has_one :PersonalAccidentCoverGroupDetailNoOfEmployees
+has_one :PersonalAccidentCoverGroupDetailWages
+has_one :PersonalAccidentCoverGroupDetailActivity
+has_many :PersonalAccidentCoverGroupDetailIndividualDetail
+has_one :PersonalAccidentCoverGroupDetailCoverBasis
+has_one :PersonalAccidentCoverGroupDetailCoverDetail
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCover
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCover
+has_one :PersonalAccidentCoverGroupDetailNotes
+end
+
+class PersonalAccidentCoverGroupDetailId  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailEmploymentTypeCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailEmploymentTypeCodeValue
+has_one :PersonalAccidentCoverGroupDetailEmploymentTypeCodeShortDescription
+has_one :PersonalAccidentCoverGroupDetailEmploymentTypeCodeDescription
+end
+
+class PersonalAccidentCoverGroupDetailEmploymentTypeCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailEmploymentTypeCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailEmploymentTypeCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailNoOfEmployees  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailWages  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailActivity  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailActivityCode
+end
+
+class PersonalAccidentCoverGroupDetailActivityCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailActivityCodeValue
+has_one :PersonalAccidentCoverGroupDetailActivityCodeShortDescription
+has_one :PersonalAccidentCoverGroupDetailActivityCodeDescription
+end
+
+class PersonalAccidentCoverGroupDetailActivityCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailActivityCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailActivityCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailIndividualDetailTitleCode
+has_one :PersonalAccidentCoverGroupDetailIndividualDetailFirstForename
+has_one :PersonalAccidentCoverGroupDetailIndividualDetailSurname
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetailTitleCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeValue
+has_one :PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeShortDescription
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetailTitleCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetailFirstForename  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailIndividualDetailSurname  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverBasis  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailCoverBasisBasisCode
+end
+
+class PersonalAccidentCoverGroupDetailCoverBasisBasisCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailCoverBasisBasisCodeValue
+has_one :PersonalAccidentCoverGroupDetailCoverBasisBasisCodeShortDescription
+end
+
+class PersonalAccidentCoverGroupDetailCoverBasisBasisCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverBasisBasisCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetail  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailCoverDetailCode
+has_one :PersonalAccidentCoverGroupDetailCoverDetailSumInsured
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailCoverDetailCodeValue
+has_one :PersonalAccidentCoverGroupDetailCoverDetailCodeShortDescription
+has_one :PersonalAccidentCoverGroupDetailCoverDetailCodeDescription
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailSumInsured  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailCoverDetailSumInsuredAmount
+has_one :PersonalAccidentCoverGroupDetailCoverDetailSumInsuredMultiplier
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailSumInsuredAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailCoverDetailSumInsuredMultiplier  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCover  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredInd
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedInd
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredIndValue
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCoverCoverRequiredIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndValue
+has_one :PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndDescription
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailContinentalScaleCoverExcludedIndDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCover  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedInd
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefit
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCover
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedIndValue
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverExcludedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefit  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitAmount
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitPercent
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriod
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDuration
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitPercent  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriod  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriodUnit
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitWaitingPeriodUnit  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDuration  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDurationUnit
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverWeeklyBenefitDurationUnit  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCover  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredInd
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedInd
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredIndValue
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverCoverRequiredIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedIndValue
+end
+
+class PersonalAccidentCoverGroupDetailTemporaryTotalDisablementCoverTemporaryPartialDisablementCoverExcludedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverGroupDetailNotes  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEndorsement  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverEndorsementReasonApplied
+has_one :PersonalAccidentCoverEndorsementShortWording
+has_one :PersonalAccidentCoverEndorsementWording
+end
+
+class PersonalAccidentCoverEndorsementReasonApplied  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEndorsementShortWording  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverEndorsementWording  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdown  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownTypeCode
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownReasonCode
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownPercent
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownCalculationAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownBasedOnAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownRunningTotal
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagInd
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownGrossAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownBrokerageAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownBrokeragePercent
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownIPTAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownIPTPercent
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownVATAmount
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedInd
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownTypeCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeValue
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeShortDescription
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownTypeCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownReasonCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeValue
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeShortDescription
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeDescription
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownReasonCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownPercent  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownCalculationAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownBasedOnAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownRunningTotal  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagIndValue
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownDisplayFlagIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownGrossAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownBrokerageAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownBrokeragePercent  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownIPTAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownIPTPercent  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownVATAmount  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedIndValue
+end
+
+class PersonalAccidentCoverPremiumQuoteBreakdownMinAppliedIndValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverNotes  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverInformation  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverInformationDescription
+end
+
+class PersonalAccidentCoverInformationDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverAttachment  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverAttachmentURI
+end
+
+class PersonalAccidentCoverAttachmentURI  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurer  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPriorInsurerCode
+has_one :PersonalAccidentCoverPriorInsurerCompanyName
+end
+
+class PersonalAccidentCoverPriorInsurerCode  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverPriorInsurerCodeListOwner
+has_one :PersonalAccidentCoverPriorInsurerCodeListNo
+has_one :PersonalAccidentCoverPriorInsurerCodeValue
+has_one :PersonalAccidentCoverPriorInsurerCodeShortDescription
+has_one :PersonalAccidentCoverPriorInsurerCodeDescription
+end
+
+class PersonalAccidentCoverPriorInsurerCodeListOwner  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurerCodeListNo  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurerCodeValue  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurerCodeShortDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurerCodeDescription  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverPriorInsurerCompanyName  < ActiveRecord::Base 
+end
+
+class PersonalAccidentCoverExcludedInd  < ActiveRecord::Base 
+has_one :PersonalAccidentCoverExcludedIndValue
+end
+
+class PersonalAccidentCoverExcludedIndValue  < ActiveRecord::Base 
+end

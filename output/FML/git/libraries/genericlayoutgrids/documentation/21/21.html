@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <title>Faux Column CSS Layouts - 2 Column - faux-8-2-col</title>
+        <style type="text/css">
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            .container {
+                margin: 0 auto;
+                width: 1022px;
+            }
+            .columnWrapper {
+                margin-bottom: 0px;
+                overflow: auto;
+            /* Paul O Brien Fix for IE www.pmob.co.uk */
+                width: 100%
+            }
+            .column1 {
+                margin: 10px;
+                padding: 10px;
+                width: 466px;
+                float: left;
+                display: inline;
+            }
+            .column2 {
+                float: right;
+                color: #333;
+                margin: 10px;
+                padding: 10px;
+                width: 466px;
+                display: inline;
+                position: relative;
+            }</style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="columnWrapper">
+                <div class="column1">
+                    <h1>Column 1</h1>
+                </div>
+                <div class="column2">
+                    <h1>Column 2</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

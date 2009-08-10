@@ -1,0 +1,176 @@
+IndividualItem: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem"
+IndividualItemCode: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IndividualItemCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Code/Value"
+IndividualItemCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Code/ShortDescription"
+IndividualItemCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Code/Description"
+IndividualItemIndemnityLimit: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+IndividualItemIndemnityLimitAmount: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit/Amount"
+IndividualItemIndemnityLimitApplicationCode: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit/ApplicationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IndividualItemIndemnityLimitApplicationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit/ApplicationCode/Value"
+IndividualItemIndemnityLimitApplicationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit/ApplicationCode/ShortDescription"
+IndividualItemIndemnityLimitApplicationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/IndemnityLimit/ApplicationCode/Description"
+IndividualItemExcess: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+IndividualItemExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/Excess/Amount"
+IndividualItemItemDetails: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  YearBuilt: ""
+  YearBuiltMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Capacity: ""
+  CapacityMD: !map:HashWithIndifferentAccess
+    type: "number"
+IndividualItemItemDetailsTypeCode: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+IndividualItemItemDetailsTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/TypeCode/Value"
+IndividualItemItemDetailsTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/TypeCode/ShortDescription"
+IndividualItemItemDetailsTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/TypeCode/Description"
+IndividualItemItemDetailsAddress: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+IndividualItemItemDetailsAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Address/Postcode"
+IndividualItemItemDetailsMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/MakeModelDescription"
+IndividualItemItemDetailsValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Value"
+IndividualItemItemDetailsYearBuilt: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/YearBuilt"
+IndividualItemItemDetailsInspectionRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/InspectionRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+IndividualItemItemDetailsInspectionRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/InspectionRequiredInd/Value"
+IndividualItemItemDetailsSize: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Size"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+IndividualItemItemDetailsSizeUnit: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Size/Unit"
+IndividualItemItemDetailsSizeType: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Size/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+IndividualItemItemDetailsSizeTypeValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Size/Type/Value"
+IndividualItemItemDetailsSizeTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Size/Type/ShortDescription"
+IndividualItemItemDetailsCapacity: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/Capacity"
+IndividualItemItemDetailsGoodStateOfRepairInd: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/GoodStateOfRepairInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+IndividualItemItemDetailsGoodStateOfRepairIndValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/ItemDetails/GoodStateOfRepairInd/Value"
+IndividualItemInspectingCompany: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+IndividualItemInspectingCompanyIndividualName: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+IndividualItemInspectingCompanyIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+IndividualItemInspectingCompanyIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName/TitleCode/Value"
+IndividualItemInspectingCompanyIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName/TitleCode/ShortDescription"
+IndividualItemInspectingCompanyIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName/FirstForename"
+IndividualItemInspectingCompanyIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/IndividualName/Surname"
+IndividualItemInspectingCompanyCompanyName: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/CompanyName"
+IndividualItemInspectingCompanyTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "IndividualItem/InspectingCompany/TelephoneNo"

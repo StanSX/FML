@@ -1,0 +1,38 @@
+AddressSimple: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+AddressSimpleLine1: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line1"
+AddressSimpleLine2: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line2"
+AddressSimpleLine3: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line3"
+AddressSimpleLine4: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line4"
+AddressSimpleLine5: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line5"
+AddressSimpleLine6: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Line6"
+AddressSimplePostcode: !map:HashWithIndifferentAccess
+  xpath: "AddressSimple/Postcode"

@@ -1,0 +1,56 @@
+ManufacturedProduct: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct"
+ManufacturedProductTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ManufacturedProductTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/TerritoryCode/Value"
+ManufacturedProductTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/TerritoryCode/ShortDescription"
+ManufacturedProductTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/TerritoryCode/Description"
+ManufacturedProductGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ManufacturedProductGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/GeneralObjectCode/Value"
+ManufacturedProductGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/GeneralObjectCode/ShortDescription"
+ManufacturedProductGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/GeneralObjectCode/Description"
+ManufacturedProductDestinationCode: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/DestinationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ManufacturedProductDestinationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/DestinationCode/Value"
+ManufacturedProductDestinationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/DestinationCode/ShortDescription"
+ManufacturedProductDestinationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ManufacturedProduct/DestinationCode/Description"

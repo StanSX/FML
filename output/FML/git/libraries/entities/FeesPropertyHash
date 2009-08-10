@@ -1,0 +1,14 @@
+Fees: !map:HashWithIndifferentAccess
+  xpath: "Fees"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  AverageAmount: ""
+  AverageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+FeesAmount: !map:HashWithIndifferentAccess
+  xpath: "Fees/Amount"
+FeesAverageAmount: !map:HashWithIndifferentAccess
+  xpath: "Fees/AverageAmount"

@@ -1,0 +1,30 @@
+LossExperienceLastYear: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear"
+  VehicleYears: ""
+  VehicleYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoNotifiableVehicles: ""
+  NoNotifiableVehiclesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfVehiclesStartOfPeriod: ""
+  NoOfVehiclesStartOfPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfLosses: ""
+  NoOfLossesMD: !map:HashWithIndifferentAccess
+    type: "number"
+LossExperienceLastYearVehicleYears: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/VehicleYears"
+LossExperienceLastYearNoNotifiableVehicles: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/NoNotifiableVehicles"
+LossExperienceLastYearNoOfVehiclesStartOfPeriod: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/NoOfVehiclesStartOfPeriod"
+LossExperienceLastYearNoOfLosses: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/NoOfLosses"
+LossExperienceLastYearAmountPaid: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/AmountPaid"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExperienceLastYearAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperienceLastYear/AmountPaid/Amount"

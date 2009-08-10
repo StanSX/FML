@@ -1,0 +1,548 @@
+EngineeringCover: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+EngineeringCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverRequiredInd/Value"
+EngineeringCoverBasisCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/BasisCode/Value"
+EngineeringCoverBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/BasisCode/ShortDescription"
+EngineeringCoverBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/BasisCode/Description"
+EngineeringCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail"
+  HiringCharges: ""
+  HiringChargesMD: !map:HashWithIndifferentAccess
+    type: "number"
+EngineeringCoverCoverDetailCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverCoverDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Code/Value"
+EngineeringCoverCoverDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Code/ShortDescription"
+EngineeringCoverCoverDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Code/Description"
+EngineeringCoverCoverDetailPerils: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils"
+EngineeringCoverCoverDetailPerilsCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+EngineeringCoverCoverDetailPerilsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils/Code/Value"
+EngineeringCoverCoverDetailPerilsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils/Code/ShortDescription"
+EngineeringCoverCoverDetailPerilsSumInsured: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+EngineeringCoverCoverDetailPerilsSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Perils/SumInsured/Amount"
+EngineeringCoverCoverDetailHiringCharges: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/HiringCharges"
+EngineeringCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+EngineeringCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/Excess/Amount"
+EngineeringCoverCoverDetailRestrictedCoverInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/RestrictedCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverCoverDetailRestrictedCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/RestrictedCoverInd/Value"
+EngineeringCoverCoverDetailRestrictedCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/RestrictedCoverInd/Description"
+EngineeringCoverCoverDetailFullCoverInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/FullCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverCoverDetailFullCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/FullCoverInd/Value"
+EngineeringCoverCoverDetailFullCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/FullCoverInd/Description"
+EngineeringCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+EngineeringCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/CoverDetail/SumInsured/Amount"
+EngineeringCoverAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover"
+  IndemnityPeriod: ""
+  IndemnityPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+EngineeringCoverAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Code/Value"
+EngineeringCoverAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Code/ShortDescription"
+EngineeringCoverAdditionalCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Code/Description"
+EngineeringCoverAdditionalCoverIndemnityPeriod: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/IndemnityPeriod"
+EngineeringCoverAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+EngineeringCoverAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/SumInsured/Amount"
+EngineeringCoverAdditionalCoverSumInsuredPercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/SumInsured/Percent"
+EngineeringCoverAdditionalCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+EngineeringCoverAdditionalCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Excess/Amount"
+EngineeringCoverAdditionalCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Excess/Percent"
+EngineeringCoverAdditionalCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverAdditionalCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Endorsement/ReasonApplied"
+EngineeringCoverAdditionalCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Endorsement/ShortWording"
+EngineeringCoverAdditionalCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Endorsement/Wording"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/GrossAmount"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/BrokerageAmount"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/BrokeragePercent"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/IPTAmount"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/IPTPercent"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverAdditionalCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+EngineeringCoverAdditionalCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/Notes"
+EngineeringCoverAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/AdditionalCover/ExcludedInd/Value"
+EngineeringCoverItemInformation: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation"
+EngineeringCoverItemInformationRegularInspectionInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/RegularInspectionInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverItemInformationRegularInspectionIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/RegularInspectionInd/Value"
+EngineeringCoverItemInformationRegularInspectionIndDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/RegularInspectionInd/Description"
+EngineeringCoverItemInformationDefectsInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/DefectsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverItemInformationDefectsIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/DefectsInd/Value"
+EngineeringCoverItemInformationDefectsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ItemInformation/DefectsInd/Description"
+EngineeringCoverEngineeringSpecified: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  YearBuilt: ""
+  YearBuiltMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+EngineeringCoverEngineeringSpecifiedId: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Id"
+EngineeringCoverEngineeringSpecifiedTypeCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverEngineeringSpecifiedTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/TypeCode/Value"
+EngineeringCoverEngineeringSpecifiedTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/TypeCode/ShortDescription"
+EngineeringCoverEngineeringSpecifiedTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/TypeCode/Description"
+EngineeringCoverEngineeringSpecifiedPremises: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverEngineeringSpecifiedPremisesId: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Premises/Id"
+EngineeringCoverEngineeringSpecifiedPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+EngineeringCoverEngineeringSpecifiedPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Premises/Address/Postcode"
+EngineeringCoverEngineeringSpecifiedYearBuilt: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/YearBuilt"
+EngineeringCoverEngineeringSpecifiedSize: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Size"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+EngineeringCoverEngineeringSpecifiedSizeUnit: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Size/Unit"
+EngineeringCoverEngineeringSpecifiedSizeType: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Size/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+EngineeringCoverEngineeringSpecifiedSizeTypeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Size/Type/Value"
+EngineeringCoverEngineeringSpecifiedSizeTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Size/Type/ShortDescription"
+EngineeringCoverEngineeringSpecifiedValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/Value"
+EngineeringCoverEngineeringSpecifiedInspectionRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/InspectionRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverEngineeringSpecifiedInspectionRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/InspectionRequiredInd/Value"
+EngineeringCoverEngineeringSpecifiedNoOf: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/EngineeringSpecified/NoOf"
+EngineeringCoverHiredInPlant: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/HiredInPlant"
+EngineeringCoverHiredInPlantTypeCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/HiredInPlant/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverHiredInPlantTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/HiredInPlant/TypeCode/Value"
+EngineeringCoverHiredInPlantTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/HiredInPlant/TypeCode/ShortDescription"
+EngineeringCoverHiredInPlantTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/HiredInPlant/TypeCode/Description"
+EngineeringCoverInspectingCompany: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverInspectingCompanyCompanyName: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/CompanyName"
+EngineeringCoverInspectingCompanyIndividualName: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverInspectingCompanyIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+EngineeringCoverInspectingCompanyIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/TitleCode/Value"
+EngineeringCoverInspectingCompanyIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/TitleCode/ShortDescription"
+EngineeringCoverInspectingCompanyIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/FirstForename"
+EngineeringCoverInspectingCompanyIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/SecondForename"
+EngineeringCoverInspectingCompanyIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/Surname"
+EngineeringCoverInspectingCompanyIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/IndividualName/NameSuffix"
+EngineeringCoverInspectingCompanyTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/TelephoneNo"
+EngineeringCoverInspectingCompanyAddress: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+EngineeringCoverInspectingCompanyAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line1"
+EngineeringCoverInspectingCompanyAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line2"
+EngineeringCoverInspectingCompanyAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line3"
+EngineeringCoverInspectingCompanyAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line4"
+EngineeringCoverInspectingCompanyAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line5"
+EngineeringCoverInspectingCompanyAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Line6"
+EngineeringCoverInspectingCompanyAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/InspectingCompany/Address/Postcode"
+EngineeringCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Endorsement/ReasonApplied"
+EngineeringCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Endorsement/ShortWording"
+EngineeringCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Endorsement/Wording"
+EngineeringCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+EngineeringCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/GrossAmount"
+EngineeringCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/BrokerageAmount"
+EngineeringCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/BrokeragePercent"
+EngineeringCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/IPTAmount"
+EngineeringCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/IPTPercent"
+EngineeringCoverPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/VATAmount"
+EngineeringCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+EngineeringCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Notes"
+EngineeringCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EngineeringCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Information/Description"
+EngineeringCoverAttachment: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+EngineeringCoverAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/Attachment/URI"
+EngineeringCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EngineeringCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EngineeringCover/ExcludedInd/Value"

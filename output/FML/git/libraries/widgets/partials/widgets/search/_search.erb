@@ -1,0 +1,89 @@
+<script>
+    $(function() {        
+        $('.searchresult-historyicon').click(function() {
+            $(this).next('.searchresult-mtahistory').slideFadeToggle('slow');
+        });
+        $('.searchresult').click(function() {
+            $('.searchresult').removeClass('searchresult-selected');
+            $(this).addClass('searchresult-selected');
+            // $('#choosen[one]').val($(this).attr('id'));
+            document.forms[0].elements['choosen[one]'].value = $(this).attr('id');
+        });
+    });
+</script>
+<style>
+  .searchresult {
+    margin: 4px;
+    color: #333333;
+    background-color: #fff8cc;
+    vertical-align: middle;
+    padding: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+  }
+
+  .searchresult-selected {
+    background-color: #d8dfea;
+  }
+
+  .searchresult-header {
+    float: left;
+  }
+
+  .searchresult-historyicon {
+    cursor: pointer;
+    float: right;
+  }
+
+  .searchresult-mtahistory {
+    margin-top 24px;
+    clear: both; 
+    font-size: 0.7em;    
+  }
+
+  .searchresult-mtahistory th, .searchresult-mtahistory td {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 4px;    
+  }
+
+  .searchresult-mtahistory th {
+    background-color: #5caed7;    
+  }
+
+  .searchresult-mtahistory td {
+    background-color: #cfcfcf;    
+  }
+
+</style>
+<div>
+  <%= hidden_field "choosen", "one" %>
+  <% for result in resultsToRailsClass(@results) %>
+    <div class="searchresult" id="<%= result.key %>">
+      <span class="searchresult-header"><%=h result.companyname %><%=h result.postcode %> (<%=  result.mtas.size %> adjustments)</span>
+      <%= image_tag "/widgets/partials/widgets/search/images/mta_history.png",:size => "24x24",:class=> 'searchresult-historyicon' if result.mtas.length != 0 %>
+      <%= image_tag "/widgets/partials/widgets/search/images/mta_nohistory.png",:size => "24x24",:class=> 'searchresult-historyicon' if result.mtas.length == 0 %>
+      &nbsp;
+      <table class="searchresult-mtahistory" style="display: none;">
+        <thead>
+          <th>Applied Date</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Rolled Back</th>
+          <th>Changes</th>
+        </thead>
+        <tbody>
+          <%  result.mtas.each do |mta| %>
+            <tr>
+              <td><%= mta['AD'] %></td>
+              <td><%= mta['SD'] %></td>
+              <td><%= mta['ED'] %></td>
+              <td><%= mta['RB'] %></td>
+              <td><%= mta['Changes'] %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% end %>
+</div>

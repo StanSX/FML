@@ -1,0 +1,475 @@
+Acceptance: !map:HashWithIndifferentAccess
+  xpath: "Acceptance"
+  DateGenerated: ""
+  DateGeneratedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TimeGenerated: ""
+  TimeGeneratedMD: !map:HashWithIndifferentAccess
+    type: "time"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+AcceptanceDateGenerated: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/DateGenerated"
+AcceptanceTimeGenerated: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/TimeGenerated"
+AcceptanceStartDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/StartDate"
+AcceptanceStartTime: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/StartTime"
+AcceptanceEndDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/EndDate"
+AcceptanceEndTime: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/EndTime"
+AcceptanceStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+AcceptanceStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/StatusCode/Value"
+AcceptanceStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/StatusCode/ShortDescription"
+AcceptanceIntermediary: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  RiskReference: ""
+  RiskReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TransactionReference: ""
+  TransactionReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceIntermediaryPEMId: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/PEMId"
+AcceptanceIntermediaryInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/InStepCode"
+AcceptanceIntermediaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/CompanyName"
+AcceptanceIntermediaryRiskReference: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/RiskReference"
+AcceptanceIntermediaryTransactionReference: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/TransactionReference"
+AcceptanceIntermediaryContact: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceIntermediaryContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceIntermediaryContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact/IndividualName/FirstForename"
+AcceptanceIntermediaryContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact/IndividualName/Surname"
+AcceptanceIntermediaryContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact/WorkTelephoneNo"
+AcceptanceIntermediaryContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Intermediary/Contact/EmailAddress"
+AcceptanceInsurer: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  QuoteReference: ""
+  QuoteReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceInsurerPEMId: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/PEMId"
+AcceptanceInsurerInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/InStepCode"
+AcceptanceInsurerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/CompanyName"
+AcceptanceInsurerQuoteReference: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/QuoteReference"
+AcceptanceInsurerContact: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceInsurerContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptanceInsurerContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact/IndividualName/FirstForename"
+AcceptanceInsurerContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact/IndividualName/Surname"
+AcceptanceInsurerContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact/WorkTelephoneNo"
+AcceptanceInsurerContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Insurer/Contact/EmailAddress"
+AcceptancePolicy: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy"
+  PolicyNumber: ""
+  PolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  ProductName: ""
+  ProductNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePolicyPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PolicyNumber"
+AcceptancePolicyStartDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/StartDate"
+AcceptancePolicyStartTime: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/StartTime"
+AcceptancePolicyEndDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/EndDate"
+AcceptancePolicyEndTime: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/EndTime"
+AcceptancePolicyProductName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/ProductName"
+AcceptancePolicyPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+AcceptancePolicyPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/GrossAmount"
+AcceptancePolicyPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/BrokerageAmount"
+AcceptancePolicyPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/BrokeragePercent"
+AcceptancePolicyPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/IPTAmount"
+AcceptancePolicyPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/IPTPercent"
+AcceptancePolicyPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AcceptancePolicyPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/PremiumQuoteBreakdown/MinAppliedInd/Value"
+AcceptancePolicyQuoteCondition: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition"
+AcceptancePolicyQuoteConditionItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/ItemTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePolicyQuoteConditionItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/ItemTypeCode/Value"
+AcceptancePolicyQuoteConditionItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/ItemTypeCode/ShortDescription"
+AcceptancePolicyQuoteConditionItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/ItemTypeCode/Description"
+AcceptancePolicyQuoteConditionContact: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePolicyQuoteConditionContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePolicyQuoteConditionContactIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+AcceptancePolicyQuoteConditionContactIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName/TitleCode/Value"
+AcceptancePolicyQuoteConditionContactIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName/TitleCode/ShortDescription"
+AcceptancePolicyQuoteConditionContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName/FirstForename"
+AcceptancePolicyQuoteConditionContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/IndividualName/Surname"
+AcceptancePolicyQuoteConditionContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/WorkTelephoneNo"
+AcceptancePolicyQuoteConditionContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/Policy/QuoteCondition/Contact/EmailAddress"
+AcceptancePaymentPlan: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan"
+  NoOfPayments: ""
+  NoOfPaymentsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  DownPaymentAmount: ""
+  DownPaymentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  SuccessiveInstalmentAmount: ""
+  SuccessiveInstalmentAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  TotalAmountPayable: ""
+  TotalAmountPayableMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  InterestAmount: ""
+  InterestAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  InterestPercent: ""
+  InterestPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  APR: ""
+  APRMD: !map:HashWithIndifferentAccess
+    type: "number"
+AcceptancePaymentPlanMethodOfPaymentCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/MethodOfPaymentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+AcceptancePaymentPlanMethodOfPaymentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/MethodOfPaymentCode/Value"
+AcceptancePaymentPlanMethodOfPaymentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/MethodOfPaymentCode/ShortDescription"
+AcceptancePaymentPlanNoOfPayments: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/NoOfPayments"
+AcceptancePaymentPlanPaymentFrequencyCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/PaymentFrequencyCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+AcceptancePaymentPlanPaymentFrequencyCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/PaymentFrequencyCode/Value"
+AcceptancePaymentPlanPaymentFrequencyCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/PaymentFrequencyCode/ShortDescription"
+AcceptancePaymentPlanDownPaymentAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/DownPaymentAmount"
+AcceptancePaymentPlanSuccessiveInstalmentAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/SuccessiveInstalmentAmount"
+AcceptancePaymentPlanTotalAmountPayable: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/TotalAmountPayable"
+AcceptancePaymentPlanInterestAmount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/InterestAmount"
+AcceptancePaymentPlanInterestPercent: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/InterestPercent"
+AcceptancePaymentPlanAPR: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/APR"
+AcceptancePaymentPlanBankAccount: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount"
+  AccountNumber: ""
+  AccountNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  AccountName: ""
+  AccountNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BankName: ""
+  BankNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BranchName: ""
+  BranchNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SortCode: ""
+  SortCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePaymentPlanBankAccountAccountNumber: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/AccountNumber"
+AcceptancePaymentPlanBankAccountAccountName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/AccountName"
+AcceptancePaymentPlanBankAccountBankName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankName"
+AcceptancePaymentPlanBankAccountBranchName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BranchName"
+AcceptancePaymentPlanBankAccountSortCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/SortCode"
+AcceptancePaymentPlanBankAccountBankAddress: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+AcceptancePaymentPlanBankAccountBankAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line1"
+AcceptancePaymentPlanBankAccountBankAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line2"
+AcceptancePaymentPlanBankAccountBankAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line3"
+AcceptancePaymentPlanBankAccountBankAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line4"
+AcceptancePaymentPlanBankAccountBankAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line5"
+AcceptancePaymentPlanBankAccountBankAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Line6"
+AcceptancePaymentPlanBankAccountBankAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/BankAccount/BankAddress/Postcode"
+AcceptancePaymentPlanCreditCard: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard"
+  CardNumber: ""
+  CardNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardStartDate: ""
+  CardStartDateMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardExpiryDate: ""
+  CardExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardIssueNumber: ""
+  CardIssueNumberMD: !map:HashWithIndifferentAccess
+    type: "number"
+  CardHolderName: ""
+  CardHolderNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CardSecurityNumber: ""
+  CardSecurityNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePaymentPlanCreditCardCardTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AcceptancePaymentPlanCreditCardCardTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardTypeCode/Value"
+AcceptancePaymentPlanCreditCardCardTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardTypeCode/ShortDescription"
+AcceptancePaymentPlanCreditCardCardTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardTypeCode/Description"
+AcceptancePaymentPlanCreditCardCardNumber: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardNumber"
+AcceptancePaymentPlanCreditCardCardStartDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardStartDate"
+AcceptancePaymentPlanCreditCardCardExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardExpiryDate"
+AcceptancePaymentPlanCreditCardCardIssueNumber: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardIssueNumber"
+AcceptancePaymentPlanCreditCardCardHolderName: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardHolderName"
+AcceptancePaymentPlanCreditCardCardSecurityNumber: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/CreditCard/CardSecurityNumber"
+AcceptancePaymentPlanConsentToRetainInd: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/ConsentToRetainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AcceptancePaymentPlanConsentToRetainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/ConsentToRetainInd/Value"
+AcceptancePaymentPlanPolicyholderIsAccountHolderInd: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/PolicyholderIsAccountHolderInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AcceptancePaymentPlanPolicyholderIsAccountHolderIndValue: !map:HashWithIndifferentAccess
+  xpath: "Acceptance/PaymentPlan/PolicyholderIsAccountHolderInd/Value"

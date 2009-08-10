@@ -1,0 +1,11 @@
+entity :Insured
+    use :CompanyName
+    use :IndividualName,:TitleCode,:ShortDescription
+    use :IndividualName,:FirstForename
+    use :IndividualName,:Surname
+    use :EmailAddress
+    use :TelephoneNo
+    use :Address
+    use :CompanyStatusCode,:ShortDescription
+    use :TradeCode,:ShortDescription
+endentity

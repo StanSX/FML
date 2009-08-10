@@ -1,0 +1,43 @@
+OperatorLicence: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence"
+OperatorLicenceExemptInd: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/ExemptInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+OperatorLicenceExemptIndValue: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/ExemptInd/Value"
+OperatorLicenceLicenceDetail: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+OperatorLicenceLicenceDetailCode: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OperatorLicenceLicenceDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/Code/Value"
+OperatorLicenceLicenceDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/Code/ShortDescription"
+OperatorLicenceLicenceDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/Code/Description"
+OperatorLicenceLicenceDetailReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/ReferenceNumber"
+OperatorLicenceLicenceDetailLicenceAddress: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/LicenceAddress"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+OperatorLicenceLicenceDetailLicenceAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "OperatorLicence/LicenceDetail/LicenceAddress/Postcode"

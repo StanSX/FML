@@ -1,0 +1,21 @@
+Subsidiary: !map:HashWithIndifferentAccess
+  xpath: "Subsidiary"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+SubsidiaryCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Subsidiary/CompanyName"
+SubsidiarySubsidiaryIncludedInd: !map:HashWithIndifferentAccess
+  xpath: "Subsidiary/SubsidiaryIncludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+SubsidiarySubsidiaryIncludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Subsidiary/SubsidiaryIncludedInd/Value"
+SubsidiaryPercentage: !map:HashWithIndifferentAccess
+  xpath: "Subsidiary/Percentage"

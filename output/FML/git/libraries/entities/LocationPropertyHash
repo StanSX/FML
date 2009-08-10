@@ -1,0 +1,85 @@
+Location: !map:HashWithIndifferentAccess
+  xpath: "Location"
+LocationCode: !map:HashWithIndifferentAccess
+  xpath: "Location/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Location/Code/Value"
+LocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Location/Code/ShortDescription"
+LocationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Location/Code/Description"
+LocationPremises: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+LocationPremisesId: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Id"
+LocationPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+LocationPremisesAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line1"
+LocationPremisesAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line2"
+LocationPremisesAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line3"
+LocationPremisesAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line4"
+LocationPremisesAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line5"
+LocationPremisesAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Line6"
+LocationPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Location/Premises/Address/Postcode"
+LocationLocationProtection: !map:HashWithIndifferentAccess
+  xpath: "Location/LocationProtection"
+LocationLocationProtectionCode: !map:HashWithIndifferentAccess
+  xpath: "Location/LocationProtection/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LocationLocationProtectionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Location/LocationProtection/Code/Value"
+LocationLocationProtectionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Location/LocationProtection/Code/ShortDescription"
+LocationLocationProtectionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Location/LocationProtection/Code/Description"

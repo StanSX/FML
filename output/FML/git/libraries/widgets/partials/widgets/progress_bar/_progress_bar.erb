@@ -1,0 +1,15 @@
+<%
+  steps = []
+  i = 0
+  while ((step = eval("step#{i += 1}")) != nil)
+    steps[i - 1] = step
+  end
+%>
+<div id="progress">
+  <P class="stepIndicator"><%=  __('STEP') %> <%= currentStep %> <%=  __('OF') %> <%= steps.size %></P>
+  <ol class="progressSteps">
+    <% for x in 0..steps.length - 1 do%>
+      <li class="<%= 'currentStep' if(x == (currentStep.to_i - 1)) %> <%= 'editarea-25' if params[:edit] %>" id="<%= steps[x] %>"><%= __(steps[x]) %></li>
+    <% end %>
+  </ol>
+</div>

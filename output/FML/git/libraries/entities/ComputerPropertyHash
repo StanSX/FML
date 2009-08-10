@@ -1,0 +1,127 @@
+Computer: !map:HashWithIndifferentAccess
+  xpath: "Computer"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+ComputerId: !map:HashWithIndifferentAccess
+  xpath: "Computer/Id"
+ComputerTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Computer/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ComputerTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/TypeCode/Value"
+ComputerTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/TypeCode/ShortDescription"
+ComputerTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/TypeCode/Description"
+ComputerDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/Description"
+ComputerInspectionRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "Computer/InspectionRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ComputerInspectionRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/InspectionRequiredInd/Value"
+ComputerMaintenanceAgreementInForceInd: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAgreementInForceInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ComputerMaintenanceAgreementInForceIndValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAgreementInForceInd/Value"
+ComputerMaintenanceAgreementInForceIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAgreementInForceInd/Description"
+ComputerManufacturerCode: !map:HashWithIndifferentAccess
+  xpath: "Computer/ManufacturerCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ComputerManufacturerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/ManufacturerCode/Value"
+ComputerManufacturerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/ManufacturerCode/ShortDescription"
+ComputerManufacturerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/ManufacturerCode/Description"
+ComputerValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/Value"
+ComputerLocationCode: !map:HashWithIndifferentAccess
+  xpath: "Computer/LocationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ComputerLocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/LocationCode/Value"
+ComputerLocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/LocationCode/ShortDescription"
+ComputerLocationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/LocationCode/Description"
+ComputerMaintenanceAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ComputerMaintenanceAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAccreditationCode/Value"
+ComputerMaintenanceAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAccreditationCode/ShortDescription"
+ComputerMaintenanceAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Computer/MaintenanceAccreditationCode/Description"
+ComputerPortableInd: !map:HashWithIndifferentAccess
+  xpath: "Computer/PortableInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ComputerPortableIndValue: !map:HashWithIndifferentAccess
+  xpath: "Computer/PortableInd/Value"
+ComputerSumInsured: !map:HashWithIndifferentAccess
+  xpath: "Computer/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+ComputerSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "Computer/SumInsured/Amount"

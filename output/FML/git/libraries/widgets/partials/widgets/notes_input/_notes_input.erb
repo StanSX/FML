@@ -1,0 +1,3 @@
+<% en = entityName %>
+<% pn = propertyName %>
+<%= text_field en,pn, :class => "#{local_assigns['type']} #{local_assigns['mask']}", :title => __("#{en.downcase}_#{pn.downcase}_tooltip"), :value => default_value %>

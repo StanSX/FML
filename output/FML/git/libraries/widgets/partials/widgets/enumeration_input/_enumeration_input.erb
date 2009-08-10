@@ -1,0 +1,14 @@
+<%
+filename = File.join(BRANDS_ROOT, "#{session[:brand]}", 'lists', "#{local_assigns['mask']}_#{session[:lang]}.rb")
+if (!File.exists?(filename)) then
+    filename = File.join(LIBRARY_ROOT, 'lists', "#{local_assigns['mask']}_#{session[:lang]}.rb")
+end
+#"#{LIBRARY_ROOT}/lists/#{mask}_#{session[:lang]}.rb"
+open(filename) {|f| eval(f.read)}
+# TODO - sorting the hash is very inefficient. Revisit the way we do this when we have the requirements
+# for sending the codes to VPMS. We might need to turn our list hash around or refactor.
+values = list.sort
+default = default_value ? default_value : 1
+%>
+<%= select_tag "#{entityName}#{propertyName}" , options_for_select(values, default.to_i) %>
+

@@ -1,0 +1,50 @@
+Tree: !map:HashWithIndifferentAccess
+  xpath: "Tree"
+  Height: ""
+  HeightMD: !map:HashWithIndifferentAccess
+    type: "number"
+TreeTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Tree/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TreeTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Tree/TypeCode/Value"
+TreeTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Tree/TypeCode/ShortDescription"
+TreeHeight: !map:HashWithIndifferentAccess
+  xpath: "Tree/Height"
+TreeDistance: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TreeDistanceUnit: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Unit"
+TreeDistanceType: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Type"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TreeDistanceTypeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Type/ListOwner"
+TreeDistanceTypeListNo: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Type/ListNo"
+TreeDistanceTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Type/Value"
+TreeDistanceTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Tree/Distance/Type/ShortDescription"

@@ -1,0 +1,20 @@
+HazardousLocation: !map:HashWithIndifferentAccess
+  xpath: "HazardousLocation"
+HazardousLocationCode: !map:HashWithIndifferentAccess
+  xpath: "HazardousLocation/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousLocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousLocation/Code/Value"
+HazardousLocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousLocation/Code/ShortDescription"
+HazardousLocationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousLocation/Code/Description"

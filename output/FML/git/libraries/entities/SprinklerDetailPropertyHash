@@ -1,0 +1,73 @@
+SprinklerDetail: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail"
+SprinklerDetailSupplyTypeCode: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/SupplyTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SprinklerDetailSupplyTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/SupplyTypeCode/Value"
+SprinklerDetailSupplyTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/SupplyTypeCode/ShortDescription"
+SprinklerDetailSupplyTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/SupplyTypeCode/Description"
+SprinklerDetailLPCBMaintainedInd: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/LPCBMaintainedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SprinklerDetailLPCBMaintainedIndValue: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/LPCBMaintainedInd/Value"
+SprinklerDetailLPCBMaintainedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/LPCBMaintainedInd/Description"
+SprinklerDetailAccreditation: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Accreditation"
+SprinklerDetailAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Accreditation/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SprinklerDetailAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Accreditation/Code/Value"
+SprinklerDetailAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Accreditation/Code/ShortDescription"
+SprinklerDetailAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Accreditation/Code/Description"
+SprinklerDetailCoverage: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Coverage"
+SprinklerDetailCoverageCode: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Coverage/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SprinklerDetailCoverageCodeValue: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Coverage/Code/Value"
+SprinklerDetailCoverageCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Coverage/Code/ShortDescription"
+SprinklerDetailCoverageCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "SprinklerDetail/Coverage/Code/Description"

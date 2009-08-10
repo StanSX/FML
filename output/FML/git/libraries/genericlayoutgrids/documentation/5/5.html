@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+        <title>Faux Column CSS Layouts - 2 Column - faux-8-2-col</title>
+        <style type="text/css">
+            * {
+                padding: 0;
+                margin: 0;
+                 
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            .container {
+                margin: 0 auto;
+                width: 1022px;
+            }
+            .columnWrapper {
+                margin-bottom: 0px;
+                overflow: auto;
+            /* Paul O Brien Fix for IE www.pmob.co.uk */    
+                width: 100%
+            }
+            .header {
+                color: #333;
+                width: 1002px;
+                padding: 10px;
+                height: 100px;
+                margin: 10px 0px 0px 0px;
+                background: #D1DBDB;
+            }
+            .mini-header {
+                color: #333;
+                padding: 10px;
+                margin: 0px 0px 0px 0px;
+                background: #ABBEBE;
+            }
+            .column1 {
+                display: inline;
+                color: #333;
+                margin: 10px;
+                padding: 0px;
+                width: 215px;
+                float: left;
+            }
+            .column2 {
+                float: right;
+                color: #333;
+                margin: 10px;
+                padding: 0px;
+                width: 763px;
+                display: inline;
+                position: relative;
+            }
+            .footer {
+                width: 1002px;
+                clear: both;
+                color: #333;
+                background: #ABBEBE;
+                margin: 0px 0px 10px 0px;
+                padding: 10px;
+            }</style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Header</h1>
+            </div>
+            <div class="mini-header">
+                <h3>mini header</h3>
+            </div>
+            <div class="columnWrapper">
+                <div class="column1">
+                    <h1>Column 1</h1>
+                </div>
+                <div class="column2">
+                    <h1>Column 2</h1>
+                </div>
+            </div>
+            <div class="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+  .loginpanel {
+    padding: 8px;
+    background-color: #fff8cc;
+    border: 2px solid rgb(59,89,152);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: rgb(59,89,152);
+    clear: both;
+    width: auto;
+  }
+  .loginpanel-row {
+    padding: 8px;
+    color: #fc0082;
+  }
+  .loginpanel-label {
+    width: 50px;
+  }
+  .loginpanel-security {
+
+  }
+  .loginpanel-button {
+    float: right;
+  }
+  .loginpanel-register {
+    font-size: 10pt;
+    padding: 8px;
+    /* color: #ffdf5d; */
+  }
+  .loginpanel-register li {
+    margin: 8px 0 0 32px;
+    color: #fc0082;
+  }
+
+  .loginpanel #item_value {
+    width: 120;
+    margin-left: 20;
+  }
+
+  .loginpanel #item_name {
+    width: 150;
+    margin-left: 20;
+  }

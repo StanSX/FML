@@ -1,0 +1,71 @@
+﻿/* - - - - - - - - - - - - - - - - - - - - -
+Title:	IAB_UI
+Author:	Kube Partners
+URLs:	www.kubepartners.com
+- - - - - - - - - - - - - - - - - - - - - */
+.tabs_nav {
+	list-style-type: none;
+	text-align: left;
+	font-size: 0.75em;
+	font-weight: normal;
+	color: #14202D;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin: 0px;
+	background-color: #FFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #14202D;
+}
+
+.tabs-nav li {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+.tabs-nav li a {
+	text-decoration: none;
+	color: #888888;
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.tabs-nav li a:visited {
+	color: #888888;
+}
+.tabs-nav li a:hover {
+	color: #A41952;
+}
+.tabs-nav li a:active {
+	color: #14202D;
+}
+.tabs-nav li.tabs-selected a {
+	/*selected tab effect*/
+	position: relative;
+	top: 0px;
+	padding-top: 5px;
+	background-color: #FFF;
+	color: #14202D;
+	margin: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #14202D;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #14202D;
+	border-bottom-color: #FFF;
+	border-left-color: #14202D;
+}
+.tabs-nav li.tabs-disabled a {
+	color:#888888;
+}
+.tabs-hide {
+	display: none;
+}

@@ -1,0 +1,121 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Title:	IAB_UI
+Author:	Kube Partners
+URLs:	www.kubepartners.com
+- - - - - - - - - - - - - - - - - - - - - */
+
+.container{
+   float:left;
+   width:100%;
+}
+
+.box_sx {
+	margin: 0%;
+	width: 20%;
+    float: left;
+}
+
+.box_cent {
+    width: 60%;
+	float: left;
+}
+
+.box_dx {
+	width: 20%;
+	float: left;
+}
+
+.footer{
+    clear:both;
+    float:left;
+    width:100%
+}
+
+#copy {
+	width: 20%;
+	float:left;
+}
+
+/* Left Column divs*/
+
+/*Logo*/
+#logo {
+	height: auto;
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+	margin-top: 0em;
+}
+
+.quote {
+	float: left;
+	height: auto;
+	width: 60%;
+	margin-left: 20%;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	margin-top: 0.7em;
+}
+
+.slide_menu {
+	height: auto;
+	width: 60%;
+	font-size: 0.75em;
+	text-align: left;
+	float: left;
+	margin-top: 1em;
+	margin-left: 20%;
+}
+
+.logged_stage {
+	height: auto;
+	width: 60%;
+	font-size: 0.75em;
+	text-align: left;
+	float: left;
+	margin-top: 5em;
+	margin-left: 20%;
+}
+
+.log_out {
+	height: auto;
+	width: 60%;
+	font-size: 0.75em;
+	text-align: right;
+	float: left;
+	margin-top: 0.5em;
+	margin-left: 20%;
+}
+
+/*Central Column Main Content Divs*/
+
+.main_frame {
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	margin-top: 5.5em;
+    border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #14202D;
+}
+
+.box_contents {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin-bottom: 1em;
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #14202D;*/
+}
+
+/*Right Column Divs*/
+
+.new_sug {
+	float: left;
+	height: auto;
+	width: 80%;
+	margin-left: 0%;
+	margin-top: 7.5em;
+}

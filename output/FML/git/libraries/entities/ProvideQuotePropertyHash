@@ -1,0 +1,76 @@
+ProvideQuote: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  RespondByDate: ""
+  RespondByDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+ProvideQuoteStartDate: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/StartDate"
+ProvideQuoteStartTime: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/StartTime"
+ProvideQuoteEndDate: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/EndDate"
+ProvideQuoteEndTime: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/EndTime"
+ProvideQuoteDuration: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+ProvideQuoteDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/Duration/Unit"
+ProvideQuoteDurationType: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ProvideQuoteDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/Duration/Type/Value"
+ProvideQuoteDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/Duration/Type/ShortDescription"
+ProvideQuoteRespondByDate: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/RespondByDate"
+ProvideQuoteResponseTypeCode: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/ResponseTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ProvideQuoteResponseTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/ResponseTypeCode/Value"
+ProvideQuoteResponseTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/ResponseTypeCode/ShortDescription"
+ProvideQuoteResponseTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/ResponseTypeCode/Description"
+ProvideQuoteNetRatedInd: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/NetRatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ProvideQuoteNetRatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ProvideQuote/NetRatedInd/Value"

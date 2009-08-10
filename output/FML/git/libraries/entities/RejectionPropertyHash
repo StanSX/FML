@@ -1,0 +1,7 @@
+Rejection: !map:HashWithIndifferentAccess
+  xpath: "Rejection"
+  Code: ""
+  CodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+RejectionCode: !map:HashWithIndifferentAccess
+  xpath: "Rejection/Code"

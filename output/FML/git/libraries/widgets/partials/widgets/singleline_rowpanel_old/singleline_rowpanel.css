@@ -1,0 +1,54 @@
+.rowpanel, .rowpanel td {
+  clear: both;
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+}
+
+.rowpanel {
+  margin: 4px;
+  color: #333333;  
+  background-color: #fff8cc;
+  vertical-align: middle;
+  padding: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.rowpanel-focussed {
+  background-color: #d8dfea;
+}
+
+.rowpanel-invalid {
+  background-color: #f7d7d7;
+  border: 1px solid #CC0000;
+  color: #333333
+}
+
+.rowpanel input {
+  width: 100px;
+}
+
+.rowpanel-table {
+  width: 100%;
+  background-color: transparent;
+}
+
+.rowpanel-info, .rowpanel-mandatory, .rowpanel-nonmandatory, .rowpanel-tick {
+  width: 20px;
+}
+
+.rowpanel-mandatory {
+  background: url('/git/brands/FC/images/star.png') no-repeat;
+}
+
+.rowpanel-nonmandatory {
+  background: url('/git/brands/FC/images/star_hollow.png') no-repeat;
+}
+
+.rowpanel-help {
+  padding: 8px;
+  margin: 8px 8px 8px 20px;
+  color: #000066;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;  
+}

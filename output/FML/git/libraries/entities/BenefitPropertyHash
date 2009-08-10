@@ -1,0 +1,102 @@
+Benefit: !map:HashWithIndifferentAccess
+  xpath: "Benefit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Multiplier: ""
+  MultiplierMD: !map:HashWithIndifferentAccess
+    type: "number"
+  AppliesTo: ""
+  AppliesToMD: !map:HashWithIndifferentAccess
+    type: "text"
+BenefitAmount: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Amount"
+BenefitPercent: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Percent"
+BenefitMultiplier: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Multiplier"
+BenefitWaitingPeriod: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriod"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BenefitWaitingPeriodUnit: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriod/Unit"
+BenefitWaitingPeriodType: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriod/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BenefitWaitingPeriodTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriod/Type/Value"
+BenefitWaitingPeriodTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriod/Type/ShortDescription"
+BenefitWaitingPeriodVoluntary: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriodVoluntary"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BenefitWaitingPeriodVoluntaryUnit: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriodVoluntary/Unit"
+BenefitWaitingPeriodVoluntaryType: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriodVoluntary/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BenefitWaitingPeriodVoluntaryTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriodVoluntary/Type/Value"
+BenefitWaitingPeriodVoluntaryTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Benefit/WaitingPeriodVoluntary/Type/ShortDescription"
+BenefitAppliesTo: !map:HashWithIndifferentAccess
+  xpath: "Benefit/AppliesTo"
+BenefitBasisCode: !map:HashWithIndifferentAccess
+  xpath: "Benefit/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BenefitBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Benefit/BasisCode/Value"
+BenefitBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Benefit/BasisCode/ShortDescription"
+BenefitBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Benefit/BasisCode/Description"
+BenefitDuration: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BenefitDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Duration/Unit"
+BenefitDurationType: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BenefitDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Duration/Type/Value"
+BenefitDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Benefit/Duration/Type/ShortDescription"

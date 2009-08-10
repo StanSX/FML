@@ -1,0 +1,131 @@
+Animal: !map:HashWithIndifferentAccess
+  xpath: "Animal"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Name: ""
+  NameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  Breed: ""
+  BreedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DistinguishingMarks: ""
+  DistinguishingMarksMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Brand: ""
+  BrandMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalId: !map:HashWithIndifferentAccess
+  xpath: "Animal/Id"
+AnimalTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Animal/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/TypeCode/Value"
+AnimalTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/TypeCode/ShortDescription"
+AnimalTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/TypeCode/Description"
+AnimalName: !map:HashWithIndifferentAccess
+  xpath: "Animal/Name"
+AnimalUseCode: !map:HashWithIndifferentAccess
+  xpath: "Animal/UseCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/UseCode/Value"
+AnimalUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/UseCode/ShortDescription"
+AnimalUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/UseCode/Description"
+AnimalColourCode: !map:HashWithIndifferentAccess
+  xpath: "Animal/ColourCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalColourCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/ColourCode/Value"
+AnimalColourCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/ColourCode/ShortDescription"
+AnimalColourCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/ColourCode/Description"
+AnimalCountryOfOriginCode: !map:HashWithIndifferentAccess
+  xpath: "Animal/CountryOfOriginCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalCountryOfOriginCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/CountryOfOriginCode/Value"
+AnimalCountryOfOriginCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/CountryOfOriginCode/ShortDescription"
+AnimalCountryOfOriginCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/CountryOfOriginCode/Description"
+AnimalBirthDate: !map:HashWithIndifferentAccess
+  xpath: "Animal/BirthDate"
+AnimalBreed: !map:HashWithIndifferentAccess
+  xpath: "Animal/Breed"
+AnimalDistinguishingMarks: !map:HashWithIndifferentAccess
+  xpath: "Animal/DistinguishingMarks"
+AnimalBrand: !map:HashWithIndifferentAccess
+  xpath: "Animal/Brand"
+AnimalSexCode: !map:HashWithIndifferentAccess
+  xpath: "Animal/SexCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalSexCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/SexCode/Value"
+AnimalSexCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/SexCode/ShortDescription"
+AnimalSexCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Animal/SexCode/Description"
+AnimalSoundHealthInd: !map:HashWithIndifferentAccess
+  xpath: "Animal/SoundHealthInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AnimalSoundHealthIndValue: !map:HashWithIndifferentAccess
+  xpath: "Animal/SoundHealthInd/Value"

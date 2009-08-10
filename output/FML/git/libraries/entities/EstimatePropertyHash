@@ -1,0 +1,13 @@
+Estimate: !map:HashWithIndifferentAccess
+  xpath: "Estimate"
+  DateGenerated: ""
+  DateGeneratedMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  TimeGenerated: ""
+  TimeGeneratedMD: !map:HashWithIndifferentAccess
+    type: "time"
+EstimateDateGenerated: !map:HashWithIndifferentAccess
+  xpath: "Estimate/DateGenerated"
+EstimateTimeGenerated: !map:HashWithIndifferentAccess
+  xpath: "Estimate/TimeGenerated"

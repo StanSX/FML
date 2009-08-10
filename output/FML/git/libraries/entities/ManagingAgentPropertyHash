@@ -1,0 +1,7 @@
+ManagingAgent: !map:HashWithIndifferentAccess
+  xpath: "ManagingAgent"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+ManagingAgentCompanyName: !map:HashWithIndifferentAccess
+  xpath: "ManagingAgent/CompanyName"

@@ -1,0 +1,11 @@
+entity :Insured
+    use :CompanyName, {:mandatory => true}
+    use :IndividualName,:TitleCode,:ShortDescription,{:mandatory => true}
+    use :CompanyStatusCode,:ShortDescription, {:mandatory => true,:default_value => 1}
+    use :IndividualName,:FirstForename,{:mandatory => true}
+    use :TradeCode,:ShortDescription
+    use :IndividualName,:Surname,{:mandatory => true}
+    use :EmailAddress,{:mandatory => true}
+    use :TelephoneNo
+    use :Address
+endentity

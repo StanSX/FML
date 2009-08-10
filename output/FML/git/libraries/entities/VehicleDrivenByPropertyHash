@@ -1,0 +1,10 @@
+VehicleDrivenBy: !map:HashWithIndifferentAccess
+  xpath: "VehicleDrivenBy"
+VehicleDrivenByMainUserInd: !map:HashWithIndifferentAccess
+  xpath: "VehicleDrivenBy/MainUserInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+VehicleDrivenByMainUserIndValue: !map:HashWithIndifferentAccess
+  xpath: "VehicleDrivenBy/MainUserInd/Value"

@@ -1,0 +1,15 @@
+Sunbed: !map:HashWithIndifferentAccess
+  xpath: "Sunbed"
+SunbedUVARadiationInd: !map:HashWithIndifferentAccess
+  xpath: "Sunbed/UVARadiationInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SunbedUVARadiationIndValue: !map:HashWithIndifferentAccess
+  xpath: "Sunbed/UVARadiationInd/Value"
+SunbedUVARadiationIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Sunbed/UVARadiationInd/Description"

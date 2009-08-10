@@ -1,0 +1,317 @@
+BusinessTravelCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover"
+BusinessTravelCoverDeclaration: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Declaration"
+BusinessTravelCoverDeclarationManualWorkInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Declaration/ManualWorkInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverDeclarationManualWorkIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Declaration/ManualWorkInd/Value"
+BusinessTravelCoverGroupDetail: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessTravelCoverGroupDetailId: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/Id"
+BusinessTravelCoverGroupDetailEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/EmploymentTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessTravelCoverGroupDetailEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/EmploymentTypeCode/Value"
+BusinessTravelCoverGroupDetailEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/EmploymentTypeCode/ShortDescription"
+BusinessTravelCoverGroupDetailCoverBasis: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverBasis"
+BusinessTravelCoverGroupDetailCoverBasisBasisCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverBasis/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessTravelCoverGroupDetailCoverBasisBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverBasis/BasisCode/Value"
+BusinessTravelCoverGroupDetailCoverBasisBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverBasis/BasisCode/ShortDescription"
+BusinessTravelCoverGroupDetailCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail"
+BusinessTravelCoverGroupDetailCoverDetailCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessTravelCoverGroupDetailCoverDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/Code/Value"
+BusinessTravelCoverGroupDetailCoverDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/Code/ShortDescription"
+BusinessTravelCoverGroupDetailCoverDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/Code/Description"
+BusinessTravelCoverGroupDetailCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Multiplier: ""
+  MultiplierMD: !map:HashWithIndifferentAccess
+    type: "number"
+BusinessTravelCoverGroupDetailCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/SumInsured/Amount"
+BusinessTravelCoverGroupDetailCoverDetailSumInsuredMultiplier: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/SumInsured/Multiplier"
+BusinessTravelCoverGroupDetailCoverDetailExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverGroupDetailCoverDetailExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/CoverDetail/ExcludedInd/Value"
+BusinessTravelCoverGroupDetailAnnualTravelPattern: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern"
+  NumberOf: ""
+  NumberOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+BusinessTravelCoverGroupDetailAnnualTravelPatternTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessTravelCoverGroupDetailAnnualTravelPatternTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/TerritoryCode/Value"
+BusinessTravelCoverGroupDetailAnnualTravelPatternTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/TerritoryCode/ShortDescription"
+BusinessTravelCoverGroupDetailAnnualTravelPatternNumberOf: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/NumberOf"
+BusinessTravelCoverGroupDetailAnnualTravelPatternAverageDuration: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/AverageDuration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BusinessTravelCoverGroupDetailAnnualTravelPatternAverageDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/AverageDuration/Unit"
+BusinessTravelCoverGroupDetailAnnualTravelPatternMaximumDuration: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/MaximumDuration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+BusinessTravelCoverGroupDetailAnnualTravelPatternMaximumDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/AnnualTravelPattern/MaximumDuration/Unit"
+BusinessTravelCoverGroupDetailFamilyCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/FamilyCover"
+BusinessTravelCoverGroupDetailFamilyCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/FamilyCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverGroupDetailFamilyCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/FamilyCover/CoverRequiredInd/Value"
+BusinessTravelCoverGroupDetailFamilyCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/FamilyCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverGroupDetailFamilyCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/FamilyCover/ExcludedInd/Value"
+BusinessTravelCoverGroupDetailLeisureCover: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/LeisureCover"
+BusinessTravelCoverGroupDetailLeisureCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/LeisureCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverGroupDetailLeisureCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/LeisureCover/CoverRequiredInd/Value"
+BusinessTravelCoverGroupDetailLeisureCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/LeisureCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverGroupDetailLeisureCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/GroupDetail/LeisureCover/ExcludedInd/Value"
+BusinessTravelCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "premium"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  VATPercent: ""
+  VATPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessTravelCoverPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+BusinessTravelCoverPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/TypeCode/Value"
+BusinessTravelCoverPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+BusinessTravelCoverPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessTravelCoverPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/ReasonCode/Value"
+BusinessTravelCoverPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+BusinessTravelCoverPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/ReasonCode/Description"
+BusinessTravelCoverPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/Percent"
+BusinessTravelCoverPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/CalculationAmount"
+BusinessTravelCoverPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/BasedOnAmount"
+BusinessTravelCoverPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/RunningTotal"
+BusinessTravelCoverPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+BusinessTravelCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/GrossAmount"
+BusinessTravelCoverPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/Amount"
+BusinessTravelCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/BrokerageAmount"
+BusinessTravelCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/BrokeragePercent"
+BusinessTravelCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/IPTAmount"
+BusinessTravelCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/IPTPercent"
+BusinessTravelCoverPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/VATAmount"
+BusinessTravelCoverPremiumQuoteBreakdownVATPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/VATPercent"
+BusinessTravelCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+BusinessTravelCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+BusinessTravelCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Endorsement/ReasonApplied"
+BusinessTravelCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Endorsement/ShortWording"
+BusinessTravelCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Endorsement/Wording"
+BusinessTravelCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+BusinessTravelCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Excess/Amount"
+BusinessTravelCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/Excess/Percent"
+BusinessTravelCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+BusinessTravelCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "BusinessTravelCover/ExcludedInd/Value"

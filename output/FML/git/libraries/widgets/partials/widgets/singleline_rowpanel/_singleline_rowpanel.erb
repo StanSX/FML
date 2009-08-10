@@ -1,0 +1,15 @@
+<%
+    entity_id = "#{entityName.downcase}_#{propertyName.downcase}"
+%>
+<div class="singlelinerowpanel_box">
+<div class="label_input"><label class="<%= 'editarea-25' if params[:edit] %>" id="<%= entity_id %>"><%= __(entity_id) %></label></div>
+<div class="input">
+    <label> 
+     <%=body%>
+
+     <% if local_assigns['mask'] == 'money' or local_assigns['mask'] == 'premium' %>£<% end %>
+     <% if local_assigns['mask'] == 'percent' %>%<% end %>
+
+    </label>
+</div>
+</div>

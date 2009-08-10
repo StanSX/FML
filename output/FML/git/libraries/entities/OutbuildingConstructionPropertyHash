@@ -1,0 +1,20 @@
+OutbuildingConstruction: !map:HashWithIndifferentAccess
+  xpath: "OutbuildingConstruction"
+OutbuildingConstructionTypeCode: !map:HashWithIndifferentAccess
+  xpath: "OutbuildingConstruction/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OutbuildingConstructionTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "OutbuildingConstruction/TypeCode/Value"
+OutbuildingConstructionTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "OutbuildingConstruction/TypeCode/ShortDescription"
+OutbuildingConstructionTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "OutbuildingConstruction/TypeCode/Description"

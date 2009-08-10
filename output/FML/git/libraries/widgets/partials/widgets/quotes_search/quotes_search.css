@@ -1,0 +1,38 @@
+.quote_col_sx {
+	font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 80%;
+	color: #FFF;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+
+.quote_fieldset {
+	color: #A41952;
+	height: 1.7em;
+	width: 99%;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
+.quote_col_dx_b {
+	font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 20%;
+	color: #9FD949;
+	margin-top: 2.5em;
+	margin-bottom: 0.6em;
+	text-align: right;
+}
+
+.quote_col_dx_b a:link, .quote_col_dx_b a:active, .quote_col_dx_b a:visited {
+	color: #9FD949;
+	text-decoration: none;
+	display: block;
+}
+
+.quote_col_dx_b a:hover {
+	color: #A41952;
+}

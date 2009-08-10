@@ -1,0 +1,39 @@
+
+/*.buttonpanel {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 0px 30px 0px;
+  height: auto;
+  width: 100%;
+
+}*/
+
+.buttonpanel {
+    font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 1em;
+}
+
+.buttonpanel .button {
+  float: right;
+}
+
+.buttonpanel .cancelconfirm{
+  margin-right: 0px;
+  margin-left: 0px;
+  float: left;
+}
+
+.buttonpanel .close{
+  margin-right: 0px;
+  margin-left: 0px;
+  float: left;
+}
+
+.buttonpanel .saveconfirm {
+  margin-right: 0px;
+  margin-left: 10px;
+  float: left;
+}

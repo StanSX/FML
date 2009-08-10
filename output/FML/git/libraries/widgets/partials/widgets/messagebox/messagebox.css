@@ -1,0 +1,54 @@
+#message_box {
+	position: absolute;
+	display: none;
+	top: 0; left: 1012px;
+	z-index: 10;
+	background:#F7D7D7;
+	border: 2px solid rgb(201, 54, 54);
+	-moz-border-radius: 4px;
+	width:180px;
+	min-height: 50px;                    
+	}
+	
+#message_box #title_bar{
+	background: rgb(201, 54, 54);
+	height: 20px;
+	width: 160px;
+	color: #ffffff;
+	font-weight:bold;
+	text-align:center;
+	float:left;
+}
+
+#message_box #close_button{
+	background-image: url(http://localhost:3000/boxcar/images/errorcross_icon.png);
+	float:right;
+	cursor:pointer; 
+	width: 20px; 
+	height: 20px;
+	}
+
+#message_box #message{
+	color: #333333;
+	font-size: 0.9em;
+	text-align:left;
+	padding: 5px 5px 5px 5px;
+}
+	
+	
+/*             
+.container label.error {
+	display: inline;
+	}
+                    
+label.error {
+	display: inline-block;
+	}
+
+.add_space {
+	float:right;
+	height:24px;
+	margin-right:7px;
+	width:89px;
+	}
+*/

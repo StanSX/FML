@@ -1,0 +1,161 @@
+LossExperiencePeriod: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  VehicleYears: ""
+  VehicleYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfVehiclesStartOfPeriod: ""
+  NoOfVehiclesStartOfPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TotalLossesReported: ""
+  TotalLossesReportedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfLossesOutstanding: ""
+  NoOfLossesOutstandingMD: !map:HashWithIndifferentAccess
+    type: "number"
+LossExperiencePeriodPriorInsurer: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer"
+LossExperiencePeriodPriorInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+LossExperiencePeriodPriorInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code/ListOwner"
+LossExperiencePeriodPriorInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code/ListNo"
+LossExperiencePeriodPriorInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code/Value"
+LossExperiencePeriodPriorInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code/ShortDescription"
+LossExperiencePeriodPriorInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PriorInsurer/Code/Description"
+LossExperiencePeriodStartDate: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/StartDate"
+LossExperiencePeriodEndDate: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/EndDate"
+LossExperiencePeriodVehicleYears: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/VehicleYears"
+LossExperiencePeriodNoOfVehiclesStartOfPeriod: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/NoOfVehiclesStartOfPeriod"
+LossExperiencePeriodTotalLossesReported: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/TotalLossesReported"
+LossExperiencePeriodNoOfLossesOutstanding: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/NoOfLossesOutstanding"
+LossExperiencePeriodBreakdown: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown"
+LossExperiencePeriodBreakdownCoverCode: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+LossExperiencePeriodBreakdownCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/CoverCode/Value"
+LossExperiencePeriodBreakdownCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/CoverCode/ShortDescription"
+LossExperiencePeriodBreakdownMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/MonetaryAmount"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExperiencePeriodBreakdownMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/MonetaryAmount/PaidAmount"
+LossExperiencePeriodBreakdownMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/Breakdown/MonetaryAmount/OutstandingAmount"
+LossExperiencePeriodPositionLastYear: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear"
+  VehicleYears: ""
+  VehicleYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoNotifiableVehicles: ""
+  NoNotifiableVehiclesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfVehiclesStartOfPeriod: ""
+  NoOfVehiclesStartOfPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfLosses: ""
+  NoOfLossesMD: !map:HashWithIndifferentAccess
+    type: "number"
+LossExperiencePeriodPositionLastYearVehicleYears: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/VehicleYears"
+LossExperiencePeriodPositionLastYearNoNotifiableVehicles: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/NoNotifiableVehicles"
+LossExperiencePeriodPositionLastYearNoOfVehiclesStartOfPeriod: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/NoOfVehiclesStartOfPeriod"
+LossExperiencePeriodPositionLastYearNoOfLosses: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/NoOfLosses"
+LossExperiencePeriodPositionLastYearAmountPaid: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/AmountPaid"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExperiencePeriodPositionLastYearAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/PositionLastYear/AmountPaid/Amount"
+LossExperiencePeriodCoverInPeriod: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod"
+LossExperiencePeriodCoverInPeriodCode: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+LossExperiencePeriodCoverInPeriodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod/Code/Value"
+LossExperiencePeriodCoverInPeriodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod/Code/ShortDescription"
+LossExperiencePeriodCoverInPeriodExcess: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExperiencePeriodCoverInPeriodExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/CoverInPeriod/Excess/Amount"
+LossExperiencePeriodWindscreenExperience: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/WindscreenExperience"
+  TotalLossesReported: ""
+  TotalLossesReportedMD: !map:HashWithIndifferentAccess
+    type: "number"
+LossExperiencePeriodWindscreenExperienceTotalLossesReported: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/WindscreenExperience/TotalLossesReported"
+LossExperiencePeriodWindscreenExperienceMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/WindscreenExperience/MonetaryAmount"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+LossExperiencePeriodWindscreenExperienceMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "LossExperiencePeriod/WindscreenExperience/MonetaryAmount/PaidAmount"

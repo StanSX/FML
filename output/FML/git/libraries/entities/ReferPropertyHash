@@ -1,0 +1,15 @@
+Refer: !map:HashWithIndifferentAccess
+  xpath: "Refer"
+  Code: ""
+  CodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+ReferCode: !map:HashWithIndifferentAccess
+  xpath: "Refer/Code"
+ReferIgnoreAtMTAInd: !map:HashWithIndifferentAccess
+  xpath: "Refer/IgnoreAtMTAInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ReferIgnoreAtMTAIndValue: !map:HashWithIndifferentAccess
+  xpath: "Refer/IgnoreAtMTAInd/Value"

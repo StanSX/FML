@@ -1,0 +1,20 @@
+HazardousProduct: !map:HashWithIndifferentAccess
+  xpath: "HazardousProduct"
+HazardousProductDestinationCode: !map:HashWithIndifferentAccess
+  xpath: "HazardousProduct/DestinationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HazardousProductDestinationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousProduct/DestinationCode/Value"
+HazardousProductDestinationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousProduct/DestinationCode/ShortDescription"
+HazardousProductDestinationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousProduct/DestinationCode/Description"

@@ -1,0 +1,87 @@
+Safe: !map:HashWithIndifferentAccess
+  xpath: "Safe"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+SafePresentInd: !map:HashWithIndifferentAccess
+  xpath: "Safe/PresentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SafePresentIndValue: !map:HashWithIndifferentAccess
+  xpath: "Safe/PresentInd/Value"
+SafePresentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/PresentInd/Description"
+SafeMakeModelCode: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SafeMakeModelCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode/ListOwner"
+SafeMakeModelCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode/ListNo"
+SafeMakeModelCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode/Value"
+SafeMakeModelCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode/ShortDescription"
+SafeMakeModelCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelCode/Description"
+SafeMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/MakeModelDescription"
+SafeReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Safe/ReferenceNumber"
+SafeInstalledAsRecommendedInd: !map:HashWithIndifferentAccess
+  xpath: "Safe/InstalledAsRecommendedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SafeInstalledAsRecommendedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Safe/InstalledAsRecommendedInd/Value"
+SafeInstalledAsRecommendedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/InstalledAsRecommendedInd/Description"
+SafeInAlarmedAreaInd: !map:HashWithIndifferentAccess
+  xpath: "Safe/InAlarmedAreaInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+SafeInAlarmedAreaIndValue: !map:HashWithIndifferentAccess
+  xpath: "Safe/InAlarmedAreaInd/Value"
+SafeInAlarmedAreaIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Safe/InAlarmedAreaInd/Description"
+SafeLimit: !map:HashWithIndifferentAccess
+  xpath: "Safe/Limit"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+SafeLimitAmount: !map:HashWithIndifferentAccess
+  xpath: "Safe/Limit/Amount"

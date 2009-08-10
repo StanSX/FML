@@ -1,0 +1,33 @@
+NonEmployeesCover: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover"
+NonEmployeesCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+NonEmployeesCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/CoverRequiredInd/Value"
+NonEmployeesCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/CoverDetail"
+NonEmployeesCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+NonEmployeesCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/CoverDetail/SumInsured/Amount"
+NonEmployeesCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NonEmployeesCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/ExcludedInd/Value"
+NonEmployeesCoverExcludedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "NonEmployeesCover/ExcludedInd/Description"

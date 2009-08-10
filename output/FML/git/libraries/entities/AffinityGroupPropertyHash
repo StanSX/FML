@@ -1,0 +1,25 @@
+AffinityGroup: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+AffinityGroupCode: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AffinityGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup/Code/Value"
+AffinityGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup/Code/ShortDescription"
+AffinityGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup/Code/Description"
+AffinityGroupReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "AffinityGroup/ReferenceNumber"

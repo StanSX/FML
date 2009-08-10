@@ -1,0 +1,9 @@
+.log_out a:link, .log_out a:active, .log_out a:visited {
+	color: #9FD949;
+	text-decoration: none;
+	display: block;
+}
+
+.log_out a:hover {
+	color: #A41952;
+}

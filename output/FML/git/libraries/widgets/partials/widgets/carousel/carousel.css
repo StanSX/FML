@@ -1,0 +1,141 @@
+
+#welcomeTabs {
+  width:600px;
+  margin:30px auto;
+}
+#p1Tab, #p2Tab, #p3Tab, #p4Tab {
+  float: left;
+  margin: 2px 10px 2px 10px;
+  background-position:left top;
+  background-repeat:no-repeat;
+  width:99px;
+  height:140px;
+  overflow:hidden;
+  text-indent:-5000px;
+  cursor:pointer;
+}
+#p1Tab {
+  background-image:url(/widgets/partials/widgets/carousel/images/btn-commercial-combined.gif);
+}
+#p2Tab {
+  background-image:url(/widgets/partials/widgets/carousel/images/btn-shop.gif);
+}
+#p3Tab {
+  background-image:url(/widgets/partials/widgets/carousel/images/btn-motor-trade.gif);
+}
+#motorBrokerTab {
+  background-image:url(/widgets/partials/widgets/carousel/images/btn-motor-trade.gif);
+}
+#p4Tab{
+  background-image:url(/widgets/partials/widgets/carousel/images/btn-road-risk.gif);
+}
+#welcomeWrapper div div.tabSelected {
+  background-position:left bottom;
+}
+#welcomeWrapper {
+  position: relative;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#viewPort {
+  overflow: hidden;
+  position:relative;
+  width: 535px;
+  height: 235px;
+  background:#cc3333   repeat-x scroll left top;
+}
+
+#slideContainer {
+  position: relative;
+}
+#slideContainer div a.new {
+  position:absolute;
+  display:block;
+  width:150px;
+  height:37px;
+  top:5px;
+  left:340px;
+  background:url(/git/libraries/widgets/carousel/images/btn-new-quote.gif) left top no-repeat;
+  text-indent:-5000px;
+  outline:none;
+}
+#slideContainer div a.search {
+  position:absolute;
+  display:block;
+  width:150px;
+  height:37px;
+  top:170px;
+  left:340px;
+  background:url(/git/libraries/widgets/carousel/images/btn-search-quote.gif) left top no-repeat;
+  text-indent:-5000px;
+  outline:none;
+}
+
+#commercialContainer {
+  position: absolute;
+  top:10px;
+  left:20px;
+  width:880px;
+  height:250px;
+  background:url(/git/libraries/widgets/carousel/images/teasers/commercial_prop.png) left top no-repeat;
+}
+#shopContainer {
+  position: absolute;
+  top:10px;
+  left: 982px;
+  width:880px;
+  height:250px;
+  background:url(/git/libraries/widgets/carousel/images/teasers/shop.png) left top no-repeat;
+}
+
+#motorContainer {
+  position: absolute;
+  top:10px;
+  left: 1944px;
+  width:880px;
+  height:250px;
+  background:url(/git/libraries/widgets/carousel/images/teasers/biz_from_home.png) left top no-repeat;
+}
+
+#roadRiskContainer {
+  position: absolute;
+  top:10px;
+  left: 2906px;
+  width:880px;
+  height:250px;
+  background:url(/git/libraries/widgets/carousel/images/teasers/shop.png) left top no-repeat;
+}
+/* CLEARFIX */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+/* End hide from IE-mac */
+
+/*<%= stylesheet_link_tag '/boxcar/stylesheets/carousel.css' %>*/

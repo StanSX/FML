@@ -1,0 +1,15 @@
+HazardousSubstance: !map:HashWithIndifferentAccess
+  xpath: "HazardousSubstance"
+HazardousSubstanceTypeCode: !map:HashWithIndifferentAccess
+  xpath: "HazardousSubstance/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+HazardousSubstanceTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HazardousSubstance/TypeCode/Value"
+HazardousSubstanceTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HazardousSubstance/TypeCode/ShortDescription"

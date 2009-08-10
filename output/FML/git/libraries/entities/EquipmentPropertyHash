@@ -1,0 +1,85 @@
+Equipment: !map:HashWithIndifferentAccess
+  xpath: "Equipment"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Power: ""
+  PowerMD: !map:HashWithIndifferentAccess
+    type: "number"
+EquipmentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Equipment/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EquipmentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/TypeCode/Value"
+EquipmentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Equipment/TypeCode/ShortDescription"
+EquipmentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Equipment/TypeCode/Description"
+EquipmentInspectionRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "Equipment/InspectionRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EquipmentInspectionRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/InspectionRequiredInd/Value"
+EquipmentMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "Equipment/MakeModelDescription"
+EquipmentNoOf: !map:HashWithIndifferentAccess
+  xpath: "Equipment/NoOf"
+EquipmentMaintenanceAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "Equipment/MaintenanceAccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EquipmentMaintenanceAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/MaintenanceAccreditationCode/Value"
+EquipmentMaintenanceAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Equipment/MaintenanceAccreditationCode/ShortDescription"
+EquipmentMaintenanceAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Equipment/MaintenanceAccreditationCode/Description"
+EquipmentPortableInd: !map:HashWithIndifferentAccess
+  xpath: "Equipment/PortableInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EquipmentPortableIndValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/PortableInd/Value"
+EquipmentPower: !map:HashWithIndifferentAccess
+  xpath: "Equipment/Power"
+EquipmentAutomaticInd: !map:HashWithIndifferentAccess
+  xpath: "Equipment/AutomaticInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EquipmentAutomaticIndValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/AutomaticInd/Value"
+EquipmentExhaustedInd: !map:HashWithIndifferentAccess
+  xpath: "Equipment/ExhaustedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EquipmentExhaustedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Equipment/ExhaustedInd/Value"

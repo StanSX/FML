@@ -1,0 +1,213 @@
+TradingPartner: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Branch: ""
+  BranchMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  VATRegistrationNo: ""
+  VATRegistrationNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  HomeTelephoneNo: ""
+  HomeTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MobileTelephoneNo: ""
+  MobileTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  RiskReference: ""
+  RiskReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TransactionReference: ""
+  TransactionReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  QuoteReference: ""
+  QuoteReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerPEMId: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/PEMId"
+TradingPartnerInStepCode: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/InStepCode"
+TradingPartnerIndividualName: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradingPartnerIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/TitleCode/Value"
+TradingPartnerIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/TitleCode/ShortDescription"
+TradingPartnerIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/FirstForename"
+TradingPartnerIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/SecondForename"
+TradingPartnerIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/Surname"
+TradingPartnerIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/IndividualName/NameSuffix"
+TradingPartnerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/CompanyName"
+TradingPartnerAddress: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+TradingPartnerAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line1"
+TradingPartnerAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line2"
+TradingPartnerAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line3"
+TradingPartnerAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line4"
+TradingPartnerAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line5"
+TradingPartnerAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Line6"
+TradingPartnerAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Address/Postcode"
+TradingPartnerBranch: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Branch"
+TradingPartnerHoldingBrokerInd: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/HoldingBrokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerHoldingBrokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/HoldingBrokerInd/Value"
+TradingPartnerHoldingBrokerIndDescription: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/HoldingBrokerInd/Description"
+TradingPartnerFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/FaxTelephoneNo"
+TradingPartnerVATRegisteredCode: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/VATRegisteredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerVATRegisteredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/VATRegisteredCode/Value"
+TradingPartnerVATRegisteredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/VATRegisteredCode/ShortDescription"
+TradingPartnerVATRegisteredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/VATRegisteredCode/Description"
+TradingPartnerVATRegistrationNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/VATRegistrationNo"
+TradingPartnerHomeTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/HomeTelephoneNo"
+TradingPartnerWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/WorkTelephoneNo"
+TradingPartnerMobileTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/MobileTelephoneNo"
+TradingPartnerRiskReference: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/RiskReference"
+TradingPartnerTransactionReference: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/TransactionReference"
+TradingPartnerQuoteReference: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/QuoteReference"
+TradingPartnerContact: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact"
+  Role: ""
+  RoleMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradingPartnerContactIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradingPartnerContactIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName/TitleCode/Value"
+TradingPartnerContactIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName/TitleCode/ShortDescription"
+TradingPartnerContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName/FirstForename"
+TradingPartnerContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/IndividualName/Surname"
+TradingPartnerContactRole: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/Role"
+TradingPartnerContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/WorkTelephoneNo"
+TradingPartnerContactFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/FaxTelephoneNo"
+TradingPartnerContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "TradingPartner/Contact/EmailAddress"

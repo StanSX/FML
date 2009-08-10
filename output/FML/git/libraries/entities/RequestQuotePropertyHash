@@ -1,0 +1,97 @@
+RequestQuote: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  RespondByDate: ""
+  RespondByDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AgencyAccountRef: ""
+  AgencyAccountRefMD: !map:HashWithIndifferentAccess
+    type: "text"
+RequestQuoteStartDate: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/StartDate"
+RequestQuoteStartTime: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/StartTime"
+RequestQuoteEndDate: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/EndDate"
+RequestQuoteEndTime: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/EndTime"
+RequestQuoteDuration: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+RequestQuoteDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/Duration/Unit"
+RequestQuoteDurationType: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/Duration/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RequestQuoteDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/Duration/Type/Value"
+RequestQuoteDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/Duration/Type/ShortDescription"
+RequestQuoteRespondByDate: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/RespondByDate"
+RequestQuoteRequestTempCoverInd: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/RequestTempCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RequestQuoteRequestTempCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/RequestTempCoverInd/Value"
+RequestQuoteNetRatedRequestInd: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/NetRatedRequestInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RequestQuoteNetRatedRequestIndValue: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/NetRatedRequestInd/Value"
+RequestQuotePaymentMethodCode: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/PaymentMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RequestQuotePaymentMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/PaymentMethodCode/Value"
+RequestQuotePaymentMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/PaymentMethodCode/ShortDescription"
+RequestQuotePaymentMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/PaymentMethodCode/Description"
+RequestQuoteAgencyAccountRef: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/AgencyAccountRef"
+RequestQuoteClientMandateInd: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/ClientMandateInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RequestQuoteClientMandateIndValue: !map:HashWithIndifferentAccess
+  xpath: "RequestQuote/ClientMandateInd/Value"

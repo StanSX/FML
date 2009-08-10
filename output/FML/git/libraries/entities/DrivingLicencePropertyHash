@@ -1,0 +1,64 @@
+DrivingLicence: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence"
+  FirstObtainedDate: ""
+  FirstObtainedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+DrivingLicenceCode: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DrivingLicenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Code/Value"
+DrivingLicenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Code/ShortDescription"
+DrivingLicenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Code/Description"
+DrivingLicenceClassCode: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/ClassCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DrivingLicenceClassCodeValue: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/ClassCode/Value"
+DrivingLicenceClassCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/ClassCode/ShortDescription"
+DrivingLicenceClassCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/ClassCode/Description"
+DrivingLicenceFirstObtainedDate: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/FirstObtainedDate"
+DrivingLicenceRestrictions: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Restrictions"
+DrivingLicenceRestrictionsRestrictionCode: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Restrictions/RestrictionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DrivingLicenceRestrictionsRestrictionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Restrictions/RestrictionCode/Value"
+DrivingLicenceRestrictionsRestrictionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Restrictions/RestrictionCode/ShortDescription"
+DrivingLicenceRestrictionsRestrictionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "DrivingLicence/Restrictions/RestrictionCode/Description"

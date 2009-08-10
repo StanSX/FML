@@ -1,0 +1,85 @@
+InspectingCompany: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+InspectingCompanyCompanyName: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/CompanyName"
+InspectingCompanyIndividualName: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+InspectingCompanyIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+InspectingCompanyIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/TitleCode/Value"
+InspectingCompanyIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/TitleCode/ShortDescription"
+InspectingCompanyIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/FirstForename"
+InspectingCompanyIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/SecondForename"
+InspectingCompanyIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/Surname"
+InspectingCompanyIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/IndividualName/NameSuffix"
+InspectingCompanyTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/TelephoneNo"
+InspectingCompanyAddress: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+InspectingCompanyAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line1"
+InspectingCompanyAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line2"
+InspectingCompanyAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line3"
+InspectingCompanyAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line4"
+InspectingCompanyAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line5"
+InspectingCompanyAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Line6"
+InspectingCompanyAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "InspectingCompany/Address/Postcode"

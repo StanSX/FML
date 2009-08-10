@@ -1,0 +1,10 @@
+Unsubscribe: !map:HashWithIndifferentAccess
+  xpath: "Unsubscribe"
+UnsubscribeUnsubscribeInd: !map:HashWithIndifferentAccess
+  xpath: "Unsubscribe/UnsubscribeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+UnsubscribeUnsubscribeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Unsubscribe/UnsubscribeInd/Value"

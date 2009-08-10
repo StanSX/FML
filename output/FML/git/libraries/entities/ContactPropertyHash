@@ -1,0 +1,110 @@
+Contact: !map:HashWithIndifferentAccess
+  xpath: "Contact"
+  Role: ""
+  RoleMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  HomeTelephoneNo: ""
+  HomeTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MobileTelephoneNo: ""
+  MobileTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContactRole: !map:HashWithIndifferentAccess
+  xpath: "Contact/Role"
+ContactId: !map:HashWithIndifferentAccess
+  xpath: "Contact/Id"
+ContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContactIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ContactIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/TitleCode/Value"
+ContactIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/TitleCode/ShortDescription"
+ContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/FirstForename"
+ContactIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/SecondForename"
+ContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/Surname"
+ContactIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "Contact/IndividualName/NameSuffix"
+ContactAddress: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address"
+  Line1: ""
+  Line1MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line2: ""
+  Line2MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line3: ""
+  Line3MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line4: ""
+  Line4MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line5: ""
+  Line5MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Line6: ""
+  Line6MD: !map:HashWithIndifferentAccess
+    type: "text"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+ContactAddressLine1: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line1"
+ContactAddressLine2: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line2"
+ContactAddressLine3: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line3"
+ContactAddressLine4: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line4"
+ContactAddressLine5: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line5"
+ContactAddressLine6: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Line6"
+ContactAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "Contact/Address/Postcode"
+ContactHomeTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Contact/HomeTelephoneNo"
+ContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Contact/WorkTelephoneNo"
+ContactMobileTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Contact/MobileTelephoneNo"
+ContactFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Contact/FaxTelephoneNo"
+ContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Contact/EmailAddress"

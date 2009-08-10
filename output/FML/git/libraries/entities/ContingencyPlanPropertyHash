@@ -1,0 +1,228 @@
+ContingencyPlan: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan"
+  DocumentNumber: ""
+  DocumentNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EffectiveDate: ""
+  EffectiveDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EffectiveTime: ""
+  EffectiveTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  DocumentEditionDate: ""
+  DocumentEditionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ExpiryDate: ""
+  ExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  DocumentVersion: ""
+  DocumentVersionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ExpiryTime: ""
+  ExpiryTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  DocumentRefNo: ""
+  DocumentRefNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NoOfDocuments: ""
+  NoOfDocumentsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PreviousDocumentRefNo: ""
+  PreviousDocumentRefNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Reason: ""
+  ReasonMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SignedDate: ""
+  SignedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+  FirstDocumentRefNo: ""
+  FirstDocumentRefNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  LastDocumentRefNo: ""
+  LastDocumentRefNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NumberRemaining: ""
+  NumberRemainingMD: !map:HashWithIndifferentAccess
+    type: "number"
+  LastRevisedDate: ""
+  LastRevisedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+ContingencyPlanTypeCode: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContingencyPlanTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/TypeCode/Value"
+ContingencyPlanTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/TypeCode/ShortDescription"
+ContingencyPlanTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/TypeCode/Description"
+ContingencyPlanDocumentNumber: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DocumentNumber"
+ContingencyPlanEffectiveDate: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/EffectiveDate"
+ContingencyPlanEffectiveTime: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/EffectiveTime"
+ContingencyPlanDocumentEditionDate: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DocumentEditionDate"
+ContingencyPlanExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ExpiryDate"
+ContingencyPlanDocumentVersion: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DocumentVersion"
+ContingencyPlanExpiryTime: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ExpiryTime"
+ContingencyPlanDuration: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+ContingencyPlanDurationUnit: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Unit"
+ContingencyPlanDurationType: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Type"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+ContingencyPlanDurationTypeListOwner: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Type/ListOwner"
+ContingencyPlanDurationTypeListNo: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Type/ListNo"
+ContingencyPlanDurationTypeValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Type/Value"
+ContingencyPlanDurationTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Duration/Type/ShortDescription"
+ContingencyPlanDocumentRefNo: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DocumentRefNo"
+ContingencyPlanNoOfDocuments: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/NoOfDocuments"
+ContingencyPlanReasonCode: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContingencyPlanReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ReasonCode/Value"
+ContingencyPlanReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ReasonCode/ShortDescription"
+ContingencyPlanReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/ReasonCode/Description"
+ContingencyPlanPreviousDocumentRefNo: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/PreviousDocumentRefNo"
+ContingencyPlanPrintedInd: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/PrintedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContingencyPlanPrintedIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/PrintedInd/Value"
+ContingencyPlanReason: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Reason"
+ContingencyPlanSignedDate: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/SignedDate"
+ContingencyPlanBrokerHeldInd: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/BrokerHeldInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+ContingencyPlanBrokerHeldIndValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/BrokerHeldInd/Value"
+ContingencyPlanDeliveryMethodCode: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DeliveryMethodCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContingencyPlanDeliveryMethodCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DeliveryMethodCode/Value"
+ContingencyPlanDeliveryMethodCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DeliveryMethodCode/ShortDescription"
+ContingencyPlanDeliveryMethodCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/DeliveryMethodCode/Description"
+ContingencyPlanURI: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/URI"
+ContingencyPlanStatusCode: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContingencyPlanStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/StatusCode/Value"
+ContingencyPlanStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/StatusCode/ShortDescription"
+ContingencyPlanStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/StatusCode/Description"
+ContingencyPlanRequiredind: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Requiredind"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ContingencyPlanRequiredindValue: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Requiredind/Value"
+ContingencyPlanRequiredindDescription: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Requiredind/Description"
+ContingencyPlanFirstDocumentRefNo: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/FirstDocumentRefNo"
+ContingencyPlanLastDocumentRefNo: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/LastDocumentRefNo"
+ContingencyPlanNumberRemaining: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/NumberRemaining"
+ContingencyPlanLastRevisedDate: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/LastRevisedDate"
+ContingencyPlanNotes: !map:HashWithIndifferentAccess
+  xpath: "ContingencyPlan/Notes"

@@ -1,0 +1,140 @@
+DefectiveWorkmanshipCover: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover"
+DefectiveWorkmanshipCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DefectiveWorkmanshipCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverRequiredInd/Value"
+DefectiveWorkmanshipCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail"
+DefectiveWorkmanshipCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DefectiveWorkmanshipCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/SumInsured/Amount"
+DefectiveWorkmanshipCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DefectiveWorkmanshipCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Excess/Amount"
+DefectiveWorkmanshipCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+DefectiveWorkmanshipCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Endorsement/ReasonApplied"
+DefectiveWorkmanshipCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Endorsement/ShortWording"
+DefectiveWorkmanshipCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Endorsement/Wording"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/VATAmount"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DefectiveWorkmanshipCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+DefectiveWorkmanshipCoverCoverDetailActivity: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity"
+DefectiveWorkmanshipCoverCoverDetailActivityCustomisingInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/CustomisingInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DefectiveWorkmanshipCoverCoverDetailActivityCustomisingIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/CustomisingInd/Value"
+DefectiveWorkmanshipCoverCoverDetailActivityCustomisingIndDescription: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/CustomisingInd/Description"
+DefectiveWorkmanshipCoverCoverDetailActivityExportInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ExportInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DefectiveWorkmanshipCoverCoverDetailActivityExportIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ExportInd/Value"
+DefectiveWorkmanshipCoverCoverDetailActivityExportIndDescription: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ExportInd/Description"
+DefectiveWorkmanshipCoverCoverDetailActivityImportInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ImportInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+DefectiveWorkmanshipCoverCoverDetailActivityImportIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ImportInd/Value"
+DefectiveWorkmanshipCoverCoverDetailActivityImportIndDescription: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/CoverDetail/Activity/ImportInd/Description"
+DefectiveWorkmanshipCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+DefectiveWorkmanshipCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "DefectiveWorkmanshipCover/ExcludedInd/Value"

@@ -1,0 +1,11 @@
+entity :Vehicle
+    use :NCDDetail,:NCDYears
+    use :NCDDetail,:NCDProtectedInd,:Value
+    use :ManufacturerCode,:ShortDescription
+    use :MakeModelCode,:ShortDescription
+    use :FuelTypeCode,:ShortDescription
+    use :ManufacturedYear
+    use :AnnualMileage
+    use :Value
+    use :ReferenceNumber
+endentity

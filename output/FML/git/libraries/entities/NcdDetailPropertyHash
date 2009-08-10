@@ -1,0 +1,186 @@
+NcdDetail: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail"
+  PolicyNumber: ""
+  PolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  CancellationDate: ""
+  CancellationDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NCDIntroPercent: ""
+  NCDIntroPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  NCDProtectedYears: ""
+  NCDProtectedYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NCDBaseDate: ""
+  NCDBaseDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  NCDProtectionAppliedDate: ""
+  NCDProtectionAppliedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/PolicyNumber"
+NcdDetailEndDate: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/EndDate"
+NcdDetailCancellationDate: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CancellationDate"
+NcdDetailNCDProvenInd: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProvenInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+NcdDetailNCDProvenIndValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProvenInd/Value"
+NcdDetailNCDYears: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDYears"
+NcdDetailNCDCountryEarnedCode: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDCountryEarnedCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailNCDCountryEarnedCodeValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDCountryEarnedCode/Value"
+NcdDetailNCDCountryEarnedCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDCountryEarnedCode/ShortDescription"
+NcdDetailNCDCountryEarnedCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDCountryEarnedCode/Description"
+NcdDetailNCDIntroPercent: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDIntroPercent"
+NcdDetailNCDProtectedYears: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProtectedYears"
+NcdDetailNCDBaseDate: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDBaseDate"
+NcdDetailNCDProtectedInd: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProtectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+NcdDetailNCDProtectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProtectedInd/Value"
+NcdDetailNCDProtectionAppliedDate: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDProtectionAppliedDate"
+NcdDetailNCDTypeCode: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailNCDTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDTypeCode/Value"
+NcdDetailNCDTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDTypeCode/ShortDescription"
+NcdDetailNCDTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDTypeCode/Description"
+NcdDetailNCDReasonCode: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailNCDReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDReasonCode/Value"
+NcdDetailNCDReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDReasonCode/ShortDescription"
+NcdDetailNCDReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/NCDReasonCode/Description"
+NcdDetailPercent: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/Percent"
+NcdDetailReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ReferenceNumber"
+NcdDetailCountryEarned: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CountryEarned"
+NcdDetailCountryEarnedCode: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CountryEarned/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailCountryEarnedCodeValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CountryEarned/Code/Value"
+NcdDetailCountryEarnedCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CountryEarned/Code/ShortDescription"
+NcdDetailCountryEarnedCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/CountryEarned/Code/Description"
+NcdDetailProtectedNCDReqdInd: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ProtectedNCDReqdInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailProtectedNCDReqdIndValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ProtectedNCDReqdInd/Value"
+NcdDetailProtectedNCDReqdIndDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ProtectedNCDReqdInd/Description"
+NcdDetailAttachment: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/Attachment"
+  URI: ""
+  URIMD: !map:HashWithIndifferentAccess
+    type: ""
+NcdDetailAttachmentURI: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/Attachment/URI"
+NcdDetailClassEarnedUnder: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ClassEarnedUnder"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+NcdDetailClassEarnedUnderValue: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ClassEarnedUnder/Value"
+NcdDetailClassEarnedUnderShortDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ClassEarnedUnder/ShortDescription"
+NcdDetailClassEarnedUnderDescription: !map:HashWithIndifferentAccess
+  xpath: "NcdDetail/ClassEarnedUnder/Description"

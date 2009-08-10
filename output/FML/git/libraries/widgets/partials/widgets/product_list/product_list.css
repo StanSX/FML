@@ -1,0 +1,33 @@
+.productlist {
+  padding: 4px;
+  margin: 4px;
+  font-size: 10pt;
+  list-style: none;
+  width: auto;
+}
+
+.productlist-product {
+  padding: 4px;
+  margin: 4px;
+  background-color: #fff8cc;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.productlist-icon {
+  float: left;
+  padding-right: 8px;
+}
+
+.productlist-name {
+  float: left;
+}
+
+.productlist-link {
+  font-size: 8pt;
+  float: right;
+}
+
+.productlist-link a {
+  display: inline;
+}

@@ -1,0 +1,77 @@
+.singlelinerowpanel_box{
+    float:left;
+    width:100%;
+    margin-bottom:1em;
+}
+
+.label_input {
+	font-size: 0.7em;
+	color: #000;
+	float: left;
+	height: 2em;
+	width: 30%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.tabs-nav .singlelinerowpanel_box{
+    margin-bottom:0.2em;
+}
+
+.tabs-nav .label_input{
+   color: #000;
+   font-size: 0.89em;
+   float:left;
+   width:30%;
+}
+
+.tabs-nav .input{
+    height: 2em;
+	width: 65%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 5%;
+	float: left;
+	font-size: 0.89em;
+}
+
+.input {
+	height: 2em;
+	width: 65%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 5%;
+	float: left;
+	font-size: 0.7em;
+}
+.input1 {
+	height: auto;
+	width: 65%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 5%;
+	float: left;
+	font-size: 0.7em;
+}
+.input input {
+	background-color: #EEEEEE;
+	height: 1.7em;
+	border: 1px solid #666666;
+	width: 50%;
+}
+.input input:focus {
+	background-color: #9FD949;
+	color: #000;
+}
+.checkbox {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+.send {
+	font-size: 0.7em;
+	float: left;
+	height: 2em;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 1em;
+}

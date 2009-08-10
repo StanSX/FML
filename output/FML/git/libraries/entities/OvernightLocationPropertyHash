@@ -1,0 +1,28 @@
+OvernightLocation: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation"
+OvernightLocationLocationCode: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/LocationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+OvernightLocationLocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/LocationCode/Value"
+OvernightLocationLocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/LocationCode/ShortDescription"
+OvernightLocationLocationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/LocationCode/Description"
+OvernightLocationAddress: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+OvernightLocationAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "OvernightLocation/Address/Postcode"

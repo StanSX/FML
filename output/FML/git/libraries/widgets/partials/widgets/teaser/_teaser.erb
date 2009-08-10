@@ -1,0 +1,10 @@
+<div class="teaser">
+  <h2 class="teaser-header <%= 'editarea-25' if params[:edit] %>" id="<%= "#{name}_title" %>"><%= __("#{name}_title") %></h2>
+  <div class="teaser-body">
+    <img src="<%= eval("@#{name}") %>"/>
+  </div>
+  <h2 class="teaser-footer">
+    <% style_class = 'teaser-link' + (params[:edit] ? ' editarea-25' : '') %>
+    <%= link_to __("#{name}_text"), "http://localhost:8080/iab/QNBRiskDataCollect?product=#{link}", :id => "#{name}_text", :class => style_class %>
+  </h2>
+</div>

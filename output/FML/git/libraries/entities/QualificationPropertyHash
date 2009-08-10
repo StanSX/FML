@@ -1,0 +1,70 @@
+Qualification: !map:HashWithIndifferentAccess
+  xpath: "Qualification"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  AccreditingBody: ""
+  AccreditingBodyMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FirstObtainedDate: ""
+  FirstObtainedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+QualificationCode: !map:HashWithIndifferentAccess
+  xpath: "Qualification/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+QualificationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Qualification/Code/Value"
+QualificationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Qualification/Code/ShortDescription"
+QualificationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Qualification/Code/Description"
+QualificationReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "Qualification/ReferenceNumber"
+QualificationValidatedInd: !map:HashWithIndifferentAccess
+  xpath: "Qualification/ValidatedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+QualificationValidatedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Qualification/ValidatedInd/Value"
+QualificationSeenInd: !map:HashWithIndifferentAccess
+  xpath: "Qualification/SeenInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+QualificationSeenIndValue: !map:HashWithIndifferentAccess
+  xpath: "Qualification/SeenInd/Value"
+QualificationAccreditingBody: !map:HashWithIndifferentAccess
+  xpath: "Qualification/AccreditingBody"
+QualificationIssuingCountryCode: !map:HashWithIndifferentAccess
+  xpath: "Qualification/IssuingCountryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+QualificationIssuingCountryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Qualification/IssuingCountryCode/Value"
+QualificationIssuingCountryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Qualification/IssuingCountryCode/ShortDescription"
+QualificationIssuingCountryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Qualification/IssuingCountryCode/Description"
+QualificationFirstObtainedDate: !map:HashWithIndifferentAccess
+  xpath: "Qualification/FirstObtainedDate"

@@ -1,0 +1,50 @@
+Excess: !map:HashWithIndifferentAccess
+  xpath: "Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "Excess/Amount"
+ExcessExcessTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Excess/ExcessTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ExcessExcessTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Excess/ExcessTypeCode/Value"
+ExcessExcessTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Excess/ExcessTypeCode/ShortDescription"
+ExcessExcessTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Excess/ExcessTypeCode/Description"
+ExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "Excess/Percent"
+ExcessApplicationCode: !map:HashWithIndifferentAccess
+  xpath: "Excess/ApplicationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+ExcessApplicationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Excess/ApplicationCode/Value"
+ExcessApplicationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Excess/ApplicationCode/ShortDescription"
+ExcessApplicationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Excess/ApplicationCode/Description"

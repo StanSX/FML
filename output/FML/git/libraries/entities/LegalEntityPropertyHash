@@ -1,0 +1,7 @@
+LegalEntity: !map:HashWithIndifferentAccess
+  xpath: "LegalEntity"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+LegalEntityCompanyName: !map:HashWithIndifferentAccess
+  xpath: "LegalEntity/CompanyName"

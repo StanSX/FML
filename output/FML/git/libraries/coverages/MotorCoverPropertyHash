@@ -1,0 +1,120 @@
+MotorCover: !map:HashWithIndifferentAccess
+  xpath: "MotorCover"
+MotorCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MotorCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverRequiredInd/Value"
+MotorCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail"
+  CoverId: ""
+  CoverIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  OtherPolicyNumber: ""
+  OtherPolicyNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailCoverId: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/CoverId"
+MotorCoverCoverDetailBasisCode: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/BasisCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailBasisCodeValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/BasisCode/Value"
+MotorCoverCoverDetailBasisCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/BasisCode/ShortDescription"
+MotorCoverCoverDetailBasisCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/BasisCode/Description"
+MotorCoverCoverDetailTemporaryCoverInd: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/TemporaryCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MotorCoverCoverDetailTemporaryCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/TemporaryCoverInd/Value"
+MotorCoverCoverDetailReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/ReasonApplied"
+MotorCoverCoverDetailOtherPolicyNumber: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/OtherPolicyNumber"
+MotorCoverCoverDetailForeignCoverInd: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/ForeignCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailForeignCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/ForeignCoverInd/Value"
+MotorCoverCoverDetailForeignCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/ForeignCoverInd/Description"
+MotorCoverCoverDetailDrivingRestriction: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DrivingRestriction"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailDrivingRestrictionValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DrivingRestriction/Value"
+MotorCoverCoverDetailDrivingRestrictionShortDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DrivingRestriction/ShortDescription"
+MotorCoverCoverDetailDrivingRestrictionDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DrivingRestriction/Description"
+MotorCoverCoverDetailDetachedInd: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DetachedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailDetachedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DetachedInd/Value"
+MotorCoverCoverDetailDetachedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/DetachedInd/Description"
+MotorCoverCoverDetailExcess: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+MotorCoverCoverDetailExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/Excess/Amount"
+MotorCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/Endorsement"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+MotorCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/CoverDetail/Endorsement/Wording"
+MotorCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+MotorCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "MotorCover/ExcludedInd/Value"

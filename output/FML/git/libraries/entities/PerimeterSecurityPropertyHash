@@ -1,0 +1,25 @@
+PerimeterSecurity: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity"
+  Height: ""
+  HeightMD: !map:HashWithIndifferentAccess
+    type: "number"
+PerimeterSecurityCode: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PerimeterSecurityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity/Code/Value"
+PerimeterSecurityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity/Code/ShortDescription"
+PerimeterSecurityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity/Code/Description"
+PerimeterSecurityHeight: !map:HashWithIndifferentAccess
+  xpath: "PerimeterSecurity/Height"

@@ -1,0 +1,18 @@
+<ul class="productlist">
+  <%
+  host_string = "#{HOSTSTRING}"
+  Dir.glob(File.join(PRODUCTS_ROOT, '*'), File::FNM_PATHNAME) do |p|
+    if File.directory?(p)
+      product_name = File.basename(p)
+    %>
+      <li class="productlist-product">
+        <span class="productlist-icon"><img src='<%= "#{GIT}/brands/FC/images/lightbulb.png" %>' /></span>
+        <span class="productlist-name"><%= product_name %></span>
+        <span class="productlist-link"><a href="http://<%= host_string %>/iab/QNBRiskDataCollect?brand=KP&product=<%= product_name %>&lang=en">Quote</a></span>
+        &nbsp;
+      </li>
+    <%
+    end
+  end
+%>
+</ul>

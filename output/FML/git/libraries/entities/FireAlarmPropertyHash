@@ -1,0 +1,38 @@
+FireAlarm: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm"
+FireAlarmTypeCode: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FireAlarmTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/TypeCode/Value"
+FireAlarmTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/TypeCode/ShortDescription"
+FireAlarmTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/TypeCode/Description"
+FireAlarmAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/AccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+FireAlarmAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/AccreditationCode/Value"
+FireAlarmAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/AccreditationCode/ShortDescription"
+FireAlarmAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "FireAlarm/AccreditationCode/Description"

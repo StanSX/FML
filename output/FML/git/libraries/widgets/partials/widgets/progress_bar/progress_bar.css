@@ -1,0 +1,31 @@
+
+#progress {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progressSteps {
+  font-size: 1.4em;
+  color: #ccc;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+}
+
+.stepIndicator {
+  font-size: 1em;
+  color: #333;
+}
+
+.progressSteps li {
+  display: inline;
+  padding: 8px;
+}
+
+.currentStep {
+  color: rgb(59,89,152);
+  font-size: 1.3em;
+}

@@ -1,0 +1,24 @@
+<div class="loginpanel">
+  <h4>Customer login</h4>
+  <% form_tag do %>
+    <div class="loginpanel-row">
+      <span class="loginpanel-label">Email</span><%= text_field "item", "name" %>
+    </div>
+    <div class="loginpanel-row">
+      <span class="loginpanel-label">Password</span><%= text_field "item", "value" %>
+    </div>
+    <%= submit_tag "login", :class => 'loginpanel-button' %>
+    &nbsp;
+    <h3>Not registered?</h3>
+    <div class="loginpanel-register">
+      By registering with our service you obtain the following benefits:
+      <ul>
+        <li>View and amend your policies</li>
+        <li>Exclusive discounts and offers</li>
+        <li>Monitor your claims</li>
+      </ul>
+    </div>
+    <%= submit_tag "register", :class => 'loginpanel-button' %>
+    <span class="loginpanel-security"><img src="#{WIDGET_ROOT3}/login_panel/verisign_logo.png" /></span>
+  <% end %>
+</div>

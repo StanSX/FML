@@ -1,0 +1,38 @@
+HeatingDetail: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail"
+HeatingDetailTypeCode: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HeatingDetailTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/TypeCode/Value"
+HeatingDetailTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/TypeCode/ShortDescription"
+HeatingDetailTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/TypeCode/Description"
+HeatingDetailFuelTypeCode: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/FuelTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+HeatingDetailFuelTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/FuelTypeCode/Value"
+HeatingDetailFuelTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/FuelTypeCode/ShortDescription"
+HeatingDetailFuelTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "HeatingDetail/FuelTypeCode/Description"

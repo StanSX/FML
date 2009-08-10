@@ -1,0 +1,527 @@
+PropertyOwnersLiabilityCover: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover"
+PropertyOwnersLiabilityCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverRequiredInd/Value"
+PropertyOwnersLiabilityCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+PropertyOwnersLiabilityCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+PropertyOwnersLiabilityCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/SumInsured/Amount"
+PropertyOwnersLiabilityCoverCoverDetailTerritorialLimit: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/TerritorialLimit"
+PropertyOwnersLiabilityCoverCoverDetailTerritorialLimitTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/TerritorialLimit/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailTerritorialLimitTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/TerritorialLimit/TerritoryCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailTerritorialLimitTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/TerritorialLimit/TerritoryCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailTerritorialLimitTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/TerritorialLimit/TerritoryCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailPrincipal: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal"
+  NoOfEmployees: ""
+  NoOfEmployeesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/EmploymentTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/EmploymentTypeCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/EmploymentTypeCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/NoOfEmployees"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalPAGroupCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/PAGroupCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalPAGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/PAGroupCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalPAGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/PAGroupCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalPAGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/PAGroupCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalWages: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/Wages"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivity: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DepthLimit: ""
+  DepthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HeightLimit: ""
+  HeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverPercent: ""
+  TurnoverPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/Code/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/Code/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/Code/Description"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/WorkAwayInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TerritoryCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TerritoryCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TerritoryCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/NoOfWorkers"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TurnoverAmount"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityDepthLimit: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/DepthLimit"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityHeightLimit: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/HeightLimit"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivitySupervisedInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/SupervisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivitySupervisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/SupervisedInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityTurnoverPercent: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/TurnoverPercent"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/GeneralObjectCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/GeneralObjectCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalGeneralActivityGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/GeneralActivity/GeneralObjectCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailPrincipalNotes: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Principal/Notes"
+PropertyOwnersLiabilityCoverCoverDetailEmployee: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee"
+  NoOfEmployees: ""
+  NoOfEmployeesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/EmploymentTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/EmploymentTypeCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/EmploymentTypeCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/NoOfEmployees"
+PropertyOwnersLiabilityCoverCoverDetailEmployeePAGroupCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/PAGroupCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailEmployeePAGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/PAGroupCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeePAGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/PAGroupCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailEmployeePAGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/PAGroupCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeWages: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/Wages"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivity: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DepthLimit: ""
+  DepthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HeightLimit: ""
+  HeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverPercent: ""
+  TurnoverPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/Code/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/Code/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/Code/Description"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/WorkAwayInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TerritoryCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TerritoryCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TerritoryCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/NoOfWorkers"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TurnoverAmount"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityDepthLimit: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/DepthLimit"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityHeightLimit: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/HeightLimit"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivitySupervisedInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/SupervisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivitySupervisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/SupervisedInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityTurnoverPercent: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/TurnoverPercent"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/GeneralObjectCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/GeneralObjectCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeGeneralActivityGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/GeneralActivity/GeneralObjectCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailEmployeeNotes: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Employee/Notes"
+PropertyOwnersLiabilityCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Endorsement/ReasonApplied"
+PropertyOwnersLiabilityCoverCoverDetailEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Endorsement/ShortWording"
+PropertyOwnersLiabilityCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Endorsement/Wording"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  CalculationAmount: ""
+  CalculationAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BasedOnAmount: ""
+  BasedOnAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  RunningTotal: ""
+  RunningTotalMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownTypeCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/TypeCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownReasonCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownReasonCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Value"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownReasonCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownReasonCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/ReasonCode/Description"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownPercent: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/Percent"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownCalculationAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/CalculationAmount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownBasedOnAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/BasedOnAmount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownRunningTotal: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/RunningTotal"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownDisplayFlagIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/DisplayFlagInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/GrossAmount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/Amount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/BrokerageAmount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/BrokeragePercent"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/IPTAmount"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/IPTPercent"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/PremiumQuoteBreakdown/MinAppliedInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Code/Value"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Code/ShortDescription"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverSumInsured: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/SumInsured/Amount"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Endorsement/ReasonApplied"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Endorsement/ShortWording"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/Endorsement/Wording"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverCoverDetailAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/AdditionalCover/ExcludedInd/Value"
+PropertyOwnersLiabilityCoverCoverDetailNotes: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Notes"
+PropertyOwnersLiabilityCoverCoverDetailInformation: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+PropertyOwnersLiabilityCoverCoverDetailInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/CoverDetail/Information/Description"
+PropertyOwnersLiabilityCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+PropertyOwnersLiabilityCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "PropertyOwnersLiabilityCover/ExcludedInd/Value"

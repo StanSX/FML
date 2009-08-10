@@ -1,0 +1,1042 @@
+Trade: !map:HashWithIndifferentAccess
+  xpath: "Trade"
+  WorkAwayPercent: ""
+  WorkAwayPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  SecondHandPercent: ""
+  SecondHandPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  EstimatedTurnoverAmount: ""
+  EstimatedTurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NumberOf: ""
+  NumberOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+TradeCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code/ListOwner"
+TradeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code/ListNo"
+TradeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code/Value"
+TradeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code/ShortDescription"
+TradeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Code/Description"
+TradeMainInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/MainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeMainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/MainInd/Value"
+TradeWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/WorkAwayInd/Value"
+TradeWorkAwayPercent: !map:HashWithIndifferentAccess
+  xpath: "Trade/WorkAwayPercent"
+TradeIntensivePulsedLightInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/IntensivePulsedLightInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeIntensivePulsedLightIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/IntensivePulsedLightInd/Value"
+TradeIntensivePulsedLightIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/IntensivePulsedLightInd/Description"
+TradeSecondHandPercent: !map:HashWithIndifferentAccess
+  xpath: "Trade/SecondHandPercent"
+TradeEstimatedTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Trade/EstimatedTurnoverAmount"
+TradeDeclaration: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration"
+TradeDeclarationPrescriptionOnlyInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/PrescriptionOnlyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeDeclarationPrescriptionOnlyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/PrescriptionOnlyInd/Value"
+TradeDeclarationPrescriptionOnlyIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/PrescriptionOnlyInd/Description"
+TradeDeclarationProprietaryBrandsUsedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/ProprietaryBrandsUsedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeDeclarationProprietaryBrandsUsedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/ProprietaryBrandsUsedInd/Value"
+TradeDeclarationProprietaryBrandsUsedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Declaration/ProprietaryBrandsUsedInd/Description"
+TradeActivity: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DepthLimit: ""
+  DepthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HeightLimit: ""
+  HeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverPercent: ""
+  TurnoverPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+TradeActivityTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TreatmentCode/Value"
+TradeActivityTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TreatmentCode/ShortDescription"
+TradeActivityTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TreatmentCode/Description"
+TradeActivityCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Code/Value"
+TradeActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Code/ShortDescription"
+TradeActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Code/Description"
+TradeActivityIntensivePulsedLightInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/IntensivePulsedLightInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityIntensivePulsedLightIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/IntensivePulsedLightInd/Value"
+TradeActivityIntensivePulsedLightIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/IntensivePulsedLightInd/Description"
+TradeActivityFrequency: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Frequency"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TradeActivityFrequencyUnit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Frequency/Unit"
+TradeActivityFrequencyType: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Frequency/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradeActivityFrequencyTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Frequency/Type/Value"
+TradeActivityFrequencyTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Frequency/Type/ShortDescription"
+TradeActivityTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TerritoryCode/Value"
+TradeActivityTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TerritoryCode/ShortDescription"
+TradeActivityTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TerritoryCode/Description"
+TradeActivityNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/NoOfWorkers"
+TradeActivityTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TurnoverAmount"
+TradeActivityDepthLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/DepthLimit"
+TradeActivityHeightLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/HeightLimit"
+TradeActivityTurnoverPercent: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/TurnoverPercent"
+TradeActivityGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/GeneralObjectCode/Value"
+TradeActivityGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/GeneralObjectCode/ShortDescription"
+TradeActivityGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/GeneralObjectCode/Description"
+TradeActivityDestinationCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/DestinationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityDestinationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/DestinationCode/Value"
+TradeActivityDestinationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/DestinationCode/ShortDescription"
+TradeActivityDestinationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/DestinationCode/Description"
+TradeActivityDeclaration: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration"
+TradeActivityDeclarationPrescriptionOnlyInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/PrescriptionOnlyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityDeclarationPrescriptionOnlyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/PrescriptionOnlyInd/Value"
+TradeActivityDeclarationPrescriptionOnlyIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/PrescriptionOnlyInd/Description"
+TradeActivityDeclarationProprietaryBrandsUsedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/ProprietaryBrandsUsedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeActivityDeclarationProprietaryBrandsUsedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/ProprietaryBrandsUsedInd/Value"
+TradeActivityDeclarationProprietaryBrandsUsedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Activity/Declaration/ProprietaryBrandsUsedInd/Description"
+TradeEntertainment: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkAwayPercent: ""
+  WorkAwayPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  StartTime: ""
+  StartTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  EndDate: ""
+  EndDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  EndTime: ""
+  EndTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  FirstPerformedDate: ""
+  FirstPerformedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LastPerformedDate: ""
+  LastPerformedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  Date: ""
+  DateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  DueDate: ""
+  DueDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ResultDate: ""
+  ResultDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  NoOfDaysTravel: ""
+  NoOfDaysTravelMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfFullTimeWorkers: ""
+  NoOfFullTimeWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfPartTimeWorkers: ""
+  NoOfPartTimeWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfTemporaryWorkers: ""
+  NoOfTemporaryWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfQualifiedStaff: ""
+  NoOfQualifiedStaffMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfTrainees: ""
+  NoOfTraineesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TurnoverAmount: ""
+  TurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  EstimatedTurnoverAmount: ""
+  EstimatedTurnoverAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  WagesAmount: ""
+  WagesAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  DepthLimit: ""
+  DepthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HeightLimit: ""
+  HeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  MaxAttendance: ""
+  MaxAttendanceMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoiseLevel: ""
+  NoiseLevelMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PercentageOfTime: ""
+  PercentageOfTimeMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  QuantityCarried: ""
+  QuantityCarriedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  RadiusLimit: ""
+  RadiusLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  StoreyLimit: ""
+  StoreyLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  WeightLimit: ""
+  WeightLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  LengthLimit: ""
+  LengthLimitMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NumberOf: ""
+  NumberOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SubsidiariesNotIncl: ""
+  SubsidiariesNotInclMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NoOfWorkingPartners: ""
+  NoOfWorkingPartnersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  LargestLocationEmployeeNo: ""
+  LargestLocationEmployeeNoMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SecondHandPercent: ""
+  SecondHandPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+TradeEntertainmentId: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Id"
+TradeEntertainmentCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Code/Value"
+TradeEntertainmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Code/ShortDescription"
+TradeEntertainmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Code/Description"
+TradeEntertainmentPerformedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PerformedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentPerformedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PerformedInd/Value"
+TradeEntertainmentPerformedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PerformedInd/Description"
+TradeEntertainmentEmploymentStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmploymentStatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentEmploymentStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmploymentStatusCode/Value"
+TradeEntertainmentEmploymentStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmploymentStatusCode/ShortDescription"
+TradeEntertainmentEmploymentStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmploymentStatusCode/Description"
+TradeEntertainmentFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/FullTimeInd/Value"
+TradeEntertainmentMainInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/MainInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentMainIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/MainInd/Value"
+TradeEntertainmentMainIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/MainInd/Description"
+TradeEntertainmentWorkAwayInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WorkAwayInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentWorkAwayIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WorkAwayInd/Value"
+TradeEntertainmentWorkAwayPercent: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WorkAwayPercent"
+TradeEntertainmentStartDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/StartDate"
+TradeEntertainmentStartTime: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/StartTime"
+TradeEntertainmentEndDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EndDate"
+TradeEntertainmentEndTime: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EndTime"
+TradeEntertainmentFirstPerformedDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/FirstPerformedDate"
+TradeEntertainmentLastPerformedDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/LastPerformedDate"
+TradeEntertainmentFrequency: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Frequency"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TradeEntertainmentFrequencyUnit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Frequency/Unit"
+TradeEntertainmentFrequencyType: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Frequency/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradeEntertainmentFrequencyTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Frequency/Type/Value"
+TradeEntertainmentFrequencyTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Frequency/Type/ShortDescription"
+TradeEntertainmentUseFrequencyCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/UseFrequencyCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradeEntertainmentUseFrequencyCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/UseFrequencyCode/Value"
+TradeEntertainmentUseFrequencyCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/UseFrequencyCode/ShortDescription"
+TradeEntertainmentDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Date"
+TradeEntertainmentDueDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DueDate"
+TradeEntertainmentResultDate: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/ResultDate"
+TradeEntertainmentTerritoryCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TerritoryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentTerritoryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TerritoryCode/Value"
+TradeEntertainmentTerritoryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TerritoryCode/ShortDescription"
+TradeEntertainmentTerritoryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TerritoryCode/Description"
+TradeEntertainmentNoOfDaysTravel: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfDaysTravel"
+TradeEntertainmentNoOfFullTimeWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfFullTimeWorkers"
+TradeEntertainmentNoOfPartTimeWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfPartTimeWorkers"
+TradeEntertainmentNoOfTemporaryWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfTemporaryWorkers"
+TradeEntertainmentNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfWorkers"
+TradeEntertainmentNoOfQualifiedStaff: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfQualifiedStaff"
+TradeEntertainmentNoOfTrainees: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfTrainees"
+TradeEntertainmentTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverAmount"
+TradeEntertainmentEstimatedTurnoverAmount: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EstimatedTurnoverAmount"
+TradeEntertainmentWagesAmount: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WagesAmount"
+TradeEntertainmentEstimateInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EstimateInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentEstimateIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EstimateInd/Value"
+TradeEntertainmentAdvertisedInPressInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/AdvertisedInPressInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentAdvertisedInPressIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/AdvertisedInPressInd/Value"
+TradeEntertainmentDepthLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DepthLimit"
+TradeEntertainmentFeeChargedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/FeeChargedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentFeeChargedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/FeeChargedInd/Value"
+TradeEntertainmentHeightLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HeightLimit"
+TradeEntertainmentMaxAttendance: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/MaxAttendance"
+TradeEntertainmentNoiseLevel: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoiseLevel"
+TradeEntertainmentNonResidentsInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NonResidentsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentNonResidentsIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NonResidentsInd/Value"
+TradeEntertainmentPercentageOfTime: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PercentageOfTime"
+TradeEntertainmentQuantityCarried: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/QuantityCarried"
+TradeEntertainmentRadiusLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RadiusLimit"
+TradeEntertainmentRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RequiredInd/Value"
+TradeEntertainmentStoreyLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/StoreyLimit"
+TradeEntertainmentSubContractorsUsedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SubContractorsUsedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentSubContractorsUsedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SubContractorsUsedInd/Value"
+TradeEntertainmentUnQualifiedStaffInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/UnQualifiedStaffInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentUnQualifiedStaffIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/UnQualifiedStaffInd/Value"
+TradeEntertainmentSupervisedInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SupervisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentSupervisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SupervisedInd/Value"
+TradeEntertainmentWeightLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WeightLimit"
+TradeEntertainmentLengthLimit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/LengthLimit"
+TradeEntertainmentNumberOf: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NumberOf"
+TradeEntertainmentPartyTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PartyTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentPartyTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PartyTypeCode/Value"
+TradeEntertainmentPartyTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PartyTypeCode/ShortDescription"
+TradeEntertainmentPartyTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/PartyTypeCode/Description"
+TradeEntertainmentSubsidiariesNotIncl: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SubsidiariesNotIncl"
+TradeEntertainmentNoOfWorkingPartners: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoOfWorkingPartners"
+TradeEntertainmentHSAWAInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HSAWAInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentHSAWAIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HSAWAInd/Value"
+TradeEntertainmentWrittenSafetyPolicyInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WrittenSafetyPolicyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentWrittenSafetyPolicyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/WrittenSafetyPolicyInd/Value"
+TradeEntertainmentNoiseInducedDeafnessInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoiseInducedDeafnessInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+TradeEntertainmentNoiseInducedDeafnessIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/NoiseInducedDeafnessInd/Value"
+TradeEntertainmentLargestLocationEmployeeNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/LargestLocationEmployeeNo"
+TradeEntertainmentRiskManagementInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RiskManagementInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentRiskManagementIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RiskManagementInd/Value"
+TradeEntertainmentRiskManagementIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/RiskManagementInd/Description"
+TradeEntertainmentSecondHandPercent: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SecondHandPercent"
+TradeEntertainmentTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TreatmentCode/Value"
+TradeEntertainmentTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TreatmentCode/ShortDescription"
+TradeEntertainmentTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TreatmentCode/Description"
+TradeEntertainmentIntensivePulsedLightInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/IntensivePulsedLightInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentIntensivePulsedLightIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/IntensivePulsedLightInd/Value"
+TradeEntertainmentIntensivePulsedLightIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/IntensivePulsedLightInd/Description"
+TradeEntertainmentGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/GeneralObjectCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/GeneralObjectCode/Value"
+TradeEntertainmentGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/GeneralObjectCode/ShortDescription"
+TradeEntertainmentGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/GeneralObjectCode/Description"
+TradeEntertainmentDestinationCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DestinationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentDestinationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DestinationCode/Value"
+TradeEntertainmentDestinationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DestinationCode/ShortDescription"
+TradeEntertainmentDestinationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/DestinationCode/Description"
+TradeEntertainmentTurnoverActivityCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentTurnoverActivityCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode/ListOwner"
+TradeEntertainmentTurnoverActivityCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode/ListNo"
+TradeEntertainmentTurnoverActivityCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode/Value"
+TradeEntertainmentTurnoverActivityCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode/ShortDescription"
+TradeEntertainmentTurnoverActivityCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverActivityCode/Description"
+TradeEntertainmentTurnoverTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradeEntertainmentTurnoverTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverTypeCode/Value"
+TradeEntertainmentTurnoverTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/TurnoverTypeCode/ShortDescription"
+TradeEntertainmentSafetyPolicyInd: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SafetyPolicyInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentSafetyPolicyIndValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SafetyPolicyInd/Value"
+TradeEntertainmentSafetyPolicyIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/SafetyPolicyInd/Description"
+TradeEntertainmentHazardouseAreaCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HazardouseAreaCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentHazardouseAreaCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HazardouseAreaCode/Value"
+TradeEntertainmentHazardouseAreaCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HazardouseAreaCode/ShortDescription"
+TradeEntertainmentHazardouseAreaCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/HazardouseAreaCode/Description"
+TradeEntertainmentPercentage: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Percentage"
+TradeEntertainmentCountryCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentCountryCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode/ListOwner"
+TradeEntertainmentCountryCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode/ListNo"
+TradeEntertainmentCountryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode/Value"
+TradeEntertainmentCountryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode/ShortDescription"
+TradeEntertainmentCountryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/CountryCode/Description"
+TradeEntertainmentDistance: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Distance"
+  Unit: ""
+  UnitMD: !map:HashWithIndifferentAccess
+    type: "number"
+TradeEntertainmentDistanceUnit: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Distance/Unit"
+TradeEntertainmentDistanceType: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Distance/Type"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+TradeEntertainmentDistanceTypeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Distance/Type/Value"
+TradeEntertainmentDistanceTypeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Distance/Type/ShortDescription"
+TradeEntertainmentEmployersBusinessCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeEntertainmentEmployersBusinessCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode/ListOwner"
+TradeEntertainmentEmployersBusinessCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode/ListNo"
+TradeEntertainmentEmployersBusinessCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode/Value"
+TradeEntertainmentEmployersBusinessCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode/ShortDescription"
+TradeEntertainmentEmployersBusinessCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/EmployersBusinessCode/Description"
+TradeEntertainmentNotes: !map:HashWithIndifferentAccess
+  xpath: "Trade/Entertainment/Notes"
+TradeTreatment: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment"
+  NoOfWorkers: ""
+  NoOfWorkersMD: !map:HashWithIndifferentAccess
+    type: "number"
+TradeTreatmentTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/TreatmentCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeTreatmentTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/TreatmentCode/Value"
+TradeTreatmentTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/TreatmentCode/ShortDescription"
+TradeTreatmentTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/TreatmentCode/Description"
+TradeTreatmentCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeTreatmentCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/Code/Value"
+TradeTreatmentCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/Code/ShortDescription"
+TradeTreatmentCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/Code/Description"
+TradeTreatmentNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/Treatment/NoOfWorkers"
+TradeNoOfWorkers: !map:HashWithIndifferentAccess
+  xpath: "Trade/NoOfWorkers"
+TradeNumberOf: !map:HashWithIndifferentAccess
+  xpath: "Trade/NumberOf"
+TradeGeneralObject: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject"
+TradeGeneralObjectGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+TradeGeneralObjectGeneralObjectCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode/ListOwner"
+TradeGeneralObjectGeneralObjectCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode/ListNo"
+TradeGeneralObjectGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode/Value"
+TradeGeneralObjectGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode/ShortDescription"
+TradeGeneralObjectGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Trade/GeneralObject/GeneralObjectCode/Description"
+TradeNotes: !map:HashWithIndifferentAccess
+  xpath: "Trade/Notes"

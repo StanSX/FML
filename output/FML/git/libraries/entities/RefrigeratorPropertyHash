@@ -1,0 +1,170 @@
+Refrigerator: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearBuilt: ""
+  YearBuiltMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TemperatureReadingFrequency: ""
+  TemperatureReadingFrequencyMD: !map:HashWithIndifferentAccess
+    type: "number"
+  MaxValueOneItem: ""
+  MaxValueOneItemMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorId: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/Id"
+RefrigeratorTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeCode/Value"
+RefrigeratorTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeCode/ShortDescription"
+RefrigeratorTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeCode/Description"
+RefrigeratorMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MakeModelDescription"
+RefrigeratorValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/Value"
+RefrigeratorNoOf: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/NoOf"
+RefrigeratorMaintenanceContractInd: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceContractInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RefrigeratorMaintenanceContractIndValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceContractInd/Value"
+RefrigeratorLocationCode: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/LocationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorLocationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/LocationCode/Value"
+RefrigeratorLocationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/LocationCode/ShortDescription"
+RefrigeratorLocationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/LocationCode/Description"
+RefrigeratorMaintenanceAccreditationCode: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceAccreditationCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorMaintenanceAccreditationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceAccreditationCode/Value"
+RefrigeratorMaintenanceAccreditationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceAccreditationCode/ShortDescription"
+RefrigeratorMaintenanceAccreditationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaintenanceAccreditationCode/Description"
+RefrigeratorYearBuilt: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/YearBuilt"
+RefrigeratorHermeticallySealedInd: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/HermeticallySealedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorHermeticallySealedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/HermeticallySealedInd/Value"
+RefrigeratorHermeticallySealedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/HermeticallySealedInd/Description"
+RefrigeratorTemperatureReadingFrequency: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TemperatureReadingFrequency"
+RefrigeratorThermometerFittedInd: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/ThermometerFittedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RefrigeratorThermometerFittedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/ThermometerFittedInd/Value"
+RefrigeratorMaxValueOneItem: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/MaxValueOneItem"
+RefrigeratorDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/Description"
+RefrigeratorTypeOfGoods: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+RefrigeratorTypeOfGoodsTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RefrigeratorTypeOfGoodsTypeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode/ListOwner"
+RefrigeratorTypeOfGoodsTypeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode/ListNo"
+RefrigeratorTypeOfGoodsTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode/Value"
+RefrigeratorTypeOfGoodsTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode/ShortDescription"
+RefrigeratorTypeOfGoodsTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/TypeCode/Description"
+RefrigeratorTypeOfGoodsNoOf: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/TypeOfGoods/NoOf"
+RefrigeratorSumInsured: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+RefrigeratorSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "Refrigerator/SumInsured/Amount"

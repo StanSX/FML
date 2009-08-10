@@ -1,0 +1,1215 @@
+RoadRisksCover: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover"
+RoadRisksCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/CoverRequiredInd/Value"
+RoadRisksCoverVehicleCover: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover"
+RoadRisksCoverVehicleCoverCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverVehicleCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Code/Value"
+RoadRisksCoverVehicleCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Code/ShortDescription"
+RoadRisksCoverVehicleCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Code/Description"
+RoadRisksCoverVehicleCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+RoadRisksCoverVehicleCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Excess/Amount"
+RoadRisksCoverVehicleCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/Excess/Percent"
+RoadRisksCoverVehicleCoverNCDDetail: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/NCDDetail"
+  NCDYears: ""
+  NCDYearsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+RoadRisksCoverVehicleCoverNCDDetailNCDYears: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/NCDDetail/NCDYears"
+RoadRisksCoverVehicleCoverNCDDetailPercent: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/NCDDetail/Percent"
+RoadRisksCoverVehicleCoverAdditionalCover: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover"
+RoadRisksCoverVehicleCoverAdditionalCoverCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverVehicleCoverAdditionalCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/Code/Value"
+RoadRisksCoverVehicleCoverAdditionalCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/Code/ShortDescription"
+RoadRisksCoverVehicleCoverAdditionalCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/Code/Description"
+RoadRisksCoverVehicleCoverAdditionalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverVehicleCoverAdditionalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleCover/AdditionalCover/ExcludedInd/Value"
+RoadRisksCoverTradePlate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/TradePlate"
+  NoOf: ""
+  NoOfMD: !map:HashWithIndifferentAccess
+    type: "number"
+RoadRisksCoverTradePlateNoOf: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/TradePlate/NoOf"
+RoadRisksCoverTradePlateRegistrationNumber: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/TradePlate/RegistrationNumber"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverTradePlateRegistrationNumberReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/TradePlate/RegistrationNumber/ReferenceNumber"
+RoadRisksCoverVehicleType: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType"
+  NoForSaleNotLicensed: ""
+  NoForSaleNotLicensedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoForSaleAndLicensed: ""
+  NoForSaleAndLicensedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoForRepairAndTesting: ""
+  NoForRepairAndTestingMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoParkedOnRoadBusinessHours: ""
+  NoParkedOnRoadBusinessHoursMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoParkedOnRoadOutsideHours: ""
+  NoParkedOnRoadOutsideHoursMD: !map:HashWithIndifferentAccess
+    type: "number"
+RoadRisksCoverVehicleTypeNoForSaleNotLicensed: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType/NoForSaleNotLicensed"
+RoadRisksCoverVehicleTypeNoForSaleAndLicensed: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType/NoForSaleAndLicensed"
+RoadRisksCoverVehicleTypeNoForRepairAndTesting: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType/NoForRepairAndTesting"
+RoadRisksCoverVehicleTypeNoParkedOnRoadBusinessHours: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType/NoParkedOnRoadBusinessHours"
+RoadRisksCoverVehicleTypeNoParkedOnRoadOutsideHours: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/VehicleType/NoParkedOnRoadOutsideHours"
+RoadRisksCoverVehicle: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle"
+  MakeModelDescription: ""
+  MakeModelDescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EngineCapacity: ""
+  EngineCapacityMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossWeight: ""
+  GrossWeightMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "codeValue"
+RoadRisksCoverVehicleTypeCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RoadRisksCoverVehicleTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/TypeCode/Value"
+RoadRisksCoverVehicleTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/TypeCode/ShortDescription"
+RoadRisksCoverVehicleMakeModelCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Key1: ""
+  Key1MD: !map:HashWithIndifferentAccess
+    type: ""
+  Key2: ""
+  Key2MD: !map:HashWithIndifferentAccess
+    type: ""
+  Key3: ""
+  Key3MD: !map:HashWithIndifferentAccess
+    type: ""
+  Key4: ""
+  Key4MD: !map:HashWithIndifferentAccess
+    type: ""
+  Key5: ""
+  Key5MD: !map:HashWithIndifferentAccess
+    type: ""
+RoadRisksCoverVehicleMakeModelCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/ListOwner"
+RoadRisksCoverVehicleMakeModelCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/ListNo"
+RoadRisksCoverVehicleMakeModelCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Value"
+RoadRisksCoverVehicleMakeModelCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/ShortDescription"
+RoadRisksCoverVehicleMakeModelCodeKey1: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Key1"
+RoadRisksCoverVehicleMakeModelCodeKey2: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Key2"
+RoadRisksCoverVehicleMakeModelCodeKey3: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Key3"
+RoadRisksCoverVehicleMakeModelCodeKey4: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Key4"
+RoadRisksCoverVehicleMakeModelCodeKey5: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelCode/Key5"
+RoadRisksCoverVehicleMakeModelDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/MakeModelDescription"
+RoadRisksCoverVehicleReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/ReferenceNumber"
+RoadRisksCoverVehicleEngineCapacity: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/EngineCapacity"
+RoadRisksCoverVehicleGrossWeight: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/GrossWeight"
+RoadRisksCoverVehicleValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Value"
+RoadRisksCoverVehicleBodyTypeCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/BodyTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverVehicleBodyTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/BodyTypeCode/Value"
+RoadRisksCoverVehicleBodyTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/BodyTypeCode/ShortDescription"
+RoadRisksCoverVehicleBodyTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/BodyTypeCode/Description"
+RoadRisksCoverVehicleVehicleUse: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/VehicleUse"
+RoadRisksCoverVehicleVehicleUseCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/VehicleUse/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverVehicleVehicleUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/VehicleUse/Code/Value"
+RoadRisksCoverVehicleVehicleUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/VehicleUse/Code/ShortDescription"
+RoadRisksCoverVehicleVehicleUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/VehicleUse/Code/Description"
+RoadRisksCoverVehicleInsurer: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer"
+RoadRisksCoverVehicleInsurerCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverVehicleInsurerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code/ListOwner"
+RoadRisksCoverVehicleInsurerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code/ListNo"
+RoadRisksCoverVehicleInsurerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code/Value"
+RoadRisksCoverVehicleInsurerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code/ShortDescription"
+RoadRisksCoverVehicleInsurerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Vehicle/Insurer/Code/Description"
+RoadRisksCoverDriver: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+RoadRisksCoverDriverIndividualName: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RoadRisksCoverDriverIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName/TitleCode/Value"
+RoadRisksCoverDriverIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName/TitleCode/ShortDescription"
+RoadRisksCoverDriverIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName/FirstForename"
+RoadRisksCoverDriverIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/IndividualName/Surname"
+RoadRisksCoverDriverBirthDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/BirthDate"
+RoadRisksCoverDriverEmployeeInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/EmployeeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverEmployeeIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/EmployeeInd/Value"
+RoadRisksCoverDriverEmployeeIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/EmployeeInd/Description"
+RoadRisksCoverDriverFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/FullTimeInd/Value"
+RoadRisksCoverDriverOccupation: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation"
+RoadRisksCoverDriverOccupationCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverOccupationCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code/ListOwner"
+RoadRisksCoverDriverOccupationCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code/ListNo"
+RoadRisksCoverDriverOccupationCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code/Value"
+RoadRisksCoverDriverOccupationCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code/ShortDescription"
+RoadRisksCoverDriverOccupationCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/Code/Description"
+RoadRisksCoverDriverOccupationEmployersBusinessCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverOccupationEmployersBusinessCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode/ListOwner"
+RoadRisksCoverDriverOccupationEmployersBusinessCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode/ListNo"
+RoadRisksCoverDriverOccupationEmployersBusinessCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode/Value"
+RoadRisksCoverDriverOccupationEmployersBusinessCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode/ShortDescription"
+RoadRisksCoverDriverOccupationEmployersBusinessCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Occupation/EmployersBusinessCode/Description"
+RoadRisksCoverDriverDrivingLicence: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence"
+RoadRisksCoverDriverDrivingLicenceCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDrivingLicenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/Code/Value"
+RoadRisksCoverDriverDrivingLicenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/Code/ShortDescription"
+RoadRisksCoverDriverDrivingLicenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/Code/Description"
+RoadRisksCoverDriverDrivingLicenceClassCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/ClassCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDrivingLicenceClassCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/ClassCode/Value"
+RoadRisksCoverDriverDrivingLicenceClassCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/ClassCode/ShortDescription"
+RoadRisksCoverDriverDrivingLicenceClassCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivingLicence/ClassCode/Description"
+RoadRisksCoverDriverDrivesVehicle: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivesVehicle"
+RoadRisksCoverDriverDrivesVehicleVehicle: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivesVehicle/Vehicle"
+  ReferenceNumber: ""
+  ReferenceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDrivesVehicleVehicleReferenceNumber: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/DrivesVehicle/Vehicle/ReferenceNumber"
+RoadRisksCoverDriverVehicleUse: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/VehicleUse"
+RoadRisksCoverDriverVehicleUseCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/VehicleUse/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverVehicleUseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/VehicleUse/Code/Value"
+RoadRisksCoverDriverVehicleUseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/VehicleUse/Code/ShortDescription"
+RoadRisksCoverDriverVehicleUseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/VehicleUse/Code/Description"
+RoadRisksCoverDriverDeclaration: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration"
+RoadRisksCoverDriverDeclarationPreviouslyInsuredInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PreviouslyInsuredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationPreviouslyInsuredIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PreviouslyInsuredInd/Value"
+RoadRisksCoverDriverDeclarationPreviouslyInsuredIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PreviouslyInsuredInd/Description"
+RoadRisksCoverDriverDeclarationLossesInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/LossesInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/LossesInd/Value"
+RoadRisksCoverDriverDeclarationLossesIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/LossesInd/Description"
+RoadRisksCoverDriverDeclarationLosses: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses"
+  OccurrenceDate: ""
+  OccurrenceDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  OccurrenceTime: ""
+  OccurrenceTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  NotifiedDate: ""
+  NotifiedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+RoadRisksCoverDriverDeclarationLossesOccurrenceDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/OccurrenceDate"
+RoadRisksCoverDriverDeclarationLossesOccurrenceTime: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/OccurrenceTime"
+RoadRisksCoverDriverDeclarationLossesCauseCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesCauseCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode/ListOwner"
+RoadRisksCoverDriverDeclarationLossesCauseCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode/ListNo"
+RoadRisksCoverDriverDeclarationLossesCauseCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode/Value"
+RoadRisksCoverDriverDeclarationLossesCauseCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesCauseCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CauseCode/Description"
+RoadRisksCoverDriverDeclarationLossesMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MedicalConditionCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MedicalConditionCode/Value"
+RoadRisksCoverDriverDeclarationLossesMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MedicalConditionCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MedicalConditionCode/Description"
+RoadRisksCoverDriverDeclarationLossesBodilyInjuryCausedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/BodilyInjuryCausedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesBodilyInjuryCausedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/BodilyInjuryCausedInd/Value"
+RoadRisksCoverDriverDeclarationLossesClaimMadeInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/ClaimMadeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesClaimMadeIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/ClaimMadeInd/Value"
+RoadRisksCoverDriverDeclarationLossesClaimSettledInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/ClaimSettledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesClaimSettledIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/ClaimSettledInd/Value"
+RoadRisksCoverDriverDeclarationLossesDriverAtFaultInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/DriverAtFaultInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesDriverAtFaultIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/DriverAtFaultInd/Value"
+RoadRisksCoverDriverDeclarationLossesNCDAffectedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/NCDAffectedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesNCDAffectedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/NCDAffectedInd/Value"
+RoadRisksCoverDriverDeclarationLossesNotifiedDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/NotifiedDate"
+RoadRisksCoverDriverDeclarationLossesPaymentOnAccountCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PaymentOnAccountCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesPaymentOnAccountCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PaymentOnAccountCode/Value"
+RoadRisksCoverDriverDeclarationLossesPaymentOnAccountCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PaymentOnAccountCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesPaymentOnAccountCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PaymentOnAccountCode/Description"
+RoadRisksCoverDriverDeclarationLossesTotalLossInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/TotalLossInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationLossesTotalLossIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/TotalLossInd/Value"
+RoadRisksCoverDriverDeclarationLossesCoverCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CoverCode/Value"
+RoadRisksCoverDriverDeclarationLossesCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CoverCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/CoverCode/Description"
+RoadRisksCoverDriverDeclarationLossesLossBreakdown: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownCoverCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/CoverCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownCoverCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/CoverCode/Value"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownCoverCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/CoverCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownCoverCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/CoverCode/Description"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/MonetaryAmount"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/MonetaryAmount/PaidAmount"
+RoadRisksCoverDriverDeclarationLossesLossBreakdownMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/LossBreakdown/MonetaryAmount/OutstandingAmount"
+RoadRisksCoverDriverDeclarationLossesPremises: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Premises"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesPremisesId: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Premises/Id"
+RoadRisksCoverDriverDeclarationLossesPremisesAddress: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Premises/Address"
+  Postcode: ""
+  PostcodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+    mask: "postcode"
+RoadRisksCoverDriverDeclarationLossesPremisesAddressPostcode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Premises/Address/Postcode"
+RoadRisksCoverDriverDeclarationLossesMonetaryAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MonetaryAmount"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PaidAmount: ""
+  PaidAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  OutstandingAmount: ""
+  OutstandingAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+RoadRisksCoverDriverDeclarationLossesMonetaryAmountAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MonetaryAmount/Amount"
+RoadRisksCoverDriverDeclarationLossesMonetaryAmountPaidAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MonetaryAmount/PaidAmount"
+RoadRisksCoverDriverDeclarationLossesMonetaryAmountOutstandingAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/MonetaryAmount/OutstandingAmount"
+RoadRisksCoverDriverDeclarationLossesExcess: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+RoadRisksCoverDriverDeclarationLossesExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Excess/Amount"
+RoadRisksCoverDriverDeclarationLossesPrecautionsInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PrecautionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesPrecautionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PrecautionsInd/Value"
+RoadRisksCoverDriverDeclarationLossesPrecautionsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/PrecautionsInd/Description"
+RoadRisksCoverDriverDeclarationLossesDriver: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualName: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/TitleCode/Value"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/TitleCode/ShortDescription"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/FirstForename"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/SecondForename"
+RoadRisksCoverDriverDeclarationLossesDriverIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Losses/Driver/IndividualName/Surname"
+RoadRisksCoverDriverDeclarationConvictionsInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/ConvictionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationConvictionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/ConvictionsInd/Value"
+RoadRisksCoverDriverDeclarationConvictions: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions"
+  ConvictionDate: ""
+  ConvictionDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  SentenceDuration: ""
+  SentenceDurationMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SentenceEffectiveDate: ""
+  SentenceEffectiveDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AlcoholReading: ""
+  AlcoholReadingMD: !map:HashWithIndifferentAccess
+    type: "number"
+  FineAmount: ""
+  FineAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  PenaltyPoints: ""
+  PenaltyPointsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  SuspensionPeriod: ""
+  SuspensionPeriodMD: !map:HashWithIndifferentAccess
+    type: "number"
+RoadRisksCoverDriverDeclarationConvictionsCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RoadRisksCoverDriverDeclarationConvictionsCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/Code/ListOwner"
+RoadRisksCoverDriverDeclarationConvictionsCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/Code/ListNo"
+RoadRisksCoverDriverDeclarationConvictionsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/Code/Value"
+RoadRisksCoverDriverDeclarationConvictionsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/Code/ShortDescription"
+RoadRisksCoverDriverDeclarationConvictionsConvictionDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/ConvictionDate"
+RoadRisksCoverDriverDeclarationConvictionsSentenceCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationConvictionsSentenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceCode/Value"
+RoadRisksCoverDriverDeclarationConvictionsSentenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceCode/ShortDescription"
+RoadRisksCoverDriverDeclarationConvictionsSentenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceCode/Description"
+RoadRisksCoverDriverDeclarationConvictionsSentenceDuration: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceDuration"
+RoadRisksCoverDriverDeclarationConvictionsSentenceEffectiveDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SentenceEffectiveDate"
+RoadRisksCoverDriverDeclarationConvictionsAlcoholReading: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AlcoholReading"
+RoadRisksCoverDriverDeclarationConvictionsAlcoholReadingTypeCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AlcoholReadingTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationConvictionsAlcoholReadingTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AlcoholReadingTypeCode/Value"
+RoadRisksCoverDriverDeclarationConvictionsAlcoholReadingTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AlcoholReadingTypeCode/ShortDescription"
+RoadRisksCoverDriverDeclarationConvictionsAlcoholReadingTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AlcoholReadingTypeCode/Description"
+RoadRisksCoverDriverDeclarationConvictionsFineAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/FineAmount"
+RoadRisksCoverDriverDeclarationConvictionsPenaltyPoints: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/PenaltyPoints"
+RoadRisksCoverDriverDeclarationConvictionsSuspensionPeriod: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/SuspensionPeriod"
+RoadRisksCoverDriverDeclarationConvictionsStatusCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/StatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationConvictionsStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/StatusCode/Value"
+RoadRisksCoverDriverDeclarationConvictionsStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/StatusCode/ShortDescription"
+RoadRisksCoverDriverDeclarationConvictionsStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/StatusCode/Description"
+RoadRisksCoverDriverDeclarationConvictionsAccidentInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AccidentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationConvictionsAccidentIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/Convictions/AccidentInd/Value"
+RoadRisksCoverDriverDeclarationPolicyCancelledInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyCancelledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationPolicyCancelledIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyCancelledInd/Value"
+RoadRisksCoverDriverDeclarationPolicyCancelledIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyCancelledInd/Description"
+RoadRisksCoverDriverDeclarationPolicyVoidInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyVoidInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationPolicyVoidIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyVoidInd/Value"
+RoadRisksCoverDriverDeclarationPolicyVoidIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PolicyVoidInd/Description"
+RoadRisksCoverDriverDeclarationPremiumIncreasedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PremiumIncreasedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationPremiumIncreasedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/PremiumIncreasedInd/Value"
+RoadRisksCoverDriverDeclarationRestrictiveTermsInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RestrictiveTermsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationRestrictiveTermsIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RestrictiveTermsInd/Value"
+RoadRisksCoverDriverDeclarationRestrictiveTermsIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RestrictiveTermsInd/Description"
+RoadRisksCoverDriverDeclarationRefusedCoverInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RefusedCoverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationRefusedCoverIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RefusedCoverInd/Value"
+RoadRisksCoverDriverDeclarationRefusedCoverIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RefusedCoverInd/Description"
+RoadRisksCoverDriverDeclarationRenewalRefusedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RenewalRefusedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationRenewalRefusedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RenewalRefusedInd/Value"
+RoadRisksCoverDriverDeclarationRenewalRefusedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/RenewalRefusedInd/Description"
+RoadRisksCoverDriverDeclarationMedicalConditionsInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalConditionsInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationMedicalConditionsIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalConditionsInd/Value"
+RoadRisksCoverDriverDeclarationMedicalCondition: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition"
+  OnsetDate: ""
+  OnsetDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LastAttackDate: ""
+  LastAttackDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  AttackPeriod: ""
+  AttackPeriodMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TotalNumberOfAttacks: ""
+  TotalNumberOfAttacksMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TimeOffWork: ""
+  TimeOffWorkMD: !map:HashWithIndifferentAccess
+    type: "number"
+RoadRisksCoverDriverDeclarationMedicalConditionCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationMedicalConditionCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/Code/Value"
+RoadRisksCoverDriverDeclarationMedicalConditionCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/Code/ShortDescription"
+RoadRisksCoverDriverDeclarationMedicalConditionCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/Code/Description"
+RoadRisksCoverDriverDeclarationMedicalConditionOnsetDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/OnsetDate"
+RoadRisksCoverDriverDeclarationMedicalConditionLastAttackDate: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/LastAttackDate"
+RoadRisksCoverDriverDeclarationMedicalConditionAttackPeriod: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/AttackPeriod"
+RoadRisksCoverDriverDeclarationMedicalConditionTotalNumberOfAttacks: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/TotalNumberOfAttacks"
+RoadRisksCoverDriverDeclarationMedicalConditionStabilisedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/StabilisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationMedicalConditionStabilisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/StabilisedInd/Value"
+RoadRisksCoverDriverDeclarationMedicalConditionTimeOffWork: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/TimeOffWork"
+RoadRisksCoverDriverDeclarationMedicalConditionDVLAAdvisableInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/DVLAAdvisableInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationMedicalConditionDVLAAdvisableIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/DVLAAdvisableInd/Value"
+RoadRisksCoverDriverDeclarationMedicalConditionDVLAAdvisedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/DVLAAdvisedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverDriverDeclarationMedicalConditionDVLAAdvisedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalCondition/DVLAAdvisedInd/Value"
+RoadRisksCoverDriverDeclarationMedicalConditionsReportedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalConditionsReportedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationMedicalConditionsReportedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalConditionsReportedInd/Value"
+RoadRisksCoverDriverDeclarationMedicalConditionsReportedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/MedicalConditionsReportedInd/Description"
+RoadRisksCoverDriverDeclarationDisqualificationInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/DisqualificationInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDriverDeclarationDisqualificationIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/DisqualificationInd/Value"
+RoadRisksCoverDriverDeclarationDisqualificationIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Driver/Declaration/DisqualificationInd/Description"
+RoadRisksCoverDeclaration: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Declaration"
+RoadRisksCoverDeclarationCasualDriversInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Declaration/CasualDriversInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverDeclarationCasualDriversIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Declaration/CasualDriversInd/Value"
+RoadRisksCoverDeclarationCasualDriversIndDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Declaration/CasualDriversInd/Description"
+RoadRisksCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Endorsement/ReasonApplied"
+RoadRisksCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Endorsement/ShortWording"
+RoadRisksCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/Endorsement/Wording"
+RoadRisksCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  VATAmount: ""
+  VATAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+RoadRisksCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/GrossAmount"
+RoadRisksCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/BrokerageAmount"
+RoadRisksCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/BrokeragePercent"
+RoadRisksCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/IPTAmount"
+RoadRisksCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/IPTPercent"
+RoadRisksCoverPremiumQuoteBreakdownVATAmount: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/VATAmount"
+RoadRisksCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+RoadRisksCoverQuoteCondition: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition"
+RoadRisksCoverQuoteConditionItemTypeCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/ItemTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverQuoteConditionItemTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/ItemTypeCode/Value"
+RoadRisksCoverQuoteConditionItemTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/ItemTypeCode/ShortDescription"
+RoadRisksCoverQuoteConditionItemTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/ItemTypeCode/Description"
+RoadRisksCoverQuoteConditionContact: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverQuoteConditionContactIndividualName: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+RoadRisksCoverQuoteConditionContactIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+RoadRisksCoverQuoteConditionContactIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName/TitleCode/Value"
+RoadRisksCoverQuoteConditionContactIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName/TitleCode/ShortDescription"
+RoadRisksCoverQuoteConditionContactIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName/FirstForename"
+RoadRisksCoverQuoteConditionContactIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/IndividualName/Surname"
+RoadRisksCoverQuoteConditionContactWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/WorkTelephoneNo"
+RoadRisksCoverQuoteConditionContactEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/QuoteCondition/Contact/EmailAddress"
+RoadRisksCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+RoadRisksCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "RoadRisksCover/ExcludedInd/Value"

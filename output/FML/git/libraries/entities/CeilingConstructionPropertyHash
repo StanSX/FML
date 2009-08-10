@@ -1,0 +1,26 @@
+CeilingConstruction: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+CeilingConstructionTypeCode: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CeilingConstructionTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction/TypeCode/Value"
+CeilingConstructionTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction/TypeCode/ShortDescription"
+CeilingConstructionTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction/TypeCode/Description"
+CeilingConstructionPercentage: !map:HashWithIndifferentAccess
+  xpath: "CeilingConstruction/Percentage"

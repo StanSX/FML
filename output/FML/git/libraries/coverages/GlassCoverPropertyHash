@@ -1,0 +1,135 @@
+GlassCover: !map:HashWithIndifferentAccess
+  xpath: "GlassCover"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+GlassCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+GlassCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverRequiredInd/Value"
+GlassCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail"
+GlassCoverCoverDetailCode: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+GlassCoverCoverDetailCodeValue: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/Code/Value"
+GlassCoverCoverDetailCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/Code/ShortDescription"
+GlassCoverCoverDetailCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/Code/Description"
+GlassCoverCoverDetailSumInsured: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/SumInsured"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+GlassCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  usebydefault: "true"
+GlassCoverCoverDetailSumInsuredAmount: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/CoverDetail/SumInsured/Amount"
+GlassCoverExcess: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Excess"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  Percent: ""
+  PercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+GlassCoverExcessAmountMD: !map:HashWithIndifferentAccess
+  usebydefault: "true"
+GlassCoverExcessAmount: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Excess/Amount"
+GlassCoverExcessPercent: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Excess/Percent"
+GlassCoverEndorsement: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Endorsement"
+  ReasonApplied: ""
+  ReasonAppliedMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ShortWording: ""
+  ShortWordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+GlassCoverEndorsementReasonApplied: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Endorsement/ReasonApplied"
+GlassCoverEndorsementShortWording: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Endorsement/ShortWording"
+GlassCoverEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Endorsement/Wording"
+GlassCoverPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "premium"
+  BrokerageAmount: ""
+  BrokerageAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  BrokeragePercent: ""
+  BrokeragePercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "money"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+GlassCoverPremiumQuoteBreakdownGrossAmountMD: !map:HashWithIndifferentAccess
+  usebydefault: "true"
+GlassCoverPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/GrossAmount"
+GlassCoverPremiumQuoteBreakdownBrokerageAmount: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/BrokerageAmount"
+GlassCoverPremiumQuoteBreakdownBrokeragePercent: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/BrokeragePercent"
+GlassCoverPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/IPTAmount"
+GlassCoverPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/IPTPercent"
+GlassCoverPremiumQuoteBreakdownMinAppliedInd: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/MinAppliedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+GlassCoverPremiumQuoteBreakdownMinAppliedIndValue: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/PremiumQuoteBreakdown/MinAppliedInd/Value"
+GlassCoverNotes: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Notes"
+GlassCoverInformation: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Information"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+GlassCoverInformationDescription: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/Information/Description"
+GlassCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+GlassCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "GlassCover/ExcludedInd/Value"

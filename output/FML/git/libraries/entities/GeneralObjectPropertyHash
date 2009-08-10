@@ -1,0 +1,30 @@
+GeneralObject: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject"
+GeneralObjectGeneralObjectCode: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+GeneralObjectGeneralObjectCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode/ListOwner"
+GeneralObjectGeneralObjectCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode/ListNo"
+GeneralObjectGeneralObjectCodeValue: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode/Value"
+GeneralObjectGeneralObjectCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode/ShortDescription"
+GeneralObjectGeneralObjectCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "GeneralObject/GeneralObjectCode/Description"

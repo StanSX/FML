@@ -1,0 +1,43 @@
+ShareDetail: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail"
+  NoOfShareholders: ""
+  NoOfShareholdersMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfSharesIssued: ""
+  NoOfSharesIssuedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfSharesHeld: ""
+  NoOfSharesHeldMD: !map:HashWithIndifferentAccess
+    type: "number"
+ShareDetailForeignStockExchange: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ForeignStockExchange"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListedDate: ""
+  ListedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+ShareDetailForeignStockExchangeCompanyName: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ForeignStockExchange/CompanyName"
+ShareDetailForeignStockExchangeListedDate: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ForeignStockExchange/ListedDate"
+ShareDetailNoOfShareholders: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/NoOfShareholders"
+ShareDetailNoOfSharesIssued: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/NoOfSharesIssued"
+ShareDetailNoOfSharesHeld: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/NoOfSharesHeld"
+ShareDetailShareholderDetail: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ShareholderDetail"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+ShareDetailShareholderDetailCompanyName: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ShareholderDetail/CompanyName"
+ShareDetailShareholderDetailPercentage: !map:HashWithIndifferentAccess
+  xpath: "ShareDetail/ShareholderDetail/Percentage"

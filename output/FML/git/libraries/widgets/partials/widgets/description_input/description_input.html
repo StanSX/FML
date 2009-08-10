@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Autogrowing textarea</title>
+        <script src='../../../../../public/js/jquery126pack.js'></script>
+        <script src='./notes_input.js'></script>
+        <style>
+           .TxtTD textarea {
+                   width:100%;
+                   padding: 5px;
+                   font-family: Verdana;
+                   font-size:14px;
+           }
+        </style>
+  		<link href="./notes_input.css" media="screen" rel="stylesheet" type="text/css" />
+
+	</head>
+	<body>
+
+        <table width=100% height=100% cellpadding=5 cellspacing=0 border=0><tr>
+        <td width=100% height=20% align=center valign=middle colspan=3>
+
+            <select onchange=" $('textarea').growToggleAuto(this.value == 1 ? true : false); $('#btn1, #btn2')[this.value==0?'show':'hide']();">
+                <option value=1>Auto (default)</option>
+                <option value=0>Keys (ctrl+ up/down)</option>
+
+            </select>
+
+            <select onchange=" $('textarea').growToggleAnimation(this.value == 1 ? true : false);">
+                <option value=1>Animation enabled (default)</option>
+                <option value=0>No animation</option>
+            </select>
+
+            <select onchange=" $('textarea').growToggleRestore(this.value == 1 ? true : false);">
+                <option value=0>Do not restore original (default)</option>
+
+                <option value=1>Do restore original (in auto mode only)</option>
+            </select>
+
+            <select onchange=" $('textarea').growSetMin(this.value);">
+                <option value=0>No minimum height (default)</option>
+                <option value=100>100</option>
+                <option value=150>150</option>
+
+            </select>
+
+            <select onchange=" $('textarea').growSetMax(this.value);">
+                <option value=0>No maximum height (default)</option>
+                <option value=200>200</option>
+                <option value=300>300</option>
+            </select>
+            <input id='btn1' type=button value="Increase" onclick="$('textarea').increase();" style="display:none;">
+
+            <input id='btn2' type=button value="Decrease" onclick="$('textarea').decrease();" style="display:none;">
+
+        </td></tr>
+
+        <tr>
+
+        <td height=60% width=40% valign=top align=center style="border-right:1px solid #ccc;" >
+            simple textarea<br>
+            <textarea id='txt1' cols=20 rows=3></textarea>
+
+        </td>
+        <td height=60% width=20% valign=top align=center style="border-right:1px solid #ccc;" >
+            with styles inside<br>
+
+            <textarea class='notesinput' id='txt2' cols=40></textarea>
+
+        </td>
+        <td height=60% width=40% valign=top align=center  class='TxtTD'>
+            with styles inheritance and initial value<br>
+
+        <textarea id='txt3' cols=40>some text some text some text some text some text some text some text some text some text some text
+some text some text some text some text some text
+some text some text some text some text some text some text some text some text</textarea>
+
+        </td>
+
+        </tr>
+
+        <tr><td height=20% width=100% align=center colspan=3>
+        <a href="http://code.google.com/p/jquery-growfield/downloads/list">get code</a>
+        <div id='debug' style="font-size:'9px'; height:'100px'; overflow:'auto'; width:'300px;' "></div>
+
+        </td>
+        </tr>
+        </table>
+        <script>
+            $('#txt1').growfield();
+            $('#txt2').growfield();
+            $('#txt3').growfield();
+        </script>
+
+
+        <!-- Start of Stuffed Tracker 3.0.3 code for http://www.stuffedguys.com -->
+<script type="text/javascript">
+var nsSiteId=1;
+var nsTrackPath='https://secure.stuffedguys.com/tracker/track/default.html?';
+var nsTrackMode='default';
+var nsCode=1;
+var nsVisitorTag='growfield';
+</script>
+<script type="text/javascript" src="https://secure.stuffedguys.com/tracker/track.js"></script>
+
+<noscript>
+<p style="display:none"><img src="https://secure.stuffedguys.com/tracker/track/default.html?st=1" width="1" height="1" alt="" style="display:none"/></p>
+</noscript>
+<!-- End of Stuffed Tracker code -->
+
+	</body>
+</html>

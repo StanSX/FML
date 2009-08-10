@@ -1,0 +1,89 @@
+Cctv: !map:HashWithIndifferentAccess
+  xpath: "Cctv"
+CctvPresentInd: !map:HashWithIndifferentAccess
+  xpath: "Cctv/PresentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CctvPresentIndValue: !map:HashWithIndifferentAccess
+  xpath: "Cctv/PresentInd/Value"
+CctvPresentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/PresentInd/Description"
+CctvTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Cctv/TypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CctvTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Cctv/TypeCode/Value"
+CctvTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/TypeCode/ShortDescription"
+CctvTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/TypeCode/Description"
+CctvMonitoredWhenCode: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredWhenCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CctvMonitoredWhenCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredWhenCode/Value"
+CctvMonitoredWhenCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredWhenCode/ShortDescription"
+CctvMonitoredWhenCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredWhenCode/Description"
+CctvMonitoredByCode: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredByCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CctvMonitoredByCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredByCode/Value"
+CctvMonitoredByCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredByCode/ShortDescription"
+CctvMonitoredByCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/MonitoredByCode/Description"
+CctvCCTVCoverage: !map:HashWithIndifferentAccess
+  xpath: "Cctv/CCTVCoverage"
+CctvCCTVCoverageCode: !map:HashWithIndifferentAccess
+  xpath: "Cctv/CCTVCoverage/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CctvCCTVCoverageCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Cctv/CCTVCoverage/Code/Value"
+CctvCCTVCoverageCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/CCTVCoverage/Code/ShortDescription"
+CctvCCTVCoverageCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Cctv/CCTVCoverage/Code/Description"

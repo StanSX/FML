@@ -1,0 +1,74 @@
+EntertainmentLicence: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence"
+  StartDate: ""
+  StartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  ExpiryDate: ""
+  ExpiryDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LatestExtensionTime: ""
+  LatestExtensionTimeMD: !map:HashWithIndifferentAccess
+    type: "time"
+  NoOfExtensions: ""
+  NoOfExtensionsMD: !map:HashWithIndifferentAccess
+    type: "number"
+EntertainmentLicenceCode: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/Code"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+EntertainmentLicenceCodeValue: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/Code/Value"
+EntertainmentLicenceCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/Code/ShortDescription"
+EntertainmentLicenceCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/Code/Description"
+EntertainmentLicenceStartDate: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/StartDate"
+EntertainmentLicenceExpiryDate: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/ExpiryDate"
+EntertainmentLicenceLatestExtensionTime: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/LatestExtensionTime"
+EntertainmentLicenceNoOfExtensions: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/NoOfExtensions"
+EntertainmentLicenceOppositionInd: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/OppositionInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EntertainmentLicenceOppositionIndValue: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/OppositionInd/Value"
+EntertainmentLicenceRefusalInd: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/RefusalInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EntertainmentLicenceRefusalIndValue: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/RefusalInd/Value"
+EntertainmentLicenceSuspendedRevokedInd: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/SuspendedRevokedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EntertainmentLicenceSuspendedRevokedIndValue: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/SuspendedRevokedInd/Value"
+EntertainmentLicenceTransferInd: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/TransferInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+EntertainmentLicenceTransferIndValue: !map:HashWithIndifferentAccess
+  xpath: "EntertainmentLicence/TransferInd/Value"

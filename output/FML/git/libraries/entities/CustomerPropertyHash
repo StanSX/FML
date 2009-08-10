@@ -1,0 +1,863 @@
+Customer: !map:HashWithIndifferentAccess
+  xpath: "Customer"
+  Id: ""
+  IdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  PEMId: ""
+  PEMIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+  InStepCode: ""
+  InStepCodeMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Role: ""
+  RoleMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyName: ""
+  CompanyNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  CompanyFormerName: ""
+  CompanyFormerNameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Branch: ""
+  BranchMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TelephoneNo: ""
+  TelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  HomeTelephoneNo: ""
+  HomeTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WorkTelephoneNo: ""
+  WorkTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  MobileTelephoneNo: ""
+  MobileTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FaxTelephoneNo: ""
+  FaxTelephoneNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmailAddress: ""
+  EmailAddressMD: !map:HashWithIndifferentAccess
+    type: "text"
+  WebSite: ""
+  WebSiteMD: !map:HashWithIndifferentAccess
+    type: "text"
+  BirthDate: ""
+  BirthDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  VATRegistrationNo: ""
+  VATRegistrationNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NationalInsuranceNumber: ""
+  NationalInsuranceNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  EmploymentStartDate: ""
+  EmploymentStartDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  YearsWithPreviousEmployer: ""
+  YearsWithPreviousEmployerMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearsExperience: ""
+  YearsExperienceMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearBusinessEstablished: ""
+  YearBusinessEstablishedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  CompanyEstablishedDate: ""
+  CompanyEstablishedDateMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  CompanyRegistrationNo: ""
+  CompanyRegistrationNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  DunBradstreetNumber: ""
+  DunBradstreetNumberMD: !map:HashWithIndifferentAccess
+    type: "text"
+  FinancialYearEnd: ""
+  FinancialYearEndMD: !map:HashWithIndifferentAccess
+    type: "date"
+    mask: "date"
+  LastAccountsYear: ""
+  LastAccountsYearMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfCountyCourtJudgements: ""
+  NoOfCountyCourtJudgementsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoInHousehold: ""
+  NoInHouseholdMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfChildren: ""
+  NoOfChildrenMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfEmployees: ""
+  NoOfEmployeesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfOtherVehiclesDriven: ""
+  NoOfOtherVehiclesDrivenMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfOtherVehiclesOwned: ""
+  NoOfOtherVehiclesOwnedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoOfVehiclesUsedNotOwned: ""
+  NoOfVehiclesUsedNotOwnedMD: !map:HashWithIndifferentAccess
+    type: "number"
+  NoVehiclesInHousehold: ""
+  NoVehiclesInHouseholdMD: !map:HashWithIndifferentAccess
+    type: "number"
+  YearsResidentInCountry: ""
+  YearsResidentInCountryMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Turnover: ""
+  TurnoverMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Wages: ""
+  WagesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  AgeOldestPerson: ""
+  AgeOldestPersonMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Access: ""
+  AccessMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Percentage: ""
+  PercentageMD: !map:HashWithIndifferentAccess
+    type: "number"
+    mask: "percent"
+  RiskReference: ""
+  RiskReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  TransactionReference: ""
+  TransactionReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  QuoteReference: ""
+  QuoteReferenceMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Notes: ""
+  NotesMD: !map:HashWithIndifferentAccess
+    type: "notes"
+CustomerId: !map:HashWithIndifferentAccess
+  xpath: "Customer/Id"
+CustomerPEMId: !map:HashWithIndifferentAccess
+  xpath: "Customer/PEMId"
+CustomerCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code/ListOwner"
+CustomerCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code/ListNo"
+CustomerCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code/Value"
+CustomerCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code/ShortDescription"
+CustomerCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/Code/Description"
+CustomerInStepCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/InStepCode"
+CustomerRole: !map:HashWithIndifferentAccess
+  xpath: "Customer/Role"
+CustomerIndividualName: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ThirdForename: ""
+  ThirdForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerIndividualNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+CustomerIndividualNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/TitleCode/Value"
+CustomerIndividualNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/TitleCode/ShortDescription"
+CustomerIndividualNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/FirstForename"
+CustomerIndividualNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/SecondForename"
+CustomerIndividualNameThirdForename: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/ThirdForename"
+CustomerIndividualNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/Surname"
+CustomerIndividualNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualName/NameSuffix"
+CustomerIndividualFormerName: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName"
+  FirstForename: ""
+  FirstForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  SecondForename: ""
+  SecondForenameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Surname: ""
+  SurnameMD: !map:HashWithIndifferentAccess
+    type: "text"
+  NameSuffix: ""
+  NameSuffixMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerIndividualFormerNameTitleCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/TitleCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+CustomerIndividualFormerNameTitleCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/TitleCode/Value"
+CustomerIndividualFormerNameTitleCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/TitleCode/ShortDescription"
+CustomerIndividualFormerNameFirstForename: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/FirstForename"
+CustomerIndividualFormerNameSecondForename: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/SecondForename"
+CustomerIndividualFormerNameSurname: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/Surname"
+CustomerIndividualFormerNameNameSuffix: !map:HashWithIndifferentAccess
+  xpath: "Customer/IndividualFormerName/NameSuffix"
+CustomerCompanyName: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyName"
+CustomerCompanyFormerName: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyFormerName"
+CustomerBranch: !map:HashWithIndifferentAccess
+  xpath: "Customer/Branch"
+CustomerTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/TelephoneNo"
+CustomerHomeTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/HomeTelephoneNo"
+CustomerWorkTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/WorkTelephoneNo"
+CustomerMobileTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/MobileTelephoneNo"
+CustomerFaxTelephoneNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/FaxTelephoneNo"
+CustomerEmailAddress: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmailAddress"
+CustomerWebSite: !map:HashWithIndifferentAccess
+  xpath: "Customer/WebSite"
+CustomerSexCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/SexCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerSexCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/SexCode/Value"
+CustomerSexCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/SexCode/ShortDescription"
+CustomerSexCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/SexCode/Description"
+CustomerBirthDate: !map:HashWithIndifferentAccess
+  xpath: "Customer/BirthDate"
+CustomerDriverInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/DriverInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerDriverIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/DriverInd/Value"
+CustomerMaritalStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/MaritalStatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerMaritalStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/MaritalStatusCode/Value"
+CustomerMaritalStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/MaritalStatusCode/ShortDescription"
+CustomerMaritalStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/MaritalStatusCode/Description"
+CustomerVATRegisteredCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerVATRegisteredCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode/ListOwner"
+CustomerVATRegisteredCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode/ListNo"
+CustomerVATRegisteredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode/Value"
+CustomerVATRegisteredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode/ShortDescription"
+CustomerVATRegisteredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegisteredCode/Description"
+CustomerVATRegistrationNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/VATRegistrationNo"
+CustomerNationalInsuranceNumber: !map:HashWithIndifferentAccess
+  xpath: "Customer/NationalInsuranceNumber"
+CustomerRelationshipToInsuredCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/RelationshipToInsuredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerRelationshipToInsuredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/RelationshipToInsuredCode/Value"
+CustomerRelationshipToInsuredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/RelationshipToInsuredCode/ShortDescription"
+CustomerRelationshipToInsuredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/RelationshipToInsuredCode/Description"
+CustomerEmploymentTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmploymentTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerEmploymentTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmploymentTypeCode/Value"
+CustomerEmploymentTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmploymentTypeCode/ShortDescription"
+CustomerEmploymentTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmploymentTypeCode/Description"
+CustomerFullTimeInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/FullTimeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerFullTimeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/FullTimeInd/Value"
+CustomerEmploymentStartDate: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmploymentStartDate"
+CustomerYearsWithPreviousEmployer: !map:HashWithIndifferentAccess
+  xpath: "Customer/YearsWithPreviousEmployer"
+CustomerYearsExperience: !map:HashWithIndifferentAccess
+  xpath: "Customer/YearsExperience"
+CustomerYearBusinessEstablished: !map:HashWithIndifferentAccess
+  xpath: "Customer/YearBusinessEstablished"
+CustomerCompanyEstablishedDate: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyEstablishedDate"
+CustomerCompanyRegCountryCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyRegCountryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerCompanyRegCountryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyRegCountryCode/Value"
+CustomerCompanyRegCountryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyRegCountryCode/ShortDescription"
+CustomerCompanyRegCountryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyRegCountryCode/Description"
+CustomerCompanyRegistrationNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyRegistrationNo"
+CustomerCompanyStatusCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyStatusCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerCompanyStatusCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyStatusCode/Value"
+CustomerCompanyStatusCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyStatusCode/ShortDescription"
+CustomerCompanyStatusCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/CompanyStatusCode/Description"
+CustomerRegisteredCharityInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/RegisteredCharityInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerRegisteredCharityIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/RegisteredCharityInd/Value"
+CustomerCreditChecksOKInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/CreditChecksOKInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerCreditChecksOKIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/CreditChecksOKInd/Value"
+CustomerDisabledBadgeHolderInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/DisabledBadgeHolderInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerDisabledBadgeHolderIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/DisabledBadgeHolderInd/Value"
+CustomerDunBradstreetNumber: !map:HashWithIndifferentAccess
+  xpath: "Customer/DunBradstreetNumber"
+CustomerDwellingTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/DwellingTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerDwellingTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/DwellingTypeCode/Value"
+CustomerDwellingTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/DwellingTypeCode/ShortDescription"
+CustomerDwellingTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/DwellingTypeCode/Description"
+CustomerFinancialLegalProblemsCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/FinancialLegalProblemsCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerFinancialLegalProblemsCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/FinancialLegalProblemsCode/Value"
+CustomerFinancialLegalProblemsCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/FinancialLegalProblemsCode/ShortDescription"
+CustomerFinancialLegalProblemsCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/FinancialLegalProblemsCode/Description"
+CustomerFinancialYearEnd: !map:HashWithIndifferentAccess
+  xpath: "Customer/FinancialYearEnd"
+CustomerFirstTimeBuyerInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/FirstTimeBuyerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerFirstTimeBuyerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/FirstTimeBuyerInd/Value"
+CustomerFirstTimeInsuredInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/FirstTimeInsuredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerFirstTimeInsuredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/FirstTimeInsuredInd/Value"
+CustomerHomeOwnerInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/HomeOwnerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerHomeOwnerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/HomeOwnerInd/Value"
+CustomerLastAccountsYear: !map:HashWithIndifferentAccess
+  xpath: "Customer/LastAccountsYear"
+CustomerNoOfCountyCourtJudgements: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfCountyCourtJudgements"
+CustomerNoInHousehold: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoInHousehold"
+CustomerNoOfChildren: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfChildren"
+CustomerNoOfEmployees: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfEmployees"
+CustomerNoOfOtherVehiclesDriven: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfOtherVehiclesDriven"
+CustomerNoOfOtherVehiclesOwned: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfOtherVehiclesOwned"
+CustomerNoOfVehiclesUsedNotOwned: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoOfVehiclesUsedNotOwned"
+CustomerNoVehiclesInHousehold: !map:HashWithIndifferentAccess
+  xpath: "Customer/NoVehiclesInHousehold"
+CustomerRegisteredDisabledInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/RegisteredDisabledInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerRegisteredDisabledIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/RegisteredDisabledInd/Value"
+CustomerResidentOfCountryCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentOfCountryCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerResidentOfCountryCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentOfCountryCode/Value"
+CustomerResidentOfCountryCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentOfCountryCode/ShortDescription"
+CustomerResidentOfCountryCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentOfCountryCode/Description"
+CustomerYearsResidentInCountry: !map:HashWithIndifferentAccess
+  xpath: "Customer/YearsResidentInCountry"
+CustomerResidesWithInsuredInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidesWithInsuredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerResidesWithInsuredIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidesWithInsuredInd/Value"
+CustomerSmokerInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/SmokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerSmokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/SmokerInd/Value"
+CustomerUnsolicitedSalesContactInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/UnsolicitedSalesContactInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerUnsolicitedSalesContactIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/UnsolicitedSalesContactInd/Value"
+CustomerPAGroupCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/PAGroupCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerPAGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/PAGroupCode/Value"
+CustomerPAGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/PAGroupCode/ShortDescription"
+CustomerPAGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/PAGroupCode/Description"
+CustomerTravelGroupCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/TravelGroupCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerTravelGroupCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/TravelGroupCode/Value"
+CustomerTravelGroupCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/TravelGroupCode/ShortDescription"
+CustomerTravelGroupCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/TravelGroupCode/Description"
+CustomerTurnover: !map:HashWithIndifferentAccess
+  xpath: "Customer/Turnover"
+CustomerWages: !map:HashWithIndifferentAccess
+  xpath: "Customer/Wages"
+CustomerAgeOldestPerson: !map:HashWithIndifferentAccess
+  xpath: "Customer/AgeOldestPerson"
+CustomerOtherBusinessInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/OtherBusinessInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerOtherBusinessIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/OtherBusinessInd/Value"
+CustomerOtherBusinessIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/OtherBusinessInd/Description"
+CustomerAccess: !map:HashWithIndifferentAccess
+  xpath: "Customer/Access"
+CustomerSubsidiaryIncludedInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/SubsidiaryIncludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerSubsidiaryIncludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/SubsidiaryIncludedInd/Value"
+CustomerSubsidiaryIncludedIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/SubsidiaryIncludedInd/Description"
+CustomerTypeOfResident: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerTypeOfResidentListOwner: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident/ListOwner"
+CustomerTypeOfResidentListNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident/ListNo"
+CustomerTypeOfResidentValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident/Value"
+CustomerTypeOfResidentShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident/ShortDescription"
+CustomerTypeOfResidentDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/TypeOfResident/Description"
+CustomerPercentage: !map:HashWithIndifferentAccess
+  xpath: "Customer/Percentage"
+CustomerPolicyholderInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/PolicyholderInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerPolicyholderIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/PolicyholderInd/Value"
+CustomerPolicyholderIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/PolicyholderInd/Description"
+CustomerInstructorTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode"
+  ListOwner: ""
+  ListOwnerMD: !map:HashWithIndifferentAccess
+    type: "text"
+  ListNo: ""
+  ListNoMD: !map:HashWithIndifferentAccess
+    type: "text"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerInstructorTypeCodeListOwner: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode/ListOwner"
+CustomerInstructorTypeCodeListNo: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode/ListNo"
+CustomerInstructorTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode/Value"
+CustomerInstructorTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode/ShortDescription"
+CustomerInstructorTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/InstructorTypeCode/Description"
+CustomerHoldingBrokerInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/HoldingBrokerInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerHoldingBrokerIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/HoldingBrokerInd/Value"
+CustomerHoldingBrokerIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/HoldingBrokerInd/Description"
+CustomerRiskReference: !map:HashWithIndifferentAccess
+  xpath: "Customer/RiskReference"
+CustomerTransactionReference: !map:HashWithIndifferentAccess
+  xpath: "Customer/TransactionReference"
+CustomerQuoteReference: !map:HashWithIndifferentAccess
+  xpath: "Customer/QuoteReference"
+CustomerResidentInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerResidentIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentInd/Value"
+CustomerResidentIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/ResidentInd/Description"
+CustomerNeighbourhoodWatchInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/NeighbourhoodWatchInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerNeighbourhoodWatchIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/NeighbourhoodWatchInd/Value"
+CustomerNeighbourhoodWatchIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/NeighbourhoodWatchInd/Description"
+CustomerSoundHealthInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/SoundHealthInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+CustomerSoundHealthIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/SoundHealthInd/Value"
+CustomerColour: !map:HashWithIndifferentAccess
+  xpath: "Customer/Colour"
+CustomerColourColourCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/Colour/ColourCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerColourColourCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/Colour/ColourCode/Value"
+CustomerColourColourCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/Colour/ColourCode/ShortDescription"
+CustomerColourColourCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/Colour/ColourCode/Description"
+CustomerEthnicOrigin: !map:HashWithIndifferentAccess
+  xpath: "Customer/EthnicOrigin"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerEthnicOriginValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/EthnicOrigin/Value"
+CustomerEthnicOriginShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/EthnicOrigin/ShortDescription"
+CustomerEthnicOriginDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/EthnicOrigin/Description"
+CustomerEmployeeInd: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmployeeInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerEmployeeIndValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmployeeInd/Value"
+CustomerEmployeeIndDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/EmployeeInd/Description"
+CustomerSectorTypeCode: !map:HashWithIndifferentAccess
+  xpath: "Customer/SectorTypeCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+CustomerSectorTypeCodeValue: !map:HashWithIndifferentAccess
+  xpath: "Customer/SectorTypeCode/Value"
+CustomerSectorTypeCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/SectorTypeCode/ShortDescription"
+CustomerSectorTypeCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "Customer/SectorTypeCode/Description"
+CustomerNotes: !map:HashWithIndifferentAccess
+  xpath: "Customer/Notes"

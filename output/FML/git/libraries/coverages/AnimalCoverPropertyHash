@@ -1,0 +1,50 @@
+AnimalCover: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover"
+AnimalCoverCoverRequiredInd: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverRequiredInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AnimalCoverCoverRequiredIndValue: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverRequiredInd/Value"
+AnimalCoverCoverDetail: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail"
+  CoverId: ""
+  CoverIdMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalCoverCoverDetailCoverId: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/CoverId"
+AnimalCoverCoverDetailActivityCoveredCode: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/ActivityCoveredCode"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+    mask: "codeValue"
+  ShortDescription: ""
+  ShortDescriptionMD: !map:HashWithIndifferentAccess
+    type: "enumeration"
+  Description: ""
+  DescriptionMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalCoverCoverDetailActivityCoveredCodeValue: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/ActivityCoveredCode/Value"
+AnimalCoverCoverDetailActivityCoveredCodeShortDescription: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/ActivityCoveredCode/ShortDescription"
+AnimalCoverCoverDetailActivityCoveredCodeDescription: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/ActivityCoveredCode/Description"
+AnimalCoverCoverDetailEndorsement: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/Endorsement"
+  Wording: ""
+  WordingMD: !map:HashWithIndifferentAccess
+    type: "text"
+AnimalCoverCoverDetailEndorsementWording: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/CoverDetail/Endorsement/Wording"
+AnimalCoverExcludedInd: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/ExcludedInd"
+  Value: ""
+  ValueMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+    mask: "codeValue"
+AnimalCoverExcludedIndValue: !map:HashWithIndifferentAccess
+  xpath: "AnimalCover/ExcludedInd/Value"
