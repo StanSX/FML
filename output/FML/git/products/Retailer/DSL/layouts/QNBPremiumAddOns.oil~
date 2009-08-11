@@ -46,14 +46,19 @@ layout :kpstructure
 
            panel :box_contents
 
-  
+            tabs :tabs_nav
+               tab :tab_1
                   widget :tabs_panel,{:title => :your_monthly_quote, :readonly => true, :tabcontent => 'true', :id => 'tab_1', :tabTitle => :your_monthly_quote}
                         entity :PremiumQuoteBreakdown,{:show => 'GrossAmount&IPTAmount'}
-
+                    endwidget
+                endtab
+                tab :tab_2
+                  widget :tabs_panel,{:title => :your_annual_quote, :readonly => true, :tabcontent => 'true', :id => 'tab_2', :tabTitle => :your_annual_quote}
                         entity :PremiumQuoteBreakdown,{:show => 'GrossAmount&IPTAmount'}                        
-                  
-                
-               
+                  endwidget
+                endtab
+                tab :tab_3
+                  widget :tabs_panel,{:title => :modifications_panel_title, :tabcontent => 'true', :id => 'tab_3', :tabTitle => :modifications_panel_title}
                     coverage :PublicLiabilityCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
                     coverage :BusinessInterruptionCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
                     coverage :MoneyCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
@@ -62,8 +67,8 @@ layout :kpstructure
                     entity   :ItemInOpen
                     coverage :LossOfLicenceCover,{:hide => 'PremiumQuoteBreakdown&Excess'}
                   endwidget
-               
-             
+                endtab
+             endtabs
     #close panel box_contents
     endpanel
 

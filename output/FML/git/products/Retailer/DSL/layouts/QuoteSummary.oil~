@@ -46,10 +46,27 @@ layout :kpstructure
 
      panel :box_contents
 
-  
+     tabs :tabs_nav
+        tab :tab_1
             widget :tabs_panel,{:title => :primary_contact_details_panel_title, :tabcontent => 'true', :id => 'tab_1', :tabTitle => :primary_contact_details_panel_title}
               entity :Insured
-            entity :Policy,{:hide => 'PolicyNumber&EndDate'}
+            endwidget
+         endtab
+        tab :tab_2
+            widget :tabs_panel,{:title => :your_monthly_quote, :tabcontent => 'true', :id => 'tab_2', :tabTitle => :your_monthly_quote}
+                  widget :premium, {:deposit => 121.33, :first_instalment => 60.74, :subsequent_instalments => 60.69, :apr => 0, :total_amount_payable => 728.28}
+                  endwidget
+            endwidget
+        endtab
+        tab :tab_3
+            widget :tabs_panel,{:title => :your_annual_quote, :tabcontent => 'true', :id => 'tab_3', :tabTitle => :your_annual_quote}
+                  widget :premium, {:deposit => 121.33, :first_instalment => 60.74, :subsequent_instalments => 60.69, :apr => 0, :total_amount_payable => 728.28}
+                  endwidget
+            endwidget
+        endtab
+        tab :tab_4
+            widget :tabs_panel,{:title => :your_cover_breakdown_panel_title, :editable => true, :tabcontent => 'true', :id => 'tab_4', :tabTitle => :your_cover_breakdown_panel_title}
+              entity :Policy,{:hide => 'PolicyNumber&EndDate'}
               coverage :EmployersLiabilityCover,{:hide => 'PremiumQuoteBreakdown'}
               coverage :BuildingsCover,{:hide => 'CoverRequiredInd&PremiumQuoteBreakdown'}
               coverage :MoneyCover,{:hide => 'PremiumQuoteBreakdown'}
@@ -59,19 +76,8 @@ layout :kpstructure
               coverage :GlassCover,{:hide => 'PremiumQuoteBreakdown'}
               coverage :ContentsCover,{:hide => 'PremiumQuoteBreakdown'}
             endwidget
-       
-            widget :tabs_panel,{:title => :your_monthly_quote, :tabcontent => 'true', :id => 'tab_2', :tabTitle => :your_monthly_quote}
-                  widget :premium, {:deposit => 121.33, :first_instalment => 60.74, :subsequent_instalments => 60.69, :apr => 0, :total_amount_payable => 728.28}
-                  endwidget
-            endwidget
-
-            widget :tabs_panel,{:title => :your_annual_quote, :tabcontent => 'true', :id => 'tab_3', :tabTitle => :your_annual_quote}
-                  widget :premium, {:deposit => 121.33, :first_instalment => 60.74, :subsequent_instalments => 60.69, :apr => 0, :total_amount_payable => 728.28}
-                  endwidget
- 
-  
-            endwidget
-  
+        endtab
+     endtabs
            
     #close panel box_contents
     endpanel

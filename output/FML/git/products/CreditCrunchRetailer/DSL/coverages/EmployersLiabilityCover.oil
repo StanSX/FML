@@ -1,4 +1,0 @@
-coverage :EmployersLiabilityCover
-    use :CoverDetail,:SumInsured,:Amount, {:default_value => '10000000'}
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage

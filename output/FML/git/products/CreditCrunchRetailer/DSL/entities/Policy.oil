@@ -1,5 +1,0 @@
-entity :Policy
-    use :PolicyNumber
-    use :StartDate
-    use :EndDate
-endentity

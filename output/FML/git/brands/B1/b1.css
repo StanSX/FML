@@ -1,0 +1,72 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Title:	IAB_UI
+Author:	Kube Partners
+URLs:	www.kubepartners.com
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* RESET */
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, input {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th {
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+}
+ul, ol {
+	list-style: none;
+}
+fieldset, img {
+	border: none;
+}
+caption, th {
+	text-align: left;
+}
+table {
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: 0;
+	padding: 0;
+}
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+/* STAGE */
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	color: #000;
+	font-size:0.9em;
+	background-color: #FFF;
+    background: url(images/bkgcolumn.gif) repeat-y 20% 0;
+}
+
+
+a, a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+
+/*Background Colors - Borders Colors*/
+
+.box_sx {
+   background-color: #14202D;
+}
+
+/*.container{
+   background: url(images/bkgcolumn.gif) repeat-y 20% 0;
+}*/
+
+.quote {
+    border-top-color: #FFF;
+}
+
+.quote_fieldset {
+    border: 1px solid #14202D;
+}

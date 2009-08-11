@@ -1,5 +1,0 @@
-coverage :BusinessInterruptionCover
-    use :CoverDetail,:SumInsured,:Amount
-    use :CoverDetail,:Excess,:Amount
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage
