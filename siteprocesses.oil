@@ -1,0 +1,17 @@
+siteprocesses
+    reference_datamodel "datamodel.oil"
+
+    process :p_welcome
+        flow :Welcome, {:data_model => [], :do => :nothing, :navigation => [:Plant]}
+    endprocess
+
+    process :p_plant
+        flow :Plant, {:data_model => [:Insured], :do => :nothing, :navigation => [:Welcome]}
+    endprocess
+
+    products
+        product :ContractorPlant
+        endproduct
+    endproducts
+
+endsiteprocesses

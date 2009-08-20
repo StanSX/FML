@@ -1,0 +1,8 @@
+product :ContractorPlant
+	coverages
+		has_one :PlantCoverCoverage
+	endcoverages
+	entities
+		has_one :Insured
+	endentities
+endproduct

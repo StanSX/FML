@@ -1,0 +1,13 @@
+channels
+	channel :default
+		processes
+			workflow_steps
+				step :Welcome,					 {:template => :Welcome,:layout => :blank}
+				step :Plant,					 {:template => :Plant,:layout => :blank}
+			endworkflow_steps
+			valid_flows
+				flow :Welcome,					 [:Plant]
+				flow :Plant,					 [:Welcome]
+			endvalid_flows
+		endprocesses
+	endchannel

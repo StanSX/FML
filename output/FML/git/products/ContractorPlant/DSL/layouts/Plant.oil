@@ -1,0 +1,75 @@
+layout :kpstructure
+
+  panel :box_sx
+
+        widget :logo
+        endwidget
+
+        panel :quote
+
+          widget :generic_search,{:title => :generic_search}
+          endwidget
+
+          widget :quotes_search,{:title => :search_quotes_reference}
+          endwidget
+
+          widget :quotes_search,{:title => :search_quotes_name}
+          endwidget
+
+        endpanel
+
+        panel :slide_menu
+
+          widget :slide_menu
+          endwidget
+
+        endpanel
+
+        panel :logged_stage
+
+            widget :welcome_panel
+            endwidget
+
+        endpanel
+
+        widget :box_login
+        endwidget
+
+  #chiude box_sx
+  endpanel
+
+  widget :submit_panel
+
+  panel :box_cent
+
+    panel :main_frame
+
+      panel :box_contents
+
+
+
+              entity :Insured
+               coverage :PlantCoverCoverage
+
+
+
+      endpanel
+
+      widget :button_panel
+      endwidget
+
+    #close panel main frame
+    endpanel
+
+   #close panel box_cent
+  endpanel
+
+  #close submit panel widget
+  endwidget
+
+footer
+  widget :copyright_panel
+  endwidget
+endfooter
+
+endlayout

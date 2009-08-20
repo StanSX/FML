@@ -1,0 +1,57 @@
+PlantCoverCoverage: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage"
+  CoverLevel: ""
+  CoverLevelMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PublicLiability: ""
+  PublicLiabilityMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+  EmployersLiability: ""
+  EmployersLiabilityMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+  CoverStart: ""
+  CoverStartMD: !map:HashWithIndifferentAccess
+    type: "date"
+  ContractWorks: ""
+  ContractWorksMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+  Materials: ""
+  MaterialsMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PlantTools: ""
+  PlantToolsMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+  OwnPlant: ""
+  OwnPlantMD: !map:HashWithIndifferentAccess
+    type: "number"
+  HireCharges: ""
+  HireChargesMD: !map:HashWithIndifferentAccess
+    type: "number"
+  PlantValueHI: ""
+  PlantValueHIMD: !map:HashWithIndifferentAccess
+    type: "number"
+  TidalWaters: ""
+  TidalWatersMD: !map:HashWithIndifferentAccess
+    type: "truefalse"
+PlantCoverCoverageCoverLevel: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypenumbernameCoverLevel"
+PlantCoverCoveragePublicLiability: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypetruefalsenamePublicLiability"
+PlantCoverCoverageEmployersLiability: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypetruefalsenameEmployersLiability"
+PlantCoverCoverageCoverStart: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypedatenameCoverStart"
+PlantCoverCoverageContractWorks: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypetruefalsenameContractWorks"
+PlantCoverCoverageMaterials: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypenumbernameMaterials"
+PlantCoverCoveragePlantTools: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypetruefalsenamePlantTools"
+PlantCoverCoverageOwnPlant: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypenumbernameOwnPlant"
+PlantCoverCoverageHireCharges: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypenumbernameHireCharges"
+PlantCoverCoveragePlantValueHI: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypenumbernamePlantValueHI"
+PlantCoverCoverageTidalWaters: !map:HashWithIndifferentAccess
+  xpath: "PlantCoverCoverage/stypetruefalsenameTidalWaters"

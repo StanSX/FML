@@ -1,0 +1,26 @@
+entity :Insured
+	use :TradingName
+	use :Companytype
+	use :PrinciplesManual
+	use :BFSC
+	use :TotalManualEmployees
+	use :ManualWages
+	use :Turnover
+	use :NewVenture
+	use :MonthsTrading
+	use :MDExperience
+	use :DetailExp
+	use :CompanyAddress,:House
+	use :CompanyAddress,:Street
+	use :CompanyAddress,:City
+	use :CompanyAddress,:Postcode
+	use :CheckList,:HealthandSafety
+	use :CheckList,:RegularUpdates
+	use :CheckList,:RiskAssessments
+	use :CheckList,:NoToAbove
+	use :CheckList,:WorkAbroad
+	use :CheckList,:HRlocations
+	use :CheckList,:TradeAssociations
+	use :CheckList,:ISO9002
+	use :CheckList,:HeatAway
+endentity
