@@ -1,0 +1,6 @@
+entity :PremiumQuoteBreakdown
+	use :Amount
+	use :IPTPercent
+	use :IPTAmount
+	use :GrossAmount
+endentity
