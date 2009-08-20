@@ -1,8 +1,0 @@
-FlatRoof: !map:HashWithIndifferentAccess
-  xpath: "FlatRoof"
-  Percent: ""
-  PercentMD: !map:HashWithIndifferentAccess
-    type: "number"
-    mask: "percent"
-FlatRoofPercent: !map:HashWithIndifferentAccess
-  xpath: "FlatRoof/Percent"

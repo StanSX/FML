@@ -1,8 +1,0 @@
-ExcessSimple: !map:HashWithIndifferentAccess
-  xpath: "ExcessSimple"
-  Amount: ""
-  AmountMD: !map:HashWithIndifferentAccess
-    type: "number"
-    mask: "money"
-ExcessSimpleAmount: !map:HashWithIndifferentAccess
-  xpath: "ExcessSimple/Amount"

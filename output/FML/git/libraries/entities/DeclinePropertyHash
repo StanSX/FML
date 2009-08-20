@@ -1,7 +1,0 @@
-Decline: !map:HashWithIndifferentAccess
-  xpath: "Decline"
-  Code: ""
-  CodeMD: !map:HashWithIndifferentAccess
-    type: "text"
-DeclineCode: !map:HashWithIndifferentAccess
-  xpath: "Decline/Code"

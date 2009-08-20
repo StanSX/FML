@@ -1,8 +1,0 @@
-AnnualLimit: !map:HashWithIndifferentAccess
-  xpath: "AnnualLimit"
-  Amount: ""
-  AmountMD: !map:HashWithIndifferentAccess
-    type: "number"
-    mask: "money"
-AnnualLimitAmount: !map:HashWithIndifferentAccess
-  xpath: "AnnualLimit/Amount"

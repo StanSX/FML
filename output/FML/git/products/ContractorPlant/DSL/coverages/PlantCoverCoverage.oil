@@ -1,0 +1,13 @@
+coverage :PlantCoverCoverage
+	use :CoverLevel
+	use :PublicLiability
+	use :EmployersLiability
+	use :CoverStart
+	use :ContractWorks
+	use :Materials
+	use :PlantTools
+	use :OwnPlant
+	use :HireCharges
+	use :PlantValueHI
+	use :TidalWaters
+endcoverage

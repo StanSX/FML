@@ -1,0 +1,16 @@
+layout 21
+	columns
+		column 1
+			widget :logo
+			endwidget
+			widget :page_title, {:title => :Welcome_page_title}
+			endwidget 
+			widget :submit_panel
+			widget :button_panel
+			endwidget 
+		endwidget 
+		endcolumn
+	endcolumns
+footer
+endfooter
+endlayout
