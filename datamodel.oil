@@ -54,3 +54,10 @@ datamodel
     field :name => 'PlantValueHI', :stype => 'number'
     field :name => 'TidalWaters', :stype => 'truefalse'
   endcoverage
+
+  entity :PremiumQuoteBreakdown
+    field :name => :Amount, :stype => 'number'
+    field :name => :IPTPercent, :stype => 'number'
+    field :name => :IPTAmount, :stype => 'number'
+    field :name => :GrossAmount, :stype => 'number'
+  endentity

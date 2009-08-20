@@ -1,5 +1,0 @@
-coverage :ProductLiabilityCover
-    use :CoverDetail,:SumInsured,:Amount, {:default_value => '2000000'}
-    use :CoverDetail,:Excess,:Amount, {:default_value => '0'}
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage

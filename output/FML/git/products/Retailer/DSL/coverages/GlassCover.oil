@@ -1,5 +1,0 @@
-coverage :GlassCover
-    use :CoverDetail,:SumInsured,:Amount, {:default_value => '1500'}
-    use :Excess,:Amount, {:default_value => '100'}
-    use :PremiumQuoteBreakdown,:GrossAmount
-endcoverage

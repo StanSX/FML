@@ -1,4 +1,0 @@
-coverage :PropertyOwnersLiabilityCover
-    use :CoverDetail,:SumInsured,:Amount#{:default_value => '2000000'}
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage

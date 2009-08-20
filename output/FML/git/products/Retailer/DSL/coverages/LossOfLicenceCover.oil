@@ -1,6 +1,0 @@
-coverage :LossOfLicenceCover
-    use :CoverRequiredInd,:Value #conditionality of fields displayed based on this indicator to be implemented in library.
-    use :CoverDetail,:SumInsured,:Amount, {:default_value => '50000'}
-    use :CoverDetail,:Excess,:Amount
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage

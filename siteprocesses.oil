@@ -1,12 +1,12 @@
 siteprocesses
     reference_datamodel "datamodel.oil"
 
-    process :p_welcome
-        flow :Welcome, {:data_model => [], :do => :nothing, :navigation => [:Plant]}
+    process :p_plant
+        flow :PlantQuote, {:data_model => [:Insured,:PlantCover], :do => :nothing, :navigation => [:PQB]}
     endprocess
 
-    process :p_plant
-        flow :Plant, {:data_model => [:Insured], :do => :nothing, :navigation => [:Welcome]}
+    process :p_premiumquotebreakdown
+        flow :PQB, {:data_model => [:PremiumQuoteBreakdown], :do => :nothing, :navigation => [:PlantQuote]}
     endprocess
 
     products

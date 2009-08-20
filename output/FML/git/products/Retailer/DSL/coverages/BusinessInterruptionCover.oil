@@ -1,5 +1,0 @@
-coverage :BusinessInterruptionCover
-    use :CoverDetail,:SumInsured,:Amount, {:default_value => '500000'}
-    use :CoverDetail,:Excess,:Amount
-    use :CoverDetail,:PremiumQuoteBreakdown,:GrossAmount
-endcoverage

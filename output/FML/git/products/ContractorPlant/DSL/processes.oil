@@ -2,12 +2,12 @@ channels
 	channel :default
 		processes
 			workflow_steps
-				step :Welcome,					 {:template => :Welcome,:layout => :blank}
-				step :Plant,					 {:template => :Plant,:layout => :blank}
+				step :PlantQuote,					 {:template => :PlantQuote,:layout => :blank}
+				step :PQB,					 {:template => :PQB,:layout => :blank}
 			endworkflow_steps
 			valid_flows
-				flow :Welcome,					 [:Plant]
-				flow :Plant,					 [:Welcome]
+				flow :PlantQuote,					 [:PQB]
+				flow :PQB,					 [:PlantQuote]
 			endvalid_flows
 		endprocesses
 	endchannel
