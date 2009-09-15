@@ -3,7 +3,7 @@ channels
 		processes
 			workflow_steps
 				step :PlantQuote,					 {:template => :PlantQuote,:layout => :blank}
-				step :PQB,					 {:template => :PQB,:layout => :blank}
+				step :PQB,					 {:do => :GetBrokerQuotes, :template => :PQB,:layout => :blank}
 			endworkflow_steps
 			valid_flows
 				flow :PlantQuote,					 [:PQB]

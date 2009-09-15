@@ -55,9 +55,16 @@ datamodel
     field :name => 'TidalWaters', :stype => 'truefalse'
   endcoverage
 
-  entity :PremiumQuoteBreakdown
-    field :name => :Amount, :stype => 'number'
-    field :name => :IPTPercent, :stype => 'number'
-    field :name => :IPTAmount, :stype => 'number'
-    field :name => :GrossAmount, :stype => 'number'
+  element 'PremiumQuoteBreakdown'
+    field :name => 'Amount', :stype => 'number'
+    field :name => 'IPTPercent', :stype => 'number'
+    field :name => 'IPTAmount', :stype => 'number'
+    field :name => 'GrossAmount', :stype => 'number'
+    field :name => 'Message', :stype => 'text'
+  endelement
+  
+  entity 'Quotes'
+    field :name => 'PremiumQuoteBreakdown', :ctype => 'PremiumQuoteBreakdown', :cardinality => :many
   endentity
+
+  enddatamodel

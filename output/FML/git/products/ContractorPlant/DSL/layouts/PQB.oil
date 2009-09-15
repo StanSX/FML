@@ -48,7 +48,7 @@ layout :kpstructure
 
 
 
-              entity :PremiumQuoteBreakdown
+              entity :Quotes
 
 
 

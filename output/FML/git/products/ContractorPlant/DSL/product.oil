@@ -4,6 +4,6 @@ product :ContractorPlant
 	endcoverages
 	entities
 		has_one :Insured
-		has_one :PremiumQuoteBreakdown
+		has_one :Quotes
 	endentities
 endproduct
