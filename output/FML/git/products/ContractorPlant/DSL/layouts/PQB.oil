@@ -47,8 +47,9 @@ layout :kpstructure
       panel :box_contents
 
 
-
-              entity :Quotes
+            widget :search_results
+            endwidget
+              #entity :Quotes
 
 
 

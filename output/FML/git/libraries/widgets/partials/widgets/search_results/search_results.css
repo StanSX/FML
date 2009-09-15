@@ -1,0 +1,121 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Title:	IAB_UI
+Author:	Kube Partners
+URLs:	www.kubepartners.com
+- - - - - - - - - - - - - - - - - - - - - */
+
+.searchresults_wid_contents {
+	float: left;
+	height: auto;
+	width: 100%;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #14202D;
+	border-bottom-color: #FFF;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 0%;
+	/*font-size: 0.7em;*/
+}
+.searchresults_box_titles {
+	float: left;
+	height: auto;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	margin-left: 0%;
+	margin-top:0.6em;
+}
+.searchresults_title_tablecontainer {
+	height: auto;
+	width: 100%;
+	font-weight: bold;
+    font-size: 0.7em;
+	text-align: left;
+	vertical-align: middle;
+	color: #A41952;
+    margin-top:0;
+}
+
+.searchresults_title_td {
+    width: 15%;
+	height: 2.2em;
+	text-align: left;
+    vertical-align:middle;
+    margin-top:0;
+    padding-top:0;
+}
+
+.searchresults_width_td {
+	width: 15%;
+	height: 2.2em;
+	text-align: left;
+    vertical-align: top;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+.searchresults_width_td1 {
+	width: 10%;
+	height: 2.2em;
+	text-align: left;
+}
+.searchresults_width_td2 {
+	width: 10%;
+	height: 2.2em;
+	text-align: center;
+}
+.searchresults_width_td3 {
+	width: 10%;
+	height: 2.2em;
+	text-align: right;
+}
+.searchresults_box_values {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	margin-left: 0%;
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EEEEEE;*/
+}
+.searchresults_box_values a:link, .searchresults_box_values a:active, .searchresults_box_values a:visited {
+	color: #999;
+	display: block;
+	text-decoration: underline;
+}
+.searchresults_box_values a:hover {
+	color: #9FD949;
+}
+.searchresults_op_clos {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+.searchresults_values_tablecontainer {
+	/*height: auto;*/
+	width: 100%;
+	font-weight: normal;
+    font-size: 0.7em;
+	text-align: left;
+	/*vertical-align: middle;*/
+	color: #000;
+}
+
+tr.searchresults_tr{
+    margin-bottom: 4em;
+	margin-top: 4em;
+	margin-left: 0%;
+    height: 5em;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EEEEEE;
+}
+
+.nowrap{
+    white-space:nowrap;
+}
