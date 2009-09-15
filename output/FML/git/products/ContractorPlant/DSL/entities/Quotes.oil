@@ -1,0 +1,7 @@
+entity :Quotes
+	use :PremiumQuoteBreakdown,:Amount
+	use :PremiumQuoteBreakdown,:IPTPercent
+	use :PremiumQuoteBreakdown,:IPTAmount
+	use :PremiumQuoteBreakdown,:GrossAmount
+	use :PremiumQuoteBreakdown,:Message
+endentity

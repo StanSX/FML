@@ -1,0 +1,29 @@
+Quotes: !map:HashWithIndifferentAccess
+  xpath: "Quotes"
+QuotesPremiumQuoteBreakdown: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown"
+  Amount: ""
+  AmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+  IPTPercent: ""
+  IPTPercentMD: !map:HashWithIndifferentAccess
+    type: "number"
+  IPTAmount: ""
+  IPTAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+  GrossAmount: ""
+  GrossAmountMD: !map:HashWithIndifferentAccess
+    type: "number"
+  Message: ""
+  MessageMD: !map:HashWithIndifferentAccess
+    type: "text"
+QuotesPremiumQuoteBreakdownAmount: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown/stypenumbernameAmount"
+QuotesPremiumQuoteBreakdownIPTPercent: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown/stypenumbernameIPTPercent"
+QuotesPremiumQuoteBreakdownIPTAmount: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown/stypenumbernameIPTAmount"
+QuotesPremiumQuoteBreakdownGrossAmount: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown/stypenumbernameGrossAmount"
+QuotesPremiumQuoteBreakdownMessage: !map:HashWithIndifferentAccess
+  xpath: "Quotes/PremiumQuoteBreakdown/stypetextnameMessage"
