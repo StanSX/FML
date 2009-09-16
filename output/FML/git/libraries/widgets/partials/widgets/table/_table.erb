@@ -1,0 +1,20 @@
+<div class="searchresults_wid_contents">
+      <div class="searchresults_box_values">
+        <table border="0" cellpadding="0" cellspacing="0" class="searchresults_values_tablecontainer">
+           <tr class="searchresults_tr">
+             <% headings.split( /, */ ).each do |heading| %>
+                <td class="searchresults_width_td nowrap"><%=heading%></td>
+             <%end%>
+           </tr>
+          <%  myArray = eval("@#{entity}") %>
+          <% myArray.each do |k| %>
+           <tr class="searchresults_tr">
+             <% k.attribute_names.each do |att| %>
+                <td class="searchresults_width_td nowrap"><%=k["#{att}"]%></td>
+             <%end%>
+           </tr>
+         <% end %>
+        </table>
+      </div>
+</div>
+

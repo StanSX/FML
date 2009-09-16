@@ -47,11 +47,8 @@ layout :kpstructure
       panel :box_contents
 
 
-            widget :search_results
+            widget :table,{:entity => "QuotesPremiumQuoteBreakdown",:headings => 'Premium,Document Fee,Gross Premium,IPT,Note'}
             endwidget
-              #entity :Quotes
-
-
 
       endpanel
 
